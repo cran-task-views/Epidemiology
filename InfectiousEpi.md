@@ -10,7 +10,7 @@ Contributors: Neale Batra, Rich FitzJohn, Hugo Gruson, Andreas Handel, Michael
 Höhle, Thibaut Jombart, Joseph Larmarange, Sebastian Lequime, Alex Spina, Tim
 Taylor, Sean Wu
 
-### Overview
+## Overview
 
 R is increasingly becoming a standard in infectious disease epidemiology (IDE),
 providing a wide array of tools covering different aspects of outbreak analytics
@@ -37,7 +37,7 @@ Packages were regrouped in the following categories:
 Additional links to non specific but highly useful packages (to create tables,
 manipulate dates etc) are provided in the task view's footnotes.
 
-### Inclusion criteria
+## Inclusion criteria
 
 Packages included in this task view were identified through recommendations of
 IDE experts as well as an automated CRAN search usingpkgsearch::pkg_search(),
@@ -50,9 +50,7 @@ an issue at:
 
 ADD LINK TO REPO
 
-1.  
-
-    # Data visualisation and exploration
+## Data visualisation and exploration
 
 Here are packages providing help for visualising and exploring epidemic data
 (plotting epidemic curves, incidence curves, contact tracing, etc).
@@ -103,11 +101,9 @@ Here are packages providing help for visualising and exploring epidemic data
     tidyverse tools. This package is part of the RECON
     (\<<https://www.repidemicsconsortium.org/>\>) toolkit for outbreak analysis.
 
-2.  
+## Infectious disease modelling
 
-    # Infectious disease modelling
-
-## 2.1. Epidemics surveillance
+### Epidemics surveillance
 
 -   [argo](https://cran.r-project.org/web/packages/argo/index.html): Augmented
     Regression with General Online data (ARGO) for accurate estimation of
@@ -203,7 +199,7 @@ Here are packages providing help for visualising and exploring epidemic data
     coherent interface to multiple modelling tools for fitting trends along with
     a standardised approach for generating confidence and prediction intervals.
 
-## 2.2. Estimation of transmissibility
+### Estimation of transmissibility
 
 -   [earlyR](https://cran.r-project.org/web/packages/earlyR/index.html):
     Implements a simple, likelihood-based estimation of the reproduction number
@@ -279,7 +275,7 @@ Here are packages providing help for visualising and exploring epidemic data
     package is described in Becker and Grenfell (2017)
     \<<https://doi.org/10.1371/journal.pone.0185528>\>.
 
-## 2.3. Compartmental models
+### Compartmental models
 
 -   [EpiILM](https://cran.r-project.org/web/packages/EpiILM/index.html):
     Provides tools for simulating from discrete-time individual level models for
@@ -358,7 +354,7 @@ Here are packages providing help for visualising and exploring epidemic data
     disease modelling, as discussed in Mossong et al. (2008)
     \<[doi:10.1371/journal.pmed.0050074](https://doi.org/10.1371%2Fjournal.pmed.0050074)\>.
 
-## 2.4. Transmission tree reconstruction
+### Transmission tree reconstruction
 
 -   [adegenet](https://cran.r-project.org/web/packages/adegenet/index.html):
     while primarily a population genetics package,*adegenet* also implements
@@ -390,7 +386,7 @@ Here are packages providing help for visualising and exploring epidemic data
     Didelot et al. (2017)
     \<[doi:10.1093/molbev/msw275](https://doi.org/10.1093%2Fmolbev%2Fmsw275)\>.
 
-## 2.5 Vaccination
+### Vaccination
 
 -   [sccs](https://cran.r-project.org/web/packages/SCCS/index.html):
     Self-controlled case series models used to investigate associations between
@@ -399,9 +395,7 @@ Here are packages providing help for visualising and exploring epidemic data
     self-controlled case series method and its extensions with more examples
     at<https://sccs-studies.info>.
 
-3.  
-
-    # Helper functions
+## Helper functions
 
 Here are packages providing useful helper functions for practicing, teaching and
 learning epidemiology (eg computing sample size, contingency tables, etc).
@@ -463,15 +457,13 @@ learning epidemiology (eg computing sample size, contingency tables, etc).
     tetrads), generates equivalent models, and includes a simple facility for
     data simulation.
 
-4.  
-
-    # Data
+## Data
 
 Here are packages providing different epidemiologic datasets, either simulated
 or real, useful for research purposes or field applications with a specific
 COVID-19 section.
 
-## 4.1. Epidemic outbreak data
+### Epidemic outbreak data
 
 -   [contactdata](https://cran.r-project.org/web/packages/contactdata/index.html):
     Data package for the supplementary data in Prem et al. (2017)
@@ -482,7 +474,7 @@ COVID-19 section.
     Empirical or simulated disease outbreak data, provided either as RData or as
     text files.
 
-## 4.2. COVID-19
+### COVID-19
 
 -   [bets.covid19](https://cran.r-project.org/web/packages/bets.covid19/index.html):
     Implements likelihood inference for early epidemic analysis. BETS is short
@@ -601,7 +593,7 @@ COVID-19 section.
     Database based on widely-used data handling and manipulation approaches in
     R.  
 
-# **Related links**
+## Related links
 
 -   R Epidemics Consortium (RECON), non-profit organisation developing
     professional tools in for field
