@@ -1,26 +1,14 @@
-CRAN task view: Infectious Disease Epidemiology
-
-#### **M. Rolland**
-
-#### **16/12/2020**
-
-Short name: InfectiousEpi
-
-Short description: Infectious disease epidemiology
-
-Author: Matthieu Rolland
+---
+name: InfectiousEpi
+topic: Infectious Disease Epidemiology
+maintainer: Thibaut Jombart
+email: thibautjombart@gmail.com
+version: 2021-02-24
+---
 
 Contributors: Neale Batra, Rich FitzJohn, Hugo Gruson, Andreas Handel, Michael
 Höhle, Thibaut Jombart, Joseph Larmarange, Sebastian Lequime, Alex Spina, Tim
 Taylor, Sean Wu
-
-Maintainer: Thibaut Jombart
-
-Contact: thibautjombart at gmail.com
-
-Version: 2021-02-24
-
-URL:
 
 ### Overview
 
@@ -375,7 +363,7 @@ Here are packages providing help for visualising and exploring epidemic data
 -   [adegenet](https://cran.r-project.org/web/packages/adegenet/index.html):
     while primarily a population genetics package,*adegenet* also implements
     seqtrack (Jombart et al. 2011
-    \<[doi:[10.1038/hdy.2010.78](doi:%5B10.1038/hdy.2010.78){.uri}](<https://dx.doi.org/10.1038%2Fhdy.2010.78>)\>),
+    \<[doi:[10.1038/hdy.2010.78](doi:%5B10.1038/hdy.2010.78){.uri}](https://dx.doi.org/10.1038%2Fhdy.2010.78)\>),
     a maximum-parsimony approach for reconstructing transmission trees using the
     Edmonds/Chu-Liu algorithm
 -   [o2geosocial](https://cran.r-project.org/web/packages/o2geosocial/index.html)
@@ -556,7 +544,7 @@ COVID-19 section.
     data on COVID-19 in France.
 -   [Covid19germany](https://github.com/nevrome/covid19germany): An R package to
     load, visualise and analyse daily updated data on the COVID-19 outbreak in
-    Germany. Source: https://github.com/nevrome/covid19germany
+    Germany. Source: <https://github.com/nevrome/covid19germany>
 -   [covid19mobility](https://cran.r-project.org/web/packages/covid19mobility/index.html):
     Scrapes trends in mobility after the Covid-19 outbreak from different
     sources. Currently, the package scrapes data from
@@ -611,7 +599,7 @@ COVID-19 section.
     consisting of information (using acknowledged sources) related to COVID-19
     pandemic. This package provides an R-specific interface to the OxCOVID19
     Database based on widely-used data handling and manipulation approaches in
-    R.
+    R.  
 
 # **Related links**
 
@@ -647,4 +635,3 @@ COVID-19 section.
 
 -   Meta analysis task
     view:<https://cran.r-project.org/web/views/MetaAnalysis.html>
-
