@@ -563,13 +563,13 @@ COVID-19 section.
     -   `r pkg("diagrammeR")` for creating diagrams
 
 -   Multivariate statistics task view:
-    <https://cran.r-project.org/web/views/Multivariate.html>
+    `r view("https://cran.r-project.org/web/views/Multivariate.html")`
 
 -   Survival analysis task view:
-    <https://cran.r-project.org/web/views/Survival.html>
+    `r view("https://cran.r-project.org/web/views/Survival.html")`
 
 -   Data visualisation and graphics task view:
-    <https://cran.r-project.org/web/views/Graphics.html>
+    `r view("https://cran.r-project.org/web/views/Graphics.html")`
 
 -   Meta analysis task view:
-    <https://cran.r-project.org/web/views/MetaAnalysis.html>
+    `r view("https://cran.r-project.org/web/views/MetaAnalysis.html")`
