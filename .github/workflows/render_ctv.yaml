@@ -1,0 +1,50 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
+# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  release:
+    types: [published]
+  workflow_dispatch:
+
+name: Render CTV
+
+jobs:
+  render_ctv:
+    runs-on: ubuntu-latest
+    # Only restrict concurrency for non-PR jobs
+    concurrency:
+      group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: r-lib/actions/setup-pandoc@v2
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - run: install.packages("ctv")
+        shell: Rscript {0}
+
+      - name: Build Task View page
+        run: |
+          repo_name <- strsplit("${{ env.github.repository }}", "/")[[1]][2]
+          dir.create("docs")
+          ctv::ctv2html(
+            x = paste0(repo_name, ".md"),
+            file = paste0("docs/", "index", ".html")
+          )
+        shell: Rscript {0}
+
+      - name: Deploy to GitHub pages 🚀
+        if: github.event_name != 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          clean: false
+          branch: gh-pages
+          folder: docs
