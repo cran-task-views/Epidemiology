@@ -544,7 +544,7 @@ COVID-19 section.
     to the OxCOVID19 Database based on widely-used data handling and
     manipulation approaches in R.
 
-## Related links
+## Links
 
 -   R Epidemics Consortium (RECON), non-profit organisation developing
     professional tools in for field epidemiologists:
