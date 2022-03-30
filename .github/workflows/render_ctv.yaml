@@ -28,7 +28,7 @@ jobs:
         with:
           use-public-rspm: true
 
-      - run: install.packages("ctv")
+      - run: install.packages("ctv", dependencies = TRUE)
         shell: Rscript {0}
 
       - name: Build Task View page
