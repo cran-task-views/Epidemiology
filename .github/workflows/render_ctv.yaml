@@ -33,7 +33,7 @@ jobs:
 
       - name: Build Task View page
         run: |
-          repo_name <- strsplit("${{ env.github.repository }}", "/")[[1]][2]
+          repo_name <- strsplit("${{ github.repository }}", "/")[[1]][2]
           dir.create("docs")
           ctv::ctv2html(
             x = paste0(repo_name, ".md"),
