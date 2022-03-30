@@ -178,11 +178,11 @@ Here are packages providing help for visualising and exploring epidemic data
     Other package feature contain back-projection methods to infer time series
     of exposure from disease onset and correction of observed time series for
     reporting delays (nowcasting).
--   `r github("trendbreaker")`: The `trendbreaker` package implements tools for
-    detecting changes in temporal trends of a single response variable. It
-    implements the **A**utomatic **S**election of **M**odels and **O**utlier
-    **De**tection for **E**pidemmics (ASMODEE), an algorithm originally designed
-    for detecting changes in COVID-19 case incidence.
+-   `r github("reconhub/trendbreaker")` implements tools for detecting changes
+    in temporal trends of a single response variable. It implements the
+    **A**utomatic **S**election of **M**odels and **O**utlier **De**tection for
+    **E**pidemmics (ASMODEE), an algorithm originally designed for detecting
+    changes in COVID-19 case incidence.
 -   `r pkg("trending")`: Provides a coherent interface to multiple modelling
     tools for fitting trends along with a standardised approach for generating
     confidence and prediction intervals.
@@ -217,13 +217,14 @@ Here are packages providing help for visualising and exploring epidemic data
 -   `r pkg("epinet")`: A collection of epidemic/network-related tools. Simulates
     transmission of diseases through contact networks. Performs Bayesian
     inference on network and epidemic parameters, given epidemic data.
--   `r github("EpiNow2")`: This package estimates the time-varying reproduction
-    number, rate of spread, and doubling time using a range of open-source tools
-    ([Abbott et al.](https://doi.org/10.12688/wellcomeopenres.16006.1)), and
-    current best practices ([Gostic et
-    al.](https://doi.org/10.1371/journal.pcbi.1008409)). It aims to help users
-    avoid some of the limitations of naive implementations in a framework that
-    is informed by community feedback and is under active development.
+-   `r github("epiforecasts/EpiNow2")`: This package estimates the time-varying
+    reproduction number, rate of spread, and doubling time using a range of
+    open-source tools ([Abbott et
+    al.](https://doi.org/10.12688/wellcomeopenres.16006.1)), and current best
+    practices ([Gostic et al.](https://doi.org/10.1371/journal.pcbi.1008409)).
+    It aims to help users avoid some of the limitations of naive implementations
+    in a framework that is informed by community feedback and is under active
+    development.
 -   `r pkg("nbTransmission")`: Estimates the relative transmission probabilities
     between cases in an infectious disease outbreak or cluster using naive
     Bayes. Included are various functions to use these probabilities to estimate
@@ -340,8 +341,9 @@ Here are packages providing help for visualising and exploring epidemic data
     genotype, age specific social contacts, distance between cases and onset
     dates of the reported cases ([Robert A, Kucharski AJ, Gastanaduy PA, Paul P,
     Funk S. 2020](https://doi.org/10.1098%2Frsif.2020.0084)).
--   `r github("o2mod.transphylo")` is a module of `r github("outbreaker2")`
-    which uses the `r github("TransPhylo")` model of within-host evolution.
+-   `r github("xavierdidelot/o2mod.transphylo")` is a module of
+    `r pkg("outbreaker2")` which uses the `r pkg("TransPhylo")` model of
+    within-host evolution.
 -   `r pkg("outbreaker2")`: Bayesian reconstruction of disease outbreaks using
     epidemiological and genetic information. [Jombart T, Cori A, Didelot X,
     Cauchemez S, Fraser C and Ferguson N.
@@ -478,26 +480,25 @@ COVID-19 section.
 -   `r pkg("covid19dbcand")`: Provides different datasets parsed from
     '[Drugbank](https://www.drugbank.ca/covid-19)' database using
     `r pkg("dbparser")` package. It is a smaller version from
-    `r github("dbdataset")` package. It contains only information about COVID-19
-    possible treatment.
+    `r github("interstellar-Consultation-Services/dbdataset")` package. It
+    contains only information about COVID-19 possible treatment.
 -   `r pkg("covid19italy")`: Provides a daily summary of the Coronavirus
     (COVID-19) cases in Italy by country, region and province level. Data
     source: [Presidenza del Consiglio dei Ministri - Dipartimento della
     Protezione Civile](http://www.protezionecivile.it/).
 -   `r pkg("covid19france")`: Imports and cleans
     <https://github.com/opencovid19-fr/data> data on COVID-19 in France.
--   `r github("covid19germany")`: An R package to load, visualise and analyse
-    daily updated data on the COVID-19 outbreak in Germany. Source:
-    <https://github.com/nevrome/covid19germany>
--   `r github("covid19mobility")`: Scrapes trends in mobility after the Covid-19
-    outbreak from different sources. Currently, the package scrapes data from
-    Google (<https://www.google.com/covid19/mobility/>), Apple
+-   `r github("nevrome/covid19germany")`: An R package to load, visualise and
+    analyse daily updated data on the COVID-19 outbreak in Germany.
+-   `r github("covid19R/covid19mobility")`: Scrapes trends in mobility after the
+    Covid-19 outbreak from different sources. Currently, the package scrapes
+    data from Google (<https://www.google.com/covid19/mobility/>), Apple
     (<https://www.apple.com/covid19/mobility>), and will add others. The data
     returned uses the tidy [Covid19R project data
     standard](https://covid19r.github.io/documentation/) as well as the
     controlled vocabularies for measurement types.
--   `r github("covid19nytimes")`: Accesses the NY Times Covid-19 county-level
-    data for the US, described in
+-   `r github("covid19R/covid19nytimes")`: Accesses the NY Times Covid-19
+    county-level data for the US, described in
     <https://www.nytimes.com/article/coronavirus-county-data-us.html> and
     available at <https://github.com/nytimes/covid-19-data>. It then returns the
     data in a tidy data format according to the Covid19R Project data
@@ -528,7 +529,7 @@ COVID-19 section.
     efficiently for their purposes. This package facilitates access to the
     OxCGRT data via its API <https://covidtracker.bsg.ox.ac.uk/> and includes
     functions to calculate the various OxCGRT indices in R.
--   `r github("oxcovid19")`: The [OxCOVID19
+-   `r github("como-ph/oxcovid19")`: The [OxCOVID19
     Project](https://covid19.eng.ox.ac.uk) aims to increase our understanding of
     the COVID-19 pandemic and elaborate possible strategies to reduce the impact
     on the society through the combined power of statistical, mathematical
