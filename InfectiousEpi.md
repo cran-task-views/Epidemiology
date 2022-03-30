@@ -140,13 +140,13 @@ Here are packages providing help for visualising and exploring epidemic data
     Shiny framework for the `r pkg("mem")` R package.
 -   `r pkg("nosoi")`: The aim of `r pkg("nosoi")` (pronounced no.si) is to
     provide a flexible agent-based stochastic transmission chain/epidemic
-    simulator (Lequime et al. bioRxiv 2020.03.03.973107). It is named after the
-    daimones of plague, sickness and disease that escaped Pandora's jar in the
-    Greek mythology. `r pkg("nosoi")` is able to take into account the influence
-    of multiple variable on the transmission process (e.g. dual-host systems
-    (such as arboviruses), within-host viral dynamics, transportation,
-    population structure), alone or taken together, to create complex but
-    relatively intuitive epidemiological simulations.
+    simulator ([Lequime et al. 2020](https://doi.org/2020.03.03.973107)). It is
+    named after the daimones of plague, sickness and disease that escaped
+    Pandora's jar in the Greek mythology. `r pkg("nosoi")` is able to take into
+    account the influence of multiple variable on the transmission process (e.g.
+    dual-host systems (such as arboviruses), within-host viral dynamics,
+    transportation, population structure), alone or taken together, to create
+    complex but relatively intuitive epidemiological simulations.
 -   `r pkg("riskCommunicator")`: Estimates flexible epidemiological effect
     measures including both differences and ratios using the parametric
     G-formula developed as an alternative to inverse probability weighting. It
@@ -447,15 +447,15 @@ COVID-19 section.
 -   `r pkg("corona")`: Manipulate and view coronavirus data and other societally
     relevant data at a basic level.
 -   `r pkg("coronavirus")`: Provides a daily summary of the Coronavirus
-    (COVID-19) cases by state/province. Data source: Johns Hopkins University
+    (COVID-19) cases by state/province. Data source: [Johns Hopkins University
     Center for Systems Science and Engineering (JHU CCSE)
-    Coronavirus<https://systems.jhu.edu/research/public-health/ncov/>.
+    Coronavirus](https://systems.jhu.edu/research/public-health/ncov/).
 -   `r pkg("COVID19")`: Download COVID-19 data across governmental sources at
     national, regional, and city level, as described in [Guidotti and Ardia
     (2020)](https://doi.org/10.21105/joss.02376). Includes the time series of
     vaccines, tests, cases, deaths, recovered, hospitalizations, intensive
     therapy, and policy measures by '[Oxford COVID-19 Government Response
-    Tracker](https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker)(.
+    Tracker](https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker).
     Provides a seamless integration with '[World Bank Open
     Data](https://data.worldbank.org/)', '[Google Mobility
     Reports](https://www.google.com/covid19/mobility/)', 'Apple Mobility
@@ -557,14 +557,10 @@ COVID-19 section.
     -   `r pkg("lubridate")` for date manipulation
     -   `r pkg("DiagrammeR")` for creating diagrams
 
--   Multivariate statistics task view:
-    `r view("https://cran.r-project.org/web/views/Multivariate.html")`
+-   Multivariate statistics task view: `r view("Multivariate")`
 
--   Survival analysis task view:
-    `r view("https://cran.r-project.org/web/views/Survival.html")`
+-   Survival analysis task view: `r view("Survival")`
 
--   Data visualisation and graphics task view:
-    `r view("https://cran.r-project.org/web/views/Graphics.html")`
+-   Data visualisation and graphics task view: `r view("Graphics")`
 
--   Meta analysis task view:
-    `r view("https://cran.r-project.org/web/views/MetaAnalysis.html")`
+-   Meta analysis task view: `r view("MetaAnalysis")`
