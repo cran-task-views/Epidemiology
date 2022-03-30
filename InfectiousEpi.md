@@ -355,7 +355,7 @@ Here are packages providing help for visualising and exploring epidemic data
 
 ### Vaccination
 
--   `r pkg("sccs")`: Self-controlled case series models used to investigate
+-   `r pkg("SCCS")`: Self-controlled case series models used to investigate
     associations between time-varying exposures such as vaccines or other drugs
     or non drug exposures and an adverse event can be fitted. Detailed
     information on the self-controlled case series method and its extensions
@@ -478,7 +478,7 @@ COVID-19 section.
 -   `r pkg("covid19dbcand")`: Provides different datasets parsed from
     '[Drugbank](https://www.drugbank.ca/covid-19)' database using
     `r pkg("dbparser")` package. It is a smaller version from
-    `r pkg("dbdataset")` package. It contains only information about COVID-19
+    `r github("dbdataset")` package. It contains only information about COVID-19
     possible treatment.
 -   `r pkg("covid19italy")`: Provides a daily summary of the Coronavirus
     (COVID-19) cases in Italy by country, region and province level. Data
@@ -486,18 +486,18 @@ COVID-19 section.
     Protezione Civile](http://www.protezionecivile.it/).
 -   `r pkg("covid19france")`: Imports and cleans
     <https://github.com/opencovid19-fr/data> data on COVID-19 in France.
--   `r pkg("Covid19germany")`: An R package to load, visualise and analyse daily
-    updated data on the COVID-19 outbreak in Germany. Source:
+-   `r github("covid19germany")`: An R package to load, visualise and analyse
+    daily updated data on the COVID-19 outbreak in Germany. Source:
     <https://github.com/nevrome/covid19germany>
--   `r pkg("covid19mobility")`: Scrapes trends in mobility after the Covid-19
+-   `r github("covid19mobility")`: Scrapes trends in mobility after the Covid-19
     outbreak from different sources. Currently, the package scrapes data from
     Google (<https://www.google.com/covid19/mobility/>), Apple
     (<https://www.apple.com/covid19/mobility>), and will add others. The data
     returned uses the tidy [Covid19R project data
     standard](https://covid19r.github.io/documentation/) as well as the
     controlled vocabularies for measurement types.
--   `r pkg("covid19nytimes")`: Accesses the NY Times Covid-19 county-level data
-    for the US, described in
+-   `r github("covid19nytimes")`: Accesses the NY Times Covid-19 county-level
+    data for the US, described in
     <https://www.nytimes.com/article/coronavirus-county-data-us.html> and
     available at <https://github.com/nytimes/covid-19-data>. It then returns the
     data in a tidy data format according to the Covid19R Project data
@@ -528,15 +528,15 @@ COVID-19 section.
     efficiently for their purposes. This package facilitates access to the
     OxCGRT data via its API <https://covidtracker.bsg.ox.ac.uk/> and includes
     functions to calculate the various OxCGRT indices in R.
--   `r pkg("oxcovid19")`: The [OxCOVID19 Project](https://covid19.eng.ox.ac.uk)
-    aims to increase our understanding of the COVID-19 pandemic and elaborate
-    possible strategies to reduce the impact on the society through the combined
-    power of statistical, mathematical modelling, and machine learning
-    techniques. The OxCOVID19 Database is a large, single-centre, multimodal
-    relational database consisting of information (using acknowledged sources)
-    related to COVID-19 pandemic. This package provides an R-specific interface
-    to the OxCOVID19 Database based on widely-used data handling and
-    manipulation approaches in R.
+-   `r github("oxcovid19")`: The [OxCOVID19
+    Project](https://covid19.eng.ox.ac.uk) aims to increase our understanding of
+    the COVID-19 pandemic and elaborate possible strategies to reduce the impact
+    on the society through the combined power of statistical, mathematical
+    modelling, and machine learning techniques. The OxCOVID19 Database is a
+    large, single-centre, multimodal relational database consisting of
+    information (using acknowledged sources) related to COVID-19 pandemic. This
+    package provides an R-specific interface to the OxCOVID19 Database based on
+    widely-used data handling and manipulation approaches in R.
 
 ## Links
 
@@ -554,7 +554,7 @@ COVID-19 section.
     -   `r pkg("ggplot2")` for creating plots
     -   `r pkg("GGally")` helpful outputs using ggplot2
     -   `r pkg("lubridate")` for date manipulation
-    -   `r pkg("diagrammeR")` for creating diagrams
+    -   `r pkg("DiagrammeR")` for creating diagrams
 
 -   Multivariate statistics task view:
     `r view("https://cran.r-project.org/web/views/Multivariate.html")`
