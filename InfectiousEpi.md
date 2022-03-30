@@ -402,11 +402,11 @@ learning epidemiology (eg computing sample size, contingency tables, etc).
     basic reproduction numbers from growth rates, generation of hashed labels to
     anonymise data, and fitting discretised Gamma distributions.
 -   `r pkg("ggdag")`: Tidy, analyze, and plot directed acyclic graphs (DAGs).
-    `r pkg("ggdag") is built on top of`r pkg("dagitty"), an R package that uses
-    the 'DAGitty' web tool (<http://dagitty.net>) for creating and analyzing
-    DAGs. 'ggdag' makes it easy to tidy and plot 'dagitty' objects using
-    `r pkg("ggplot2")` and `r pkg("ggraph")`, as well as common analytic and
-    graphical functions, such as determining adjustment sets and node
+    `r pkg("ggdag")` is built on top of `r pkg("dagitty")`, an R package that
+    uses the 'DAGitty' web tool (<http://dagitty.net>) for creating and
+    analyzing DAGs. 'ggdag' makes it easy to tidy and plot 'dagitty' objects
+    using `r pkg("ggplot2")` and `r pkg("ggraph")`, as well as common analytic
+    and graphical functions, such as determining adjustment sets and node
     relationships.
 -   `r pkg("powerSurvEpi")`: Functions to calculate power and sample size for
     testing main effect or interaction effect in the survival analysis of
@@ -534,7 +534,7 @@ COVID-19 section.
     efficiently for their purposes. This package facilitates access to the
     OxCGRT data via its API <https://covidtracker.bsg.ox.ac.uk/> and includes
     functions to calculate the various OxCGRT indices in R.
--   `r pkg("oxcovid19)`: The [OxCOVID19 Project](https://covid19.eng.ox.ac.uk)
+-   `r pkg("oxcovid19")`: The [OxCOVID19 Project](https://covid19.eng.ox.ac.uk)
     aims to increase our understanding of the COVID-19 pandemic and elaborate
     possible strategies to reduce the impact on the society through the combined
     power of statistical, mathematical modelling, and machine learning
