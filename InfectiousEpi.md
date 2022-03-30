@@ -180,9 +180,9 @@ Here are packages providing help for visualising and exploring epidemic data
     reporting delays (nowcasting).
 -   `r github("trendbreaker")`: The `trendbreaker` package implements tools for
     detecting changes in temporal trends of a single response variable. It
-    implements the **A**utomatic**S**election of**M**odels
-    and**O**utlier**De**tection for**E**pidemmics (ASMODEE), an algorithm
-    originally designed for detecting changes in COVID-19 case incidence.
+    implements the **A**utomatic **S**election of **M**odels and **O**utlier
+    **De**tection for **E**pidemmics (ASMODEE), an algorithm originally designed
+    for detecting changes in COVID-19 case incidence.
 -   `r pkg("trending")`: Provides a coherent interface to multiple modelling
     tools for fitting trends along with a standardised approach for generating
     confidence and prediction intervals.
@@ -301,8 +301,8 @@ Here are packages providing help for visualising and exploring epidemic data
     depending on the simulation algorithm chosen. Additionally models may be
     programmed in C and compiled on-the-fly into a format suitable for use in
     the package to speed up simulation and inference. The R package and some of
-    its algorithms are described in {King, Nguyen, and Ionides
-    (2016)](<https://doi.org/10.18637/jss.v069.i12>).
+    its algorithms are described in [King, Nguyen, and Ionides
+    (2016)](https://doi.org/10.18637/jss.v069.i12).
 -   `r pkg("popEpi")`: Enables computation of epidemiological statistics,
     including those where counts or mortality rates of the reference population
     are used. Currently supported: excess hazard models, rates, mean survival
@@ -330,16 +330,16 @@ Here are packages providing help for visualising and exploring epidemic data
 
 ### Transmission tree reconstruction
 
--   `r pkg("adegenet")`: while primarily a population genetics
-    package,*adegenet* also implements seqtrack ([Jombart et al.
+-   `r pkg("adegenet")`: while primarily a population genetics package,
+    `r pkg("adegenet")` also implements seqtrack ([Jombart et al.
     2011](https://doi.org/10.1038%2Fhdy.2010.78)), a maximum-parsimony approach
     for reconstructing transmission trees using the Edmonds/Chu-Liu algorithm
--   `r pkg("o2geosocial")` (*outbreaker2* module): Bayesian reconstruction of
-    who infected whom during past outbreaks using routinely-collected
-    surveillance data. Inference of transmission trees using genotype, age
-    specific social contacts, distance between cases and onset dates of the
-    reported cases ([Robert A, Kucharski AJ, Gastanaduy PA, Paul P, Funk S.
-    2020](https://doi.org/10.1098%2Frsif.2020.0084)).
+-   `r pkg("o2geosocial")` (`r pkg("outbreaker2")` module): Bayesian
+    reconstruction of who infected whom during past outbreaks using
+    routinely-collected surveillance data. Inference of transmission trees using
+    genotype, age specific social contacts, distance between cases and onset
+    dates of the reported cases ([Robert A, Kucharski AJ, Gastanaduy PA, Paul P,
+    Funk S. 2020](https://doi.org/10.1098%2Frsif.2020.0084)).
 -   `r github("o2mod.transphylo")` is a module of `r github("outbreaker2")`
     which uses the `r github("TransPhylo")` model of within-host evolution.
 -   `r pkg("outbreaker2")`: Bayesian reconstruction of disease outbreaks using
