@@ -178,12 +178,11 @@ Here are packages providing help for visualising and exploring epidemic data
     Other package feature contain back-projection methods to infer time series
     of exposure from disease onset and correction of observed time series for
     reporting delays (nowcasting).
--   trendbreaker ([github only](https://github.com/reconhub/trendbreaker)): The
-    `trendbreaker` package implements tools for detecting changes in temporal
-    trends of a single response variable. It implements the
-    **A**utomatic**S**election of**M**odels and**O**utlier**De**tection
-    for**E**pidemmics (ASMODEE), an algorithm originally designed for detecting
-    changes in COVID-19 case incidence.
+-   `r github("trendbreaker")`: The `trendbreaker` package implements tools for
+    detecting changes in temporal trends of a single response variable. It
+    implements the **A**utomatic**S**election of**M**odels
+    and**O**utlier**De**tection for**E**pidemmics (ASMODEE), an algorithm
+    originally designed for detecting changes in COVID-19 case incidence.
 -   `r pkg("trending")`: Provides a coherent interface to multiple modelling
     tools for fitting trends along with a standardised approach for generating
     confidence and prediction intervals.
@@ -218,14 +217,13 @@ Here are packages providing help for visualising and exploring epidemic data
 -   `r pkg("epinet")`: A collection of epidemic/network-related tools. Simulates
     transmission of diseases through contact networks. Performs Bayesian
     inference on network and epidemic parameters, given epidemic data.
--   EpiNow2 ([github only](https://github.com/epiforecasts/EpiNow2)): This
-    package estimates the time-varying reproduction number, rate of spread, and
-    doubling time using a range of open-source tools ([Abbott et
-    al.](https://doi.org/10.12688/wellcomeopenres.16006.1)), and current best
-    practices ([Gostic et al.](https://doi.org/10.1371/journal.pcbi.1008409)).
-    It aims to help users avoid some of the limitations of naive implementations
-    in a framework that is informed by community feedback and is under active
-    development.
+-   `r github("EpiNow2")`: This package estimates the time-varying reproduction
+    number, rate of spread, and doubling time using a range of open-source tools
+    ([Abbott et al.](https://doi.org/10.12688/wellcomeopenres.16006.1)), and
+    current best practices ([Gostic et
+    al.](https://doi.org/10.1371/journal.pcbi.1008409)). It aims to help users
+    avoid some of the limitations of naive implementations in a framework that
+    is informed by community feedback and is under active development.
 -   `r pkg("nbTransmission")`: Estimates the relative transmission probabilities
     between cases in an infectious disease outbreak or cluster using naive
     Bayes. Included are various functions to use these probabilities to estimate
@@ -342,12 +340,8 @@ Here are packages providing help for visualising and exploring epidemic data
     specific social contacts, distance between cases and onset dates of the
     reported cases ([Robert A, Kucharski AJ, Gastanaduy PA, Paul P, Funk S.
     2020](https://doi.org/10.1098%2Frsif.2020.0084)).
--   o2mod.transphylo ([github
-    only](https://github.com/xavierdidelot/o2mod.transphylo)):
-    *o2mod.transphylo* is a module of
-    [*outbreaker2*](https://github.com/reconhub/outbreaker2) which uses the
-    [*TransPhylo*](https://github.com/xavierdidelot/TransPhylo) model of
-    within-host evolution.
+-   `r github("o2mod.transphylo")` is a module of `r github("outbreaker2")`
+    which uses the `r github("TransPhylo")` model of within-host evolution.
 -   `r pkg("outbreaker2")`: Bayesian reconstruction of disease outbreaks using
     epidemiological and genetic information. [Jombart T, Cori A, Didelot X,
     Cauchemez S, Fraser C and Ferguson N.
