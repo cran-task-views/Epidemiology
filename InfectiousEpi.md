@@ -1,7 +1,7 @@
 ---
 name: InfectiousEpi
 topic: Infectious Disease Epidemiology
-maintainer: Thibaut Jombart
+maintainer: Thibaut Jombart, Hugo Gruson
 email: thibautjombart@gmail.com
 version: 2021-02-24
 ---
