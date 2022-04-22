@@ -40,10 +40,13 @@ manipulate dates, etc.) are provided in the task view's footnotes.
 ## Inclusion criteria
 
 Packages included in this task view were identified through recommendations of
-IDE experts as well as an automated CRAN search `usingpkgsearch::pkg_search()`,
-with the keywords: *epidemiology*, *epidemic, epi, outbreak* and *transmission*.
-The list was manually curated for the final selection to satisfy the conditions
-described in the previous paragraph.
+IDE experts as well as an automated CRAN search using `pkgsearch::pkg_search()`,
+with the keywords: *epidemiology*, *epidemic*, *epi*, *outbreak* and
+*transmission*. The list was manually curated for the final selection to satisfy
+the conditions described in the previous paragraph.
+
+Packages are deemed in scope if they provide tools, or data, explicitly targeted
+at reporting, modelling, or forecasting infectious diseases.
 
 **Your input is welcome!** Please suggest packages we may have missed by posting
 an issue at:
