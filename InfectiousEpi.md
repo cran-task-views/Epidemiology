@@ -527,13 +527,13 @@ COVID-19 section.
     large, single-centre, multimodal relational database consisting of
     information (using acknowledged sources) related to COVID-19 pandemic. This
     package provides an R-specific interface to the OxCOVID19 Database based on
-    widely-used data handling and manipulation approaches in R.
+    widely-used data handling and manipulation approaches in R.    
 
 ## Links
 
 -   R Epidemics Consortium (RECON), non-profit organisation developing
-    professional tools in for field epidemiologists:
-    <https://repidemicsconsortium.org/projects/>
+    professional tools for field epidemiologists:
+    <https://www.repidemicsconsortium.org/projects/>
 
 -   RECON's task manager, issues regarding infectious epidemiology packages from
     RECON packages and partners: <https://tasks.repidemicsconsortium.org>
