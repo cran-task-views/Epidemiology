@@ -3,20 +3,20 @@ name: InfectiousEpi
 topic: Infectious Disease Epidemiology
 maintainer: Thibaut Jombart, Matthieu Rolland, Hugo Gruson
 email: thibautjombart@gmail.com
-version: 2021-02-24
+version: 2021-02-25
 ---
 
-Contributors: Neale Batra, Rich FitzJohn, Hugo Gruson, Andreas Handel, Michael
-Höhle, Thibaut Jombart, Joseph Larmarange, Sebastian Lequime, Alex Spina, Tim
-Taylor, Sean Wu
+Contributors (in alphabetic order): Neale Batra, Rich FitzJohn, Hugo Gruson,
+Andreas Handel, Michael Höhle, Thibaut Jombart, Joseph Larmarange, Sebastian
+Lequime, Alex Spina, Tim Taylor, Sean Wu
 
 ## Overview
 
 R is increasingly becoming a standard in infectious disease epidemiology (IDE),
 providing a wide array of tools covering different aspects of outbreak analytics
 from study design to data exploration, modelling, forecasting and simulation.
-This task view provides an overview of packages specifically developed for IDE
-analysis. It does not encompass other applications of epidemiology (such as
+This task view provides an overview of packages specifically developed for
+IDE. It does not encompass other applications of epidemiology (such as
 environmental epidemiology) or cross-cutting tools used in, but not specific to,
 IDE.
 
@@ -51,7 +51,8 @@ at reporting, modelling, or forecasting infectious diseases.
 **Your input is welcome!** Please suggest packages we may have missed by posting
 an issue at:
 
-ADD LINK TO REPO
+https://github.com/bisaloo/InfectiousEpi
+
 
 ## Data visualisation and exploration
 
@@ -400,13 +401,6 @@ learning epidemiology (eg computing sample size, contingency tables, etc).
     analysis and infectious disease modelling. This includes computation of
     basic reproduction numbers from growth rates, generation of hashed labels to
     anonymise data, and fitting discretised Gamma distributions.
--   `r pkg("ggdag")`: Tidy, analyze, and plot directed acyclic graphs (DAGs).
-    `r pkg("ggdag")` is built on top of `r pkg("dagitty")`, an R package that
-    uses the 'DAGitty' web tool (<http://dagitty.net>) for creating and
-    analyzing DAGs. 'ggdag' makes it easy to tidy and plot 'dagitty' objects
-    using `r pkg("ggplot2")` and `r pkg("ggraph")`, as well as common analytic
-    and graphical functions, such as determining adjustment sets and node
-    relationships.
 -   `r pkg("powerSurvEpi")`: Functions to calculate power and sample size for
     testing main effect or interaction effect in the survival analysis of
     epidemiological studies (non-randomized studies), taking into account the
@@ -415,13 +409,6 @@ learning epidemiology (eg computing sample size, contingency tables, etc).
     analysis. This package also includes a set of functions to calculate power
     and sample size for testing main effects in the survival analysis of
     randomized clinical trials.
--   `r pkg("dagitty")`: A port of the web-based software 'DAGitty', available at
-    <http://dagitty.net>, for analyzing structural causal models (also known as
-    directed acyclic graphs or DAGs). This package computes covariate adjustment
-    sets for estimating causal effects, enumerates instrumental variables,
-    derives testable implications (d-separation and vanishing tetrads),
-    generates equivalent models, and includes a simple facility for data
-    simulation.
 
 ## Data
 
@@ -551,19 +538,10 @@ COVID-19 section.
 -   RECON's task manager, issues regarding infectious epidemiology packages from
     RECON packages and partners: <https://tasks.repidemicsconsortium.org>
 
--   Additional "generic" packages not specific to infectious epidemiology but
-    very useful in the context of infectious epidemiology studies
-
-    -   `r pkg("gtsummary")` for creating summary tables
-    -   `r pkg("ggplot2")` for creating plots
-    -   `r pkg("GGally")` helpful outputs using ggplot2
-    -   `r pkg("lubridate")` for date manipulation
-    -   `r pkg("DiagrammeR")` for creating diagrams
-
--   Multivariate statistics task view: `r view("Multivariate")`
-
 -   Survival analysis task view: `r view("Survival")`
 
 -   Data visualisation and graphics task view: `r view("Graphics")`
 
 -   Meta analysis task view: `r view("MetaAnalysis")`
+
+-   Multivariate statistics task view: `r view("Multivariate")`
