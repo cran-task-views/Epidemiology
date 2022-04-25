@@ -1,14 +1,13 @@
 # Motivation
 
 The COVID-19 pandemic has made clear, once again, we need robust packages, built
-following best practices, in Epidemiology & Infectious Disease Modelling
-([Jombart 2021](https://doi.org/10.1016/S1473-3099(20)30996-8)). But the
-existence of good packages is just the first step in ensuring that they are
-used. The packages also need to be *discoverable*. Lack of discoverability leads
-to overlap and missed opportunities for collaboration. The existence of a task
-view summarising the main existing tools (in R) is an important first milestone
-to increase discoverability of Epidemiology & Infectious Disease Modelling R
-packages.
+following best practices, Infectious Disease Epidemiology (IDE) ([Jombart
+2021](https://doi.org/10.1016/S1473-3099(20)30996-8)). But the existence of good
+packages is just the first step in ensuring that they are used. The packages
+also need to be *discoverable*. Lack of discoverability leads to duplication of
+efforts and missed opportunities for collaboration. The existence of a task view
+summarising the main existing tools (in R) is an important first milestone to
+increase discoverability of R packages for IDE.
 
 # Scope
 
@@ -19,7 +18,7 @@ with the keywords: *epidemiology*, *epidemic*, *epi*, *outbreak* and
 the conditions described in the previous paragraph.
 
 Packages are deemed in scope if they provide tools, or data, explicitly targeted
-at reporting, modelling, or forecasting infectious diseases.
+at reporting, analysing, modelling, or forecasting infectious diseases.
 
 # Packages
 
