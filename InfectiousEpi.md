@@ -3,7 +3,7 @@ name: InfectiousEpi
 topic: Infectious Disease Epidemiology
 maintainer: Thibaut Jombart, Matthieu Rolland, Hugo Gruson
 email: thibautjombart@gmail.com
-version: 2021-02-25
+version: 2022-04-26
 ---
 
 Contributors (in alphabetic order): Neale Batra, Rich FitzJohn, Hugo Gruson,
