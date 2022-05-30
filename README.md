@@ -1,8 +1,8 @@
-## CRAN Task View: InfectiousEpi
+## CRAN Task View: Epidemiology
 
-**URL:** <https://CRAN.R-project.org/view=InfectiousEpi>
+**URL:** <https://CRAN.R-project.org/view=Epidemiology>
 
-**Source file:** [InfectiousEpi.md](InfectiousEpi.md)
+**Source file:** [Epidemiology.md](Epidemiology.md)
 
 **Contributions:** Suggestions and improvements for this task view are very
 welcome and can be made through issues or pull requests here on GitHub or via

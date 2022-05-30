@@ -23,7 +23,7 @@ at reporting, analysing, modelling, or forecasting infectious diseases.
 # Packages
 
 A current draft for the task view, with the proposed packages and their
-description is available at: <https://github.com/Bisaloo/InfectiousEpi>
+description is available at: <https://github.com/Bisaloo/Epidemiology>
 
 Future updates will focus on adding more text and connections between packages
 to increase the added value of the task view relative to a simple list.

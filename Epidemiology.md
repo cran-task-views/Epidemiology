@@ -1,9 +1,9 @@
 ---
-name: InfectiousEpi
-topic: Infectious Disease Epidemiology
+name: Epidemiology
+topic: Epidemiology
 maintainer: Thibaut Jombart, Matthieu Rolland, Hugo Gruson
 email: thibautjombart@gmail.com
-version: 2022-04-26
+version: 2022-05-30
 ---
 
 Contributors (in alphabetic order): Neale Batra, Rich FitzJohn, Hugo Gruson,
@@ -51,7 +51,7 @@ at reporting, modelling, or forecasting infectious diseases.
 **Your input is welcome!** Please suggest packages we may have missed by posting
 an issue at:
 
-https://github.com/bisaloo/InfectiousEpi
+https://github.com/bisaloo/Epidemiology
 
 
 ## Data visualisation and exploration
