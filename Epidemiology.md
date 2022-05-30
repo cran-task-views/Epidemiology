@@ -6,31 +6,36 @@ email: thibautjombart@gmail.com
 version: 2022-05-30
 ---
 
-Contributors (in alphabetic order): Neale Batra, Rich FitzJohn, Hugo Gruson,
-Andreas Handel, Michael Höhle, Thibaut Jombart, Joseph Larmarange, Sebastian
-Lequime, Alex Spina, Tim Taylor, Sean Wu
+Contributors (in alphabetic order): Neale Batra, Solène Cadiou, Christopher
+Endres, Rich FitzJohn, Hugo Gruson, Andreas Handel, Michael Höhle, Thibaut
+Jombart, Joseph Larmarange, Sebastian Lequime, Alex Spina, Tim Taylor, Sean Wu,
+Achim Zeileis
 
 ## Overview
 
-R is increasingly becoming a standard in infectious disease epidemiology (IDE),
-providing a wide array of tools covering different aspects of outbreak analytics
-from study design to data exploration, modelling, forecasting and simulation.
-This task view provides an overview of packages specifically developed for
-IDE. It does not encompass other applications of epidemiology (such as
-environmental epidemiology) or cross-cutting tools used in, but not specific to,
-IDE.
+R is increasingly becoming a standard in epidemiology, providing a wide array of
+tools from study design to epidemiological data exploration, modelling,
+forecasting and simulation. This task view provides an overview of packages
+specifically developed for epidemiology, including infectious disease
+epidemiology (IDE) and environmental epidemiology. It does not include:
+
+* generic tools which are used in these domains but not specifically developed
+for the epidemiological context
+* '*omics*' approaches and genome-wide association studies (GWAS), which can be
+  used in epidemiology but form a largely separate domain 
 
 Packages were regrouped in the following categories:
 
-1.  **Data exploration and visualisation:** these tools are dedicated to
-    handling and visualising IDE data, producing epidemic curves
-    ('*epicurves*'), exploring contact tracing data, etc.
-2.  **Infectious disease modelling:** these tools encompass various approaches
-    for the analysis of epidemic curves (including outbreak detection /
-    surveillance), estimating reproduction numbers (*R*), providing short-term
-    forecasting, implementing compartmental models (e.g. SIR models), simulating
-    outbreaks and reconstructing transmission trees
-3.  **Helpers**: tools implementing miscellaneous tasks useful in IDE
+1.  **Data visualisation:** tools dedicated to handling and
+    visualisation of epidemiological data, *e.g.* epidemic curves ('*epicurves*'),
+    exploration of contact tracing networks, etc.
+2.  **Infectious disease modelling:** IDE-specific packages for the analysis of
+    epidemic curves (including outbreak detection / surveillance), estimation of
+    transmissibility, short-term forecasting, compartmental models (*e.g.*  SIR
+    models), simulation of outbreaks, and reconstruction of transmission trees
+3.  **Environmental epidemiology:** tools dedicated to the study of
+    environmental factors acting as determinants of diseases
+3.  **Helpers**: tools implementing miscellaneous tasks useful in epidemioliogy
 4.  **Data packages**: these packages provide access to both empirical and
     simulated epidemic data; includes a specific section on COVID-19.
 
@@ -40,10 +45,10 @@ manipulate dates, etc.) are provided in the task view's footnotes.
 ## Inclusion criteria
 
 Packages included in this task view were identified through recommendations of
-IDE experts as well as an automated CRAN search using `pkgsearch::pkg_search()`,
-with the keywords: *epidemiology*, *epidemic*, *epi*, *outbreak* and
-*transmission*. The list was manually curated for the final selection to satisfy
-the conditions described in the previous paragraph.
+expert epidemiologists as well as an automated CRAN search using
+`pkgsearch::pkg_search()` with the keywords: *epidemiology*, *epidemic*, *epi*,
+*outbreak* and *transmission*. The list was manually curated for the final
+selection to satisfy the conditions described in the previous paragraph.
 
 Packages are deemed in scope if they provide tools, or data, explicitly targeted
 at reporting, modelling, or forecasting infectious diseases.
@@ -54,17 +59,18 @@ an issue at:
 https://github.com/bisaloo/Epidemiology
 
 
-## Data visualisation and exploration
+## Data visualisation
 
-Here are packages providing help for visualising and exploring epidemic data
-(plotting epidemic curves, incidence curves, contact tracing, etc.)
+This section includes packages providing specific tools for the visualisation
+and exploration of epidemiological data.
 
--   `r pkg("epicontacts")`: A collection of tools for representing
-    epidemiological contact data, composed of case line lists and contacts
-    between cases. Also contains procedures for data handling, interactive
-    graphics, and statistics.
+-   `r pkg("epicontacts")`: Implements a dedicated class for contact data,
+    composed of case line lists and contacts between cases. Also includes
+    procedures for data handling, interactive graphics, and characterizing
+    contact patterns (*e.g.* mixing patterns, serial
+    intervals). [RECON](https://www.repidemicsconsortium.org/) package.
 -   `r pkg("EpiContactTrace")`: Routines for epidemiological contact tracing and
-    visualisation of network of contacts.
+    visualisation of networks of contacts.
 -   `r pkg("EpiCurve")`: Creates simple or stacked epidemic curves for hourly,
     daily, weekly or monthly outcome data.
 -   `r pkg("epiDisplay")`: Package for data exploration and result presentation.
@@ -72,34 +78,29 @@ Here are packages providing help for visualising and exploring epidemic data
     visualise epidemiological flows of people between locations. Also contains a
     statistical method for predicting disease spread from flow data initially
     described in [Dorigatti et al.
-    (2017)](https://doi.org/10.2807%2F1560-7917.ES.2017.22.28.30572). This
-    package is part of the [RECON](https://www.repidemicsconsortium.org/)
-    toolkit for outbreak analysis.
+    (2017)](https://doi.org/10.2807%2F1560-7917.ES.2017.22.28.30572). [RECON](https://www.repidemicsconsortium.org/)
+    package.
 -   `r pkg("EpiReport")`: Drafting an epidemiological report in 'Microsoft Word'
     format for a given disease, similar to the Annual Epidemiological Reports
     published by the European Centre for Disease Prevention and Control.
+-   `r pkg("incidence")`: Functions and classes to compute, handle and visualise
+    incidence from dated events for a defined time interval, using various date
+    formats. Also provides wrappers for log-linear models of incidence and
+    estimation of daily growth
+    rate. [RECON](https://www.repidemicsconsortium.org/) package. This package
+    is scheduled for deprecation and is replaced by `r pkg("incidence2")`.
+-   `r pkg("incidence2")`: Provides functions and classes to compute, handle and
+    visualise incidence from dated events. Improves the original `r
+    pkg("incidence")` package in many ways: full flexibility in time intervals
+    used, allows multiple stratifications, and is fully compatible with `r
+    pkg("dplyr")` and other tidyverse tools.
+    [RECON](https://www.repidemicsconsortium.org/) package.
 -   `r pkg("i2extras")`: Provides functions to work with 'incidence2' objects,
     including a simplified interface for trend fitting, estimation of growth
-    rates, and peak estimation. This package is part of the
-    [RECON](https://www.repidemicsconsortium.org/) toolkit for outbreak
-    analysis.
--   `r pkg("incidence")`: Provides functions and classes to compute, handle and
-    visualise incidence from dated events for a defined time interval. Dates can
-    be provided in various standard formats. The class 'incidence' is used to
-    store computed incidence and can be easily manipulated, subsetted, and
-    plotted. In addition, log-linear models can be fitted to 'incidence' objects
-    using 'fit'. This package is part of the
-    [RECON](https://www.repidemicsconsortium.org/) toolkit for outbreak
-    analysis, but is now scheduled for deprecation and is replaced by
-    `r pkg("incidence2")`.
--   `r pkg("incidence2")`: Provides functions and classes to compute, handle and
-    visualise incidence from dated events for a defined time interval. Improves
-    the original `r pkg("incidence")` package in many ways: full flexibility in
-    time intervals used, allows multiple stratification, and is fully compatible
-    with `r pkg("dplyr")` and other tidyverse tools. This package is part of the
-    [RECON](https://www.repidemicsconsortium.org/) toolkit for outbreak
-    analysis.
-
+    rates, and peak estimation. [RECON](https://www.repidemicsconsortium.org/)
+    package.
+	
+	
 ## Infectious disease modelling
 
 ### Epidemics surveillance
