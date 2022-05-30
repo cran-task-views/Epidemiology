@@ -103,6 +103,11 @@ and exploration of epidemiological data.
 	
 ## Infectious disease modelling
 
+This section includes packages for specifically dedicated to IDE modelling. Note
+that R offers a wealth of options for general-purpose time series modelling,
+many of which are listed in the `r view("TimeSeries")` and `r view("Survival")`
+task views.
+
 ### Epidemics surveillance
 
 -   `r pkg("argo")`: Augmented Regression with General Online data (ARGO) for
@@ -114,11 +119,10 @@ and exploration of epidemiological data.
 -   `r pkg("Epi")`: Functions for demographic and epidemiological analysis in
     the Lexis diagram, i.e. register and cohort follow-up data, in particular
     representation, manipulation and simulation of multistate data - the Lexis
-    suite of functions, which includes interfaces to `r pkg("mstate")`,
-    `r pkg("etm")` and `r pkg("cmprsk")` packages. Also contains functions for
-    Age-Period-Cohort and Lee-Carter modeling and a function for interval
-    censored data and some useful functions for tabulation and plotting, as well
-    as a number of epidemiological data sets.
+    suite of functions, which includes interfaces to `r pkg("mstate")`, `r
+    pkg("etm")` and `r pkg("cmprsk")` packages. Also contains functions for
+    Age-Period-Cohort and Lee-Carter modelling, interval censored data,
+    tabulation, plotting, as well as a number of epidemiological data sets.
 -   `r pkg("episensr")`: Basic sensitivity analysis of the observed relative
     risks adjusting for unmeasured confounding and misclassification of the
     exposure/outcome, or both. It follows the bias analysis methods and examples
@@ -137,21 +141,20 @@ and exploration of epidemiological data.
     Lozano ([2012](https://doi.org/10.1111/j.1750-2659.2012.00422.x),
     [2015](https://doi.org/10.1111/irv.12330)), allows the weekly assessment of
     the epidemic and intensity status to help in routine respiratory infections
-    surveillance in health systems. Allows the comparison of different epidemic
+    surveillance in health systems. Enables the comparison of different epidemic
     indicators, timing and shape with past epidemics and across different
-    regions or countries with different surveillance systems. Also, it gives a
+    regions or countries with different surveillance systems. It also gives a
     measure of the performance of the method in terms of sensitivity and
     specificity of the alert week. 'memapp' is a web application created in the
     Shiny framework for the `r pkg("mem")` R package.
 -   `r pkg("nosoi")`: The aim of `r pkg("nosoi")` (pronounced no.si) is to
     provide a flexible agent-based stochastic transmission chain/epidemic
-    simulator ([Lequime et al. 2020](https://doi.org/2020.03.03.973107)). It is
-    named after the daimones of plague, sickness and disease that escaped
-    Pandora's jar in the Greek mythology. `r pkg("nosoi")` is able to take into
-    account the influence of multiple variable on the transmission process (e.g.
-    dual-host systems (such as arboviruses), within-host viral dynamics,
-    transportation, population structure), alone or taken together, to create
-    complex but relatively intuitive epidemiological simulations.
+    simulator ([Lequime et al. 2020](https://doi.org/2020.03.03.973107)). The
+    package can take into account the influence of multiple variables on the
+    transmission process (e.g.  dual-host systems such as arboviruses,
+    within-host viral dynamics, transportation, population structure), alone or
+    taken together, to create complex but relatively intuitive epidemiological
+    simulations.
 -   `r pkg("riskCommunicator")`: Estimates flexible epidemiological effect
     measures including both differences and ratios using the parametric
     G-formula developed as an alternative to inverse probability weighting. It
@@ -165,9 +168,8 @@ and exploration of epidemiological data.
 -   `r pkg("RSurveillance")`: Provides a diverse set of functions useful for the
     design and analysis of disease surveillance activities.
 -   `r pkg("trendeval")`: Provides a coherent interface for evaluating models
-    fit with the trending package. This package is part of the
-    [RECON](https://www.repidemicsconsortium.org/) toolkit for outbreak
-    analysis.
+    fit with the trending
+    package. [RECON](https://www.repidemicsconsortium.org/) package.
 -   `r pkg("SpatialEpi")`: Methods and data for cluster detection and disease
     mapping.
 -   `r pkg("surveillance")`: Statistical methods for the modeling and monitoring
@@ -180,36 +182,35 @@ and exploration of epidemiological data.
     (2016)](https://doi.org/10.18637%2Fjss.v070.i10) and a recent overview of
     the implemented space-time modeling frameworks for epidemic phenomena is
     given by [Meyer et al. (2017)](https://doi.org/10.18637%2Fjss.v077.i11).
-    Other package feature contain back-projection methods to infer time series
-    of exposure from disease onset and correction of observed time series for
-    reporting delays (nowcasting).
+    Also contains back-projection methods to infer time series of exposure from
+    disease onset and correction of observed time series for reporting delays
+    (nowcasting).
 -   `r github("reconhub/trendbreaker")` implements tools for detecting changes
     in temporal trends of a single response variable. It implements the
     **A**utomatic **S**election of **M**odels and **O**utlier **De**tection for
     **E**pidemmics (ASMODEE), an algorithm originally designed for detecting
-    changes in COVID-19 case incidence.
+    changes in COVID-19 case
+    incidence. [RECON](https://www.repidemicsconsortium.org/) package.
 -   `r pkg("trending")`: Provides a coherent interface to multiple modelling
     tools for fitting trends along with a standardised approach for generating
-    confidence and prediction intervals.
+    confidence and prediction
+    intervals. [RECON](https://www.repidemicsconsortium.org/) package.
 
 ### Estimation of transmissibility
 
 -   `r pkg("earlyR")`: Implements a simple, likelihood-based estimation of the
-    reproduction number (R0) using a branching process with a Poisson
-    likelihood. This model requires knowledge of the serial interval
-    distribution, and dates of symptom onsets. Infectiousness is determined by
-    weighting R0 by the probability mass function of the serial interval on the
-    corresponding day. It is a simplified version of the model introduced by
-    [Cori et al. (2013)](https://doi.org/10.1093%2Faje%2Fkwt133).
+    reproduction number (R0) using a Poisson branching process. This model
+    requires knowledge of the serial interval distribution, and dates of symptom
+    onsets. It is a simplified version of the model introduced by [Cori et
+    al. (2013)](https://doi.org/10.1093%2Faje%2Fkwt133).
 -   `r pkg("endtoend")`: Computes the expectation of the number of transmissions
     and receptions considering an End-to-End transport model with limited number
     of retransmissions per packet. It provides theoretical results and also
     estimated values based on Monte Carlo simulations. It is also possible to
     consider random data and ACK probabilities.
--   `r pkg("EpiEstim")`: Tools to quantify transmissibility throughout an
-    epidemic from the analysis of time series of incidence as described in [Cori
-    et al. (2013)](https://doi.org/10.1093/aje/kwt133) and [Wallinga and Teunis
-    (2004)](https://doi.org/10.1093/aje/kwh255).
+-   `r pkg("EpiEstim")`: Provides tools for estimating time-varying
+    transmissibility using the instantaneous reproduction number (Rt) introduced
+    in [Cori et al. (2013)](https://doi.org/10.1093/aje/kwt133).
 -   `r pkg("epimdr")`: Functions, data sets and shiny apps for "Epidemics:
     Models and Data in R" by Ottar N. Bjornstad ([ISBN
     978-3-319-97487-3](https://www.springer.com/gp/book/9783319974866)). The
@@ -222,42 +223,28 @@ and exploration of epidemiological data.
 -   `r pkg("epinet")`: A collection of epidemic/network-related tools. Simulates
     transmission of diseases through contact networks. Performs Bayesian
     inference on network and epidemic parameters, given epidemic data.
--   `r github("epiforecasts/EpiNow2")`: This package estimates the time-varying
-    reproduction number, rate of spread, and doubling time using a range of
-    open-source tools ([Abbott et
-    al.](https://doi.org/10.12688/wellcomeopenres.16006.1)), and current best
-    practices ([Gostic et al.](https://doi.org/10.1371/journal.pcbi.1008409)).
-    It aims to help users avoid some of the limitations of naive implementations
-    in a framework that is informed by community feedback and is under active
-    development.
+-   `r github("epiforecasts/EpiNow2")`: Provides tools for estimating the
+    time-varying reproduction number, rate of spread, and doubling time of
+    epidemics while accounting for various delays using the approach introducted
+    in ([Abbott et al.](https://doi.org/10.12688/wellcomeopenres.16006.1)), and
+    ([Gostic et al.](https://doi.org/10.1371/journal.pcbi.1008409)).
 -   `r pkg("nbTransmission")`: Estimates the relative transmission probabilities
-    between cases in an infectious disease outbreak or cluster using naive
-    Bayes. Included are various functions to use these probabilities to estimate
-    transmission parameters such as the generation/serial interval and
-    reproductive number as well as finding the contribution of covariates to the
-    probabilities and visualizing results. The ideal use is for an infectious
-    disease dataset with metadata on the majority of cases but more informative
-    data such as contact tracing or pathogen whole genome sequencing on only a
-    subset of cases. For a detailed description of the methods see [Leavitt et
-    al. (2020)](https://doi.org/10.1093%2Fije%2Fdyaa031).
+    between cases using naive Bayes as introduced in [Leavitt et
+    al. (2020)](https://doi.org/10.1093%2Fije%2Fdyaa031). Includes various
+    functions to estimate transmission parameters such as the generation/serial
+    interval and reproductive number as well as finding the contribution of
+    covariates to transmission probabilities and visualizing results.
 -   `r pkg("R0")`: Estimation of reproduction numbers for disease outbreak,
-    based on incidence data. The R0 package implements several documented
-    methods. It is therefore possible to compare estimations according to the
-    methods used. Depending on the methods requested by user, basic reproduction
-    number (commonly denoted as R0) or real-time reproduction number (referred
-    to as R(t)) is computed, along with a 95% Confidence Interval. Plotting
-    outputs will give different graphs depending on the methods requested :
-    basic reproductive number estimations will only show the epidemic curve
-    (collected data) and an adjusted model, whereas real-time methods will also
-    show the R(t) variations throughout the outbreak time period. Sensitivity
-    analysis tools are also provided, and allow for investigating effects of
-    varying Generation Time distribution or time window on estimates.
+    based on incidence data including the basic reproduction number (R0) and the
+    instantaneous reproduction number (R(t)), alongside corresponding 95%
+    Confidence Interval. Also includes routines for plotting outputs and for
+    performing sensitivity analyses.
 -   `r pkg("tsiR")`: The TSIR modeling framework allows users to fit the time
     series SIR model to cumulative case data, which uses a regression equation
     to estimate transmission parameters based on differences in cumulative cases
     between reporting periods. The package supports inference on TSIR parameters
     using GLMs and profile likelihood techniques, as well as forward simulation
-    based on a fitted model. The package is described in [Becker and Grenfell
+    based on a fitted model, as described in [Becker and Grenfell
     (2017)](https://doi.org/10.1371/journal.pone.0185528).
 
 ### Compartmental models
