@@ -568,9 +568,9 @@ COVID-19 section.
 
 ## Links
 
--   The R Epidemics Consortium (RECON), non-profit organisation developing
-    outbreak analytics tools:
-    <https://www.repidemicsconsortium.org/projects/>
+-   The R Epidemics Consortium ([RECON](https://www.repidemicsconsortium.org)),
+    a non-profit organisation dedicated to the development of free, open-source
+    outbreak analytics resources.
 
 -   [*Epiverse*](https://data.org/initiatives/epiverse/), an initiative created
     by [data.org](data.org) for the development of open-source resources for
