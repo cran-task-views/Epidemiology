@@ -64,10 +64,10 @@ https://github.com/bisaloo/Epidemiology
 This section includes packages providing specific tools for the visualisation
 and exploration of epidemiological data.
 
--   `r pkg("epicontacts", priority = "core")`: Implements a dedicated class for contact data,
-    composed of case line lists and contacts between cases. Also includes
-    procedures for data handling, interactive graphics, and characterizing
-    contact patterns (*e.g.* mixing patterns, serial
+-   `r pkg("epicontacts", priority = "core")`: Implements a dedicated class for
+    contact data, composed of case line lists and contacts between cases. Also
+    includes procedures for data handling, interactive graphics, and
+    characterizing contact patterns (*e.g.* mixing patterns, serial
     intervals). [RECON](https://www.repidemicsconsortium.org/) package.
 -   `r pkg("EpiContactTrace")`: Routines for epidemiological contact tracing and
     visualisation of networks of contacts.
@@ -339,11 +339,6 @@ task views.
     Fraser C and Ferguson N.
     2014](https://doi.org/10.1371/journal.pcbi.1003457), [Campbell F, Cori A,
     Ferguson N, Jombart
-    T. 2019](https://doi.org/10.1371/journal.pcbi.1006930). Different modules
-    can be used for different types of data (timing of epidemiological events,
-    pathogen genomes, contact between patients, locations). A fully documented
-    API facilitates writing new modules and extensions, where custom
-    likelihoods, priors, and MCMC can be provided as R or C++ code.
 -   `r pkg("TransPhylo")`: Inference of transmission tree from a dated
     phylogeny. Includes methods to simulate and analyse outbreaks. The
     methodology is described in [Didelot et al.
@@ -579,8 +574,8 @@ COVID-19 section.
     outbreak analytics resources.
 
 -   [*Epiverse*](https://data.org/initiatives/epiverse/), an initiative created
-    by [data.org](data.org) for the development of open-source resources for
-    epidemic preparedness and
+    by [data.org](https://data.org) for the development of open-source resources
+    for epidemic preparedness and
     response. [*Epiverse-TRACE*](https://github.com/epiverse-trace) is dedicated
     to creating an ecosystem of R packages for outbreak analytics.
 
