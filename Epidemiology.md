@@ -24,7 +24,7 @@ for the epidemiological context
 * '*omics*' approaches and genome-wide association studies (GWAS), which can be
   used in epidemiology but form a largely separate domain 
 
-Packages were regrouped in the following categories:
+Packages are grouped in the following categories:
 
 1.  **Data visualisation:** tools dedicated to handling and
     visualisation of epidemiological data, *e.g.* epidemic curves ('*epicurves*'),
@@ -64,10 +64,10 @@ https://github.com/bisaloo/Epidemiology
 This section includes packages providing specific tools for the visualisation
 and exploration of epidemiological data.
 
--   `r pkg("epicontacts")`: Implements a dedicated class for contact data,
-    composed of case line lists and contacts between cases. Also includes
-    procedures for data handling, interactive graphics, and characterizing
-    contact patterns (*e.g.* mixing patterns, serial
+-   `r pkg("epicontacts", priority = "core")`: Implements a dedicated class for
+    contact data, composed of case line lists and contacts between cases. Also
+    includes procedures for data handling, interactive graphics, and
+    characterizing contact patterns (*e.g.* mixing patterns, serial
     intervals). [RECON](https://www.repidemicsconsortium.org/) package.
 -   `r pkg("EpiContactTrace")`: Routines for epidemiological contact tracing and
     visualisation of networks of contacts.
@@ -89,11 +89,11 @@ and exploration of epidemiological data.
     estimation of daily growth
     rate. [RECON](https://www.repidemicsconsortium.org/) package. This package
     is scheduled for deprecation and is replaced by `r pkg("incidence2")`.
--   `r pkg("incidence2")`: Provides functions and classes to compute, handle and
-    visualise incidence from dated events. Improves the original `r
-    pkg("incidence")` package in many ways: full flexibility in time intervals
-    used, allows multiple stratifications, and is fully compatible with `r
-    pkg("dplyr")` and other tidyverse tools.
+-   `r pkg("incidence2", priority = "core")`: Provides functions and classes to
+    compute, handle and visualise incidence from dated events. Improves the
+    original `r pkg("incidence")` package in many ways: full flexibility in time
+    intervals used, allows multiple stratifications, and is fully compatible
+    with `r pkg("dplyr")` and other tidyverse tools.
     [RECON](https://www.repidemicsconsortium.org/) package.
 -   `r pkg("i2extras")`: Provides functions to work with 'incidence2' objects,
     including a simplified interface for trend fitting, estimation of growth
@@ -116,13 +116,14 @@ task views.
     [Yang, S., Santillana, M. and Kou, S.C.
     (2015)](https://doi.org/10.1073/pnas.1515373112) and [Ning, S., Yang, S. and
     Kou, S.C. (2019)](https://doi.org/10.1038/s41598-019-41559-6).
--   `r pkg("Epi")`: Functions for demographic and epidemiological analysis in
-    the Lexis diagram, i.e. register and cohort follow-up data, in particular
-    representation, manipulation and simulation of multistate data - the Lexis
-    suite of functions, which includes interfaces to `r pkg("mstate")`, `r
-    pkg("etm")` and `r pkg("cmprsk")` packages. Also contains functions for
-    Age-Period-Cohort and Lee-Carter modelling, interval censored data,
-    tabulation, plotting, as well as a number of epidemiological data sets.
+-   `r pkg("Epi", priority = "core")`: Functions for demographic and
+    epidemiological analysis in the Lexis diagram, i.e. register and cohort
+    follow-up data, in particular representation, manipulation and simulation of
+    multistate data - the Lexis suite of functions, which includes interfaces to
+    `r pkg("mstate")`, `r pkg("etm")` and `r pkg("cmprsk")` packages. Also
+    contains functions for Age-Period-Cohort and Lee-Carter modelling, interval
+    censored data, tabulation, plotting, as well as a number of epidemiological
+    data sets.
 -   `r pkg("episensr")`: Basic sensitivity analysis of the observed relative
     risks adjusting for unmeasured confounding and misclassification of the
     exposure/outcome, or both. It follows the bias analysis methods and examples
@@ -172,13 +173,13 @@ task views.
     package. [RECON](https://www.repidemicsconsortium.org/) package.
 -   `r pkg("SpatialEpi")`: Methods and data for cluster detection and disease
     mapping.
--   `r pkg("surveillance")`: Statistical methods for the modeling and monitoring
-    of time series of counts, proportions and categorical data, as well as for
-    the flexible covariate based regression modeling of spatio-temporal point
-    processes of epidemic phenomena. The monitoring methods focus on aberration
-    detection in count data time series from public health surveillance of
-    communicable diseases. A recent overview of the available monitoring
-    procedures is given by [Salmon et al.
+-   `r pkg("surveillance", priority = "core")`: Statistical methods for the
+    modeling and monitoring of time series of counts, proportions and
+    categorical data, as well as for the flexible covariate based regression
+    modeling of spatio-temporal point processes of epidemic phenomena. The
+    monitoring methods focus on aberration detection in count data time series
+    from public health surveillance of communicable diseases. A recent overview
+    of the available monitoring procedures is given by [Salmon et al.
     (2016)](https://doi.org/10.18637%2Fjss.v070.i10) and a recent overview of
     the implemented space-time modeling frameworks for epidemic phenomena is
     given by [Meyer et al. (2017)](https://doi.org/10.18637%2Fjss.v077.i11).
@@ -208,9 +209,9 @@ task views.
     of retransmissions per packet. It provides theoretical results and also
     estimated values based on Monte Carlo simulations. It is also possible to
     consider random data and ACK probabilities.
--   `r pkg("EpiEstim")`: Provides tools for estimating time-varying
-    transmissibility using the instantaneous reproduction number (Rt) introduced
-    in [Cori et al. (2013)](https://doi.org/10.1093/aje/kwt133).
+-   `r pkg("EpiEstim", priority = "core")`: Provides tools for estimating
+    time-varying transmissibility using the instantaneous reproduction number
+    (Rt) introduced in [Cori et al. (2013)](https://doi.org/10.1093/aje/kwt133).
 -   `r pkg("epimdr")`: Functions, data sets and shiny apps for "Epidemics:
     Models and Data in R" by Ottar N. Bjornstad ([ISBN
     978-3-319-97487-3](https://www.springer.com/gp/book/9783319974866)). The
@@ -234,11 +235,11 @@ task views.
     functions to estimate transmission parameters such as the generation/serial
     interval and reproductive number as well as finding the contribution of
     covariates to transmission probabilities and visualizing results.
--   `r pkg("R0")`: Estimation of reproduction numbers for disease outbreak,
-    based on incidence data including the basic reproduction number (R0) and the
-    instantaneous reproduction number (R(t)), alongside corresponding 95%
-    Confidence Interval. Also includes routines for plotting outputs and for
-    performing sensitivity analyses.
+-   `r pkg("R0", priority = "core")`: Estimation of reproduction numbers for
+    disease outbreak, based on incidence data including the basic reproduction
+    number (R0) and the instantaneous reproduction number (R(t)), alongside
+    corresponding 95% Confidence Interval. Also includes routines for plotting
+    outputs and for performing sensitivity analyses.
 -   `r pkg("tsiR")`: The TSIR modeling framework allows users to fit the time
     series SIR model to cumulative case data, which uses a regression equation
     to estimate transmission parameters based on differences in cumulative cases
@@ -263,15 +264,16 @@ task views.
     overview of the implemented continuous-time individual level models for
     epidemics is given by [Almutiry and Deardon
     (2019)](https://doi.org/10.1515/ijb-2017-0092).
--   `r pkg("EpiModel")`: Tools for simulating mathematical models of infectious
-    disease dynamics. Epidemic model classes include deterministic compartmental
-    models, stochastic individual-contact models, and stochastic network models.
-    Network models use the robust statistical methods of exponential-family
-    random graph models (ERGMs) from the Statnet suite of software packages
-    in R. Standard templates for epidemic modeling include SI, SIR, and SIS
-    disease types. EpiModel features an API for extending these templates to
-    address novel scientific research aims. Full methods for EpiModel are
-    detailed in [Jenness et al. (2018)](https://doi.org/10.18637/jss.v084.i08).
+-   `r pkg("EpiModel", priority = "core")`: Tools for simulating mathematical
+    models of infectious disease dynamics. Epidemic model classes include
+    deterministic compartmental models, stochastic individual-contact models,
+    and stochastic network models.  Network models use the robust statistical
+    methods of exponential-family random graph models (ERGMs) from the Statnet
+    suite of software packages in R. Standard templates for epidemic modeling
+    include SI, SIR, and SIS disease types. EpiModel features an API for
+    extending these templates to address novel scientific research aims. Full
+    methods for EpiModel are detailed in [Jenness et
+    al. (2018)](https://doi.org/10.18637/jss.v084.i08).
 -   `r pkg("SCCS")`: Self-controlled case series models used to investigate
     associations between time-varying exposures such as vaccines or other drugs
     or non drug exposures and an adverse event can be fitted. Detailed
@@ -298,8 +300,9 @@ task views.
     are used. Currently supported: excess hazard models, rates, mean survival
     times, relative survival, and standardized incidence and mortality ratios
     (SIRs/SMRs), all of which can be easily adjusted for by covariates such as
-    age. Fast splitting and aggregation of 'Lexis' objects (from package
-    `r pkg("Epi")` and other computations achieved using `r pkg("data.table")`.
+    age. Fast splitting and aggregation of 'Lexis' objects (from package `r
+    pkg("Epi", priority = "core")` and other computations achieved using `r
+    pkg("data.table")`.
 -   `r pkg("SimInf")`: Provides an efficient and very flexible framework to
     conduct data-driven epidemiological modeling in realistic large scale
     disease spread simulations. The framework integrates infection dynamics in
@@ -330,16 +333,12 @@ task views.
 -   `r github("xavierdidelot/o2mod.transphylo")` is a module of
     `r pkg("outbreaker2")` which uses the `r pkg("TransPhylo")` model of
     within-host evolution.
--   `r pkg("outbreaker2")`: a modular platform for Bayesian reconstruction of
-    disease outbreaks using epidemiological and genetic information as
-    introduced in [Jombart T, Cori A, Didelot X, Cauchemez S, Fraser C and
-    Ferguson N.  2014](https://doi.org/10.1371/journal.pcbi.1003457), [Campbell
-    F, Cori A, Ferguson N, Jombart
-    T. 2019](https://doi.org/10.1371/journal.pcbi.1006930). Different modules
-    can be used for different types of data (timing of epidemiological events,
-    pathogen genomes, contact between patients, locations). A fully documented
-    API facilitates writing new modules and extensions, where custom
-    likelihoods, priors, and MCMC can be provided as R or C++ code.
+-   `r pkg("outbreaker2", priority = "core")`: a modular platform for Bayesian
+    reconstruction of disease outbreaks using epidemiological and genetic
+    information as introduced in [Jombart T, Cori A, Didelot X, Cauchemez S,
+    Fraser C and Ferguson N.
+    2014](https://doi.org/10.1371/journal.pcbi.1003457), [Campbell F, Cori A,
+    Ferguson N, Jombart
 -   `r pkg("TransPhylo")`: Inference of transmission tree from a dated
     phylogeny. Includes methods to simulate and analyse outbreaks. The
     methodology is described in [Didelot et al.
@@ -361,25 +360,26 @@ limits of detection of pollutants (left-censoring issues), and various modelling
 approaches to account for multiple correlations between exposures and infer
 causality.
 
--   `r pkg("NADA")`: Nondetects and Data Analysis for Environmental Data,
-    package containing all the functions derived from the methods in [Helsel
+-   `r pkg("NADA", priority = "core")`: Nondetects and Data Analysis for
+    Environmental Data, package containing all the functions derived from the
+    methods in [Helsel
     (2011)](https://www.wiley.com/en-us/Statistics+for+Censored+Environmental+Data+Using+Minitab+and+R%2C+2nd+Edition-p-9780470479889).
--   `r pkg("EnvStats")`: Package for Environmental Statistics, Including US EPA
-    Guidance, graphical and statistical analyses of environmental data, with
-    focus on analyzing chemical concentrations and physical parameters, usually
-    in the context of mandated environmental monitoring. Major environmental
-    statistical methods found in the literature and regulatory guidance
-    documents, with extensive help that explains what these methods do, how to
-    use them, and where to find them in the literature. Numerous built-in data
-    sets from regulatory guidance documents and environmental statistics
-    literature [(Millard
+-   `r pkg("EnvStats", priority = "core")`: Package for Environmental
+    Statistics, Including US EPA Guidance, graphical and statistical analyses of
+    environmental data, with focus on analyzing chemical concentrations and
+    physical parameters, usually in the context of mandated environmental
+    monitoring. Major environmental statistical methods found in the literature
+    and regulatory guidance documents, with extensive help that explains what
+    these methods do, how to use them, and where to find them in the
+    literature. Numerous built-in data sets from regulatory guidance documents
+    and environmental statistics literature [(Millard
     2013)](https://link.springer.com/book/10.1007/978-1-4614-8456-1).
 -   `r pkg("bkmr")`: Implements Bayesian Kernel Machine Regression, a
 	statistical approach for estimating the joint health effects of multiple
 	concurrent exposures, as described in Bobb *et al.*
 	[(2015)](https://academic.oup.com/biostatistics/article/16/3/493/269719)
--   `r pkg("mediation")`: Implements parametric and non parametric mediation
-    analysis as discussed in Imai *et al.*
+-   `r pkg("mediation", priority = "core")`: Implements parametric and non
+    parametric mediation analysis as discussed in Imai *et al.*
     [(2010)](http://dx.doi.org/10.1214/10-sts321).
 -   `r pkg("mma")`: Implements multiple mediation analysis as described in Yu
 	*et al.*  [(2017)](https://doi.org/10.1016%2Fj.sste.2017.02.001).
@@ -410,18 +410,19 @@ tables, etc).
     written to facilitate interpretation wherever possible. The target audience
     includes advanced undergraduate and graduate students in epidemiology or
     biostatistics courses, and clinical researchers.
--   `r pkg("epiR")`: Tools for the analysis of epidemiological and surveillance
-    data. Contains functions for directly and indirectly adjusting measures of
-    disease frequency, quantifying measures of association on the basis of
-    single or multiple strata of count data presented in a contingency table,
-    computation of confidence intervals around incidence risk and incidence rate
-    estimates and sample size calculations for cross-sectional, case-control and
-    cohort studies. Surveillance tools include functions to calculate an
-    appropriate sample size for 1- and 2-stage representative freedom surveys,
-    functions to estimate surveillance system sensitivity and functions to
-    support scenario tree modelling analyses.
--   `r pkg("epitools")`: Tools for training and practicing epidemiologists
-    including methods for two-way and multi-way contingency tables.
+-   `r pkg("epiR", priority = "core")`: Tools for the analysis of
+    epidemiological and surveillance data. Contains functions for directly and
+    indirectly adjusting measures of disease frequency, quantifying measures of
+    association on the basis of single or multiple strata of count data
+    presented in a contingency table, computation of confidence intervals around
+    incidence risk and incidence rate estimates and sample size calculations for
+    cross-sectional, case-control and cohort studies. Surveillance tools include
+    functions to calculate an appropriate sample size for 1- and 2-stage
+    representative freedom surveys, functions to estimate surveillance system
+    sensitivity and functions to support scenario tree modelling analyses.
+-   `r pkg("epitools", priority = "core")`: Tools for training and practicing
+    epidemiologists including methods for two-way and multi-way contingency
+    tables.
 -   `r pkg("epitrix")`: A collection of small functions useful for epidemics
     analysis and infectious disease modelling. This includes computation of
     basic reproduction numbers (R0) from daily growth rates, generation of
@@ -453,8 +454,8 @@ COVID-19 section.
     al. (2017)](https://doi.org/10.1371%2Fjournal.pcbi.1005697). Provides easy
     access to contact data for 152 countries, for use in epidemiological,
     demographic or social sciences research.
--   `r pkg("outbreaks")`: Empirical or simulated disease outbreak data, provided
-    either as RData or as text files.
+-   `r pkg("outbreaks", priority = "core")`: Empirical or simulated disease
+    outbreak data, provided either as RData or as text files.
 
 ### COVID-19
 
@@ -573,8 +574,8 @@ COVID-19 section.
     outbreak analytics resources.
 
 -   [*Epiverse*](https://data.org/initiatives/epiverse/), an initiative created
-    by [data.org](https://data.org) for the development of open-source resources for
-    epidemic preparedness and
+    by [data.org](https://data.org) for the development of open-source resources
+    for epidemic preparedness and
     response. [*Epiverse-TRACE*](https://github.com/epiverse-trace) is dedicated
     to creating an ecosystem of R packages for outbreak analytics.
 
