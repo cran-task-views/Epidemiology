@@ -192,7 +192,7 @@ task views.
     changes in COVID-19 case
     incidence. [RECON](https://www.repidemicsconsortium.org/) package.
 -   `r pkg("trending")`: Provides a coherent interface to multiple modelling
-    tools for fitting trends along with a standardised approach for generating
+    tools for fitting trends along with a standardized approach for generating
     confidence and prediction
     intervals. [RECON](https://www.repidemicsconsortium.org/) package.
 
@@ -349,18 +349,18 @@ task views.
     information on the self-controlled case series method and its extensions
     with more examples at <https://sccs-studies.info>.
 
-## Helper functions
+## Helpers
 
-Here are packages providing useful helper functions for practicing, teaching and
-learning epidemiology (eg computing sample size, contingency tables, etc).
+This section includes packages providing tools to facilitate epidemiological
+analysis as well as for training (e.g. computing sample size, contingency
+tables, etc).
 
 -   `r pkg("DSAIDE")`: Exploration of simulation models (apps) of various
     infectious disease transmission dynamics scenarios. The purpose of the
     package is to help individuals learn about infectious disease epidemiology
-    (ecology/evolution) from a dynamical systems perspective. All apps include
-    explanations of the underlying models and instructions on what to do with
-    the models.
--   `r pkg("epibasix")`: Contains elementary tools for analysis of common
+    from a dynamical systems perspective. All apps include explanations of the
+    underlying models and instructions on what to do with the models.
+-   `r pkg("epibasix")`: Contains elementary tools for analyzing common
     epidemiological problems, ranging from sample size estimation, through 2x2
     contingency table analysis and basic measures of agreement (kappa,
     sensitivity/specificity). Appropriate print and summary statements are also
@@ -381,8 +381,14 @@ learning epidemiology (eg computing sample size, contingency tables, etc).
     including methods for two-way and multi-way contingency tables.
 -   `r pkg("epitrix")`: A collection of small functions useful for epidemics
     analysis and infectious disease modelling. This includes computation of
-    basic reproduction numbers from growth rates, generation of hashed labels to
-    anonymise data, and fitting discretised Gamma distributions.
+    basic reproduction numbers (R0) from daily growth rates, generation of
+    hashed labels to anonymise data, and fitting discretized Gamma
+    distributions.
+-   `r pkg("linelist")`: Implements the `linelist` class for storing case line
+    list data, which extends `data.frame` and `tibble` by adding the ability to
+    tag key epidemiological variables, validate them, and providing safeguards
+    against accidental deletion or alteration of these data to help make data
+    pipelines more straightforward and robust.
 -   `r pkg("powerSurvEpi")`: Functions to calculate power and sample size for
     testing main effect or interaction effect in the survival analysis of
     epidemiological studies (non-randomized studies), taking into account the
@@ -509,21 +515,16 @@ COVID-19 section.
     large, single-centre, multimodal relational database consisting of
     information (using acknowledged sources) related to COVID-19 pandemic. This
     package provides an R-specific interface to the OxCOVID19 Database based on
-    widely-used data handling and manipulation approaches in R.    
+    widely-used data handling and manipulation approaches in R.
 
 ## Links
 
 -   R Epidemics Consortium (RECON), non-profit organisation developing
-    professional tools for field epidemiologists:
+    outbreak analytics tools:
     <https://www.repidemicsconsortium.org/projects/>
 
--   RECON's task manager, issues regarding infectious epidemiology packages from
-    RECON packages and partners: <https://tasks.repidemicsconsortium.org>
-
--   Survival analysis task view: `r view("Survival")`
-
--   Data visualisation and graphics task view: `r view("Graphics")`
-
--   Meta analysis task view: `r view("MetaAnalysis")`
-
--   Multivariate statistics task view: `r view("Multivariate")`
+-   [*Epiverse*](https://data.org/initiatives/epiverse/), an initiative created
+    by [data.org](data.org) for the development of open-source resources for
+    epidemic preparedness and
+    response. [*Epiverse-TRACE*](https://github.com/epiverse-trace) is dedicated
+    to creating an ecosystem of R packages for outbreak analytics.
