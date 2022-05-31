@@ -354,14 +354,41 @@ Environmental epidemiology is dedicated to the study of physical, chemical, and
 biologic agents in the environment acting as determinants of disease. The aims
 of environmental epidemiology are to infer causality, to identify environmental
 causes of disease, such as from air and water pollutants, dietary contaminants,
-built environments, and others (Bloom et al., 2018).
+built environments, and others.
 
-Exposure to pollutants are commonly measured with devices that have a minimal
-threshold under which the exposure of interest cannot be measured and
-differentiated from zero, this limit is called the limit of detection
-(LOD). Many methods have been developed to take into account this left side
-censorship and are useful to pre-process environmental exposure data (eg. to
-impute values below the LOD) and to compute left censored statistics.
+R packages dedicated to environmental epidemiology include tools dealing with
+limits of detection of pollutants (left-censoring issues), and various modelling
+approaches to account for multiple correlations between exposures and infer
+causality.
+
+-   `r pkg("NADA")`: Nondetects and Data Analysis for Environmental Data,
+    package containing all the functions derived from the methods in [Helsel
+    (2011)](https://www.wiley.com/en-us/Statistics+for+Censored+Environmental+Data+Using+Minitab+and+R%2C+2nd+Edition-p-9780470479889).
+-   `r pkg("EnvStats")`: Package for Environmental Statistics, Including US EPA
+    Guidance, graphical and statistical analyses of environmental data, with
+    focus on analyzing chemical concentrations and physical parameters, usually
+    in the context of mandated environmental monitoring. Major environmental
+    statistical methods found in the literature and regulatory guidance
+    documents, with extensive help that explains what these methods do, how to
+    use them, and where to find them in the literature. Numerous built-in data
+    sets from regulatory guidance documents and environmental statistics
+    literature [(Millard
+    2013)](https://link.springer.com/book/10.1007/978-1-4614-8456-1).
+-   `r pkg("bkmr")`: Implements Bayesian Kernel Machine Regression, a
+	statistical approach for estimating the joint health effects of multiple
+	concurrent exposures, as described in Bobb *et al.*
+	[(2015)](https://academic.oup.com/biostatistics/article/16/3/493/269719)
+-   `r pkg("mediation")`: Implements parametric and non parametric mediation
+    analysis as discussed in Imai *et al.*
+    [(2010)](http://dx.doi.org/10.1214/10-sts321).
+-   `r pkg("mma")`: Implements multiple mediation analysis as described in Yu
+	*et al.*  [(2017)](https://doi.org/10.1016%2Fj.sste.2017.02.001).
+-   `r pkg("HIMA")`: Allows to estimate and test high-dimensional mediation
+    effects based on advanced mediator screening and penalized regression
+    techniques ([Zhang *et al.*
+    2021])(https://doi.org/10.1093%2Fbioinformatics%2Fbtab564).
+
+
 
 
 
