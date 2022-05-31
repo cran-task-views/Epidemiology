@@ -272,6 +272,11 @@ task views.
     disease types. EpiModel features an API for extending these templates to
     address novel scientific research aims. Full methods for EpiModel are
     detailed in [Jenness et al. (2018)](https://doi.org/10.18637/jss.v084.i08).
+-   `r pkg("SCCS")`: Self-controlled case series models used to investigate
+    associations between time-varying exposures such as vaccines or other drugs
+    or non drug exposures and an adverse event can be fitted. Detailed
+    information on the self-controlled case series method and its extensions
+    with more examples at <https://sccs-studies.info>.
 -   `r pkg("odin")`: Provides a generic, fast and computer-efficient platform
     for implementing any deterministic or stochastic compartmental models
     (e.g. SIR, SEIR, SIRS, ...), and can include age stratification or
@@ -341,13 +346,24 @@ task views.
     (2014)](https://doi.org/10.1093%2Fmolbev%2Fmsu121), [Didelot et al.
     (2017)](https://doi.org/10.1093%2Fmolbev%2Fmsw275).
 
-### Vaccination
 
--   `r pkg("SCCS")`: Self-controlled case series models used to investigate
-    associations between time-varying exposures such as vaccines or other drugs
-    or non drug exposures and an adverse event can be fitted. Detailed
-    information on the self-controlled case series method and its extensions
-    with more examples at <https://sccs-studies.info>.
+
+## Environmental epidemiology
+
+Environmental epidemiology is dedicated to the study of physical, chemical, and
+biologic agents in the environment acting as determinants of disease. The aims
+of environmental epidemiology are to infer causality, to identify environmental
+causes of disease, such as from air and water pollutants, dietary contaminants,
+built environments, and others (Bloom et al., 2018).
+
+Exposure to pollutants are commonly measured with devices that have a minimal
+threshold under which the exposure of interest cannot be measured and
+differentiated from zero, this limit is called the limit of detection
+(LOD). Many methods have been developed to take into account this left side
+censorship and are useful to pre-process environmental exposure data (eg. to
+impute values below the LOD) and to compute left censored statistics.
+
+
 
 ## Helpers
 
@@ -516,6 +532,12 @@ COVID-19 section.
     information (using acknowledged sources) related to COVID-19 pandemic. This
     package provides an R-specific interface to the OxCOVID19 Database based on
     widely-used data handling and manipulation approaches in R.
+
+### Other data packages
+
+-   `r pkg("nhanesA")`: provides ready access to the National Health and
+    Nutrition Examination Survey (NHANES) data tables.
+
 
 ## Links
 
