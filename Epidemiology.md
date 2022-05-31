@@ -573,7 +573,7 @@ COVID-19 section.
     outbreak analytics resources.
 
 -   [*Epiverse*](https://data.org/initiatives/epiverse/), an initiative created
-    by [data.org](data.org) for the development of open-source resources for
+    by [data.org](https://data.org) for the development of open-source resources for
     epidemic preparedness and
     response. [*Epiverse-TRACE*](https://github.com/epiverse-trace) is dedicated
     to creating an ecosystem of R packages for outbreak analytics.
