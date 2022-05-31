@@ -272,21 +272,13 @@ task views.
     disease types. EpiModel features an API for extending these templates to
     address novel scientific research aims. Full methods for EpiModel are
     detailed in [Jenness et al. (2018)](https://doi.org/10.18637/jss.v084.i08).
--   `r pkg("odin")`: Generate systems of ordinary differential equations (ODE)
-    and integrate them, using a domain specific language (DSL). The DSL uses R's
-    syntax, but compiles to C in order to efficiently solve the system. A solver
-    is not provided, but instead interfaces to the packages `r pkg("deSolve")`
-    and `r pkg("dde")` are generated. With these, while solving the differential
-    equations, no allocations are done and the calculations remain entirely in
-    compiled code. Alternatively, a model can be transpiled to R for use in
-    contexts where a C compiler is not present. After compilation, models can be
-    inspected to return information about parameters and outputs, or
-    intermediate values after calculations. `r pkg("odin")` is not targeted at
-    any particular domain and is suitable for any system that can be expressed
-    primarily as mathematical expressions. Additional support is provided for
-    working with delays (delay differential equations, DDE), using interpolated
-    functions during interpolation, and for integrating quantities that
-    represent arrays.
+-   `r pkg("odin")`: Provides a generic, fast and computer-efficient platform
+    for implementing any deterministic or stochastic compartmental models
+    (e.g. SIR, SEIR, SIRS, ...), and can include age stratification or
+    spatialisation. It uses a domain specific language (DSL) to specify systems
+    of ordinary differential equations (ODE) and integrate them. The DSL uses
+    R's syntax, but compiles to C in order to efficiently solve the system,
+    using interfaces to the packages `r pkg("deSolve")` and `r pkg("dde")`.
 -   `r pkg("pomp")` Provides a large set of forward simulation algorithms and
     MLE or Bayesian inference techniques to work with state-space models. Models
     may be specified as either deterministic or stochastic and typically follow
@@ -311,20 +303,17 @@ task views.
     births, deaths and movements as scheduled events at predefined time-points.
     Using C code for the numerical solvers and 'OpenMP' (if available) to divide
     work over multiple processors ensures high performance when simulating a
-    sample outcome. One of our design goals was to make the package extendable
-    and enable usage of the numerical solvers from other R extension packages in
-    order to facilitate complex epidemiological research. The package contains
-    template models and can be extended with user-defined models. For more
-    details see the paper by [Widgren, Bauer, Eriksson and Engblom
-    (2019)](https://doi.org/10.18637%2Fjss.v091.i12).
+    sample outcome. The package contains template models and can be extended
+    with user-defined models. For more details see the paper by [Widgren, Bauer,
+    Eriksson and Engblom (2019)](https://doi.org/10.18637%2Fjss.v091.i12).
 -   `r pkg("socialmixr")`: Provides methods for sampling contact matrices from
     diary data for use in infectious disease modelling, as discussed in [Mossong
     et al. (2008)](https://doi.org/10.1371%2Fjournal.pmed.0050074).
 
 ### Transmission tree reconstruction
 
--   `r pkg("adegenet")`: while primarily a population genetics package,
-    `r pkg("adegenet")` also implements seqtrack ([Jombart et al.
+-   `r pkg("adegenet")`: primarily a population genetics package,
+    `r pkg("adegenet")` implements seqtrack ([Jombart et al.
     2011](https://doi.org/10.1038%2Fhdy.2010.78)), a maximum-parsimony approach
     for reconstructing transmission trees using the Edmonds/Chu-Liu algorithm
 -   `r pkg("o2geosocial")` (`r pkg("outbreaker2")` module): Bayesian
@@ -336,11 +325,16 @@ task views.
 -   `r github("xavierdidelot/o2mod.transphylo")` is a module of
     `r pkg("outbreaker2")` which uses the `r pkg("TransPhylo")` model of
     within-host evolution.
--   `r pkg("outbreaker2")`: Bayesian reconstruction of disease outbreaks using
-    epidemiological and genetic information. [Jombart T, Cori A, Didelot X,
-    Cauchemez S, Fraser C and Ferguson N.
-    2014](https://doi.org/10.1371/journal.pcbi.1003457), [Campbell F, Cori A,
-    Ferguson N, Jombart T. 2019](https://doi.org/10.1371/journal.pcbi.1006930).
+-   `r pkg("outbreaker2")`: a modular platform for Bayesian reconstruction of
+    disease outbreaks using epidemiological and genetic information as
+    introduced in [Jombart T, Cori A, Didelot X, Cauchemez S, Fraser C and
+    Ferguson N.  2014](https://doi.org/10.1371/journal.pcbi.1003457), [Campbell
+    F, Cori A, Ferguson N, Jombart
+    T. 2019](https://doi.org/10.1371/journal.pcbi.1006930). Different modules
+    can be used for different types of data (timing of epidemiological events,
+    pathogen genomes, contact between patients, locations). A fully documented
+    API facilitates writing new modules and extensions, where custom
+    likelihoods, priors, and MCMC can be provided as R or C++ code.
 -   `r pkg("TransPhylo")`: Inference of transmission tree from a dated
     phylogeny. Includes methods to simulate and analyse outbreaks. The
     methodology is described in [Didelot et al.
