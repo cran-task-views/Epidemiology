@@ -568,7 +568,7 @@ COVID-19 section.
 
 ## Links
 
--   R Epidemics Consortium (RECON), non-profit organisation developing
+-   The R Epidemics Consortium (RECON), non-profit organisation developing
     outbreak analytics tools:
     <https://www.repidemicsconsortium.org/projects/>
 
@@ -577,3 +577,5 @@ COVID-19 section.
     epidemic preparedness and
     response. [*Epiverse-TRACE*](https://github.com/epiverse-trace) is dedicated
     to creating an ecosystem of R packages for outbreak analytics.
+
+-  The R [handbook](https://epirhandbook.com/en/) for field epidemiology.
