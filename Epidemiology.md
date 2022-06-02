@@ -110,6 +110,11 @@ task views.
 
 ### Epidemics surveillance
 
+Packages below implement surveillance algorithms, but these approaches can be
+usefully complemented by spatial analyses. We recommend looking at the `r view("Spatial")`
+task view, which has a dedicated section on [disease
+mapping](https://cran.r-project.org/web/views/Spatial.html#disease-mapping-and-areal-data-analysis).
+
 -   `r pkg("argo")`: Augmented Regression with General Online data (ARGO) for
     accurate estimation of influenza epidemics in United States on both national
     level and regional level. It replicates the method introduced in paper
