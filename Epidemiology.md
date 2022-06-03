@@ -14,7 +14,7 @@ Achim Zeileis
 ## Overview
 
 R is increasingly becoming a standard in epidemiology, providing a wide array of
-tools from study design to epidemiological data exploration, modelling,
+tools from study design to epidemiological data exploration, modeling,
 forecasting and simulation. This task view provides an overview of packages
 specifically developed for epidemiology, including infectious disease
 epidemiology (IDE) and environmental epidemiology. It does not include:
@@ -26,10 +26,10 @@ for the epidemiological context
 
 Packages are grouped in the following categories:
 
-1.  **Data visualisation:** tools dedicated to handling and
-    visualisation of epidemiological data, *e.g.* epidemic curves ('*epicurves*'),
+1.  **Data visualization:** tools dedicated to handling and
+    visualization of epidemiological data, *e.g.* epidemic curves ('*epicurves*'),
     exploration of contact tracing networks, etc.
-2.  **Infectious disease modelling:** IDE-specific packages for the analysis of
+2.  **Infectious disease modeling:** IDE-specific packages for the analysis of
     epidemic curves (including outbreak detection / surveillance), estimation of
     transmissibility, short-term forecasting, compartmental models (*e.g.*  SIR
     models), simulation of outbreaks, and reconstruction of transmission trees
@@ -51,7 +51,7 @@ expert epidemiologists as well as an automated CRAN search using
 selection to satisfy the conditions described in the previous paragraph.
 
 Packages are deemed in scope if they provide tools, or data, explicitly targeted
-at reporting, modelling, or forecasting infectious diseases.
+at reporting, modeling, or forecasting infectious diseases.
 
 **Your input is welcome!** Please suggest packages we may have missed by posting
 an issue at:
@@ -59,9 +59,9 @@ an issue at:
 https://github.com/bisaloo/Epidemiology
 
 
-## Data visualisation
+## Data visualization
 
-This section includes packages providing specific tools for the visualisation
+This section includes packages providing specific tools for the visualization
 and exploration of epidemiological data.
 
 -   `r pkg("epicontacts", priority = "core")`: Implements a dedicated class for
@@ -70,7 +70,7 @@ and exploration of epidemiological data.
     characterizing contact patterns (*e.g.* mixing patterns, serial
     intervals). [RECON](https://www.repidemicsconsortium.org/) package.
 -   `r pkg("EpiContactTrace")`: Routines for epidemiological contact tracing and
-    visualisation of networks of contacts.
+    visualization of networks of contacts.
 -   `r pkg("EpiCurve")`: Creates simple or stacked epidemic curves for hourly,
     daily, weekly or monthly outcome data.
 -   `r pkg("epiDisplay")`: Package for data exploration and result presentation.
@@ -101,10 +101,10 @@ and exploration of epidemiological data.
     package.
 	
 	
-## Infectious disease modelling
+## Infectious disease modeling
 
-This section includes packages for specifically dedicated to IDE modelling. Note
-that R offers a wealth of options for general-purpose time series modelling,
+This section includes packages for specifically dedicated to IDE modeling. Note
+that R offers a wealth of options for general-purpose time series modeling,
 many of which are listed in the `r view("TimeSeries")` and `r view("Survival")`
 task views.
 
@@ -126,7 +126,7 @@ mapping](https://cran.r-project.org/web/views/Spatial.html#disease-mapping-and-a
     follow-up data, in particular representation, manipulation and simulation of
     multistate data - the Lexis suite of functions, which includes interfaces to
     `r pkg("mstate")`, `r pkg("etm")` and `r pkg("cmprsk")` packages. Also
-    contains functions for Age-Period-Cohort and Lee-Carter modelling, interval
+    contains functions for Age-Period-Cohort and Lee-Carter modeling, interval
     censored data, tabulation, plotting, as well as a number of epidemiological
     data sets.
 -   `r pkg("episensr")`: Basic sensitivity analysis of the observed relative
@@ -197,7 +197,7 @@ mapping](https://cran.r-project.org/web/views/Spatial.html#disease-mapping-and-a
     **E**pidemmics (ASMODEE), an algorithm originally designed for detecting
     changes in COVID-19 case
     incidence. [RECON](https://www.repidemicsconsortium.org/) package.
--   `r pkg("trending")`: Provides a coherent interface to multiple modelling
+-   `r pkg("trending")`: Provides a coherent interface to multiple modeling
     tools for fitting trends along with a standardized approach for generating
     confidence and prediction
     intervals. [RECON](https://www.repidemicsconsortium.org/) package.
@@ -279,15 +279,10 @@ mapping](https://cran.r-project.org/web/views/Spatial.html#disease-mapping-and-a
     extending these templates to address novel scientific research aims. Full
     methods for EpiModel are detailed in [Jenness et
     al. (2018)](https://doi.org/10.18637/jss.v084.i08).
--   `r pkg("SCCS")`: Self-controlled case series models used to investigate
-    associations between time-varying exposures such as vaccines or other drugs
-    or non drug exposures and an adverse event can be fitted. Detailed
-    information on the self-controlled case series method and its extensions
-    with more examples at <https://sccs-studies.info>.
 -   `r pkg("odin")`: Provides a generic, fast and computer-efficient platform
     for implementing any deterministic or stochastic compartmental models
     (e.g. SIR, SEIR, SIRS, ...), and can include age stratification or
-    spatialisation. It uses a domain specific language (DSL) to specify systems
+    spatialization. It uses a domain specific language (DSL) to specify systems
     of ordinary differential equations (ODE) and integrate them. The DSL uses
     R's syntax, but compiles to C in order to efficiently solve the system,
     using interfaces to the packages `r pkg("deSolve")` and `r pkg("dde")`.
@@ -320,7 +315,7 @@ mapping](https://cran.r-project.org/web/views/Spatial.html#disease-mapping-and-a
     with user-defined models. For more details see the paper by [Widgren, Bauer,
     Eriksson and Engblom (2019)](https://doi.org/10.18637%2Fjss.v091.i12).
 -   `r pkg("socialmixr")`: Provides methods for sampling contact matrices from
-    diary data for use in infectious disease modelling, as discussed in [Mossong
+    diary data for use in infectious disease modeling, as discussed in [Mossong
     et al. (2008)](https://doi.org/10.1371%2Fjournal.pmed.0050074).
 
 ### Transmission tree reconstruction
@@ -361,7 +356,7 @@ causes of disease, such as from air and water pollutants, dietary contaminants,
 built environments, and others.
 
 R packages dedicated to environmental epidemiology include tools dealing with
-limits of detection of pollutants (left-censoring issues), and various modelling
+limits of detection of pollutants (left-censoring issues), and various modeling
 approaches to account for multiple correlations between exposures and infer
 causality.
 
@@ -424,12 +419,12 @@ tables, etc).
     cross-sectional, case-control and cohort studies. Surveillance tools include
     functions to calculate an appropriate sample size for 1- and 2-stage
     representative freedom surveys, functions to estimate surveillance system
-    sensitivity and functions to support scenario tree modelling analyses.
+    sensitivity and functions to support scenario tree modeling analyses.
 -   `r pkg("epitools", priority = "core")`: Tools for training and practicing
     epidemiologists including methods for two-way and multi-way contingency
     tables.
 -   `r pkg("epitrix")`: A collection of small functions useful for epidemics
-    analysis and infectious disease modelling. This includes computation of
+    analysis and infectious disease modeling. This includes computation of
     basic reproduction numbers (R0) from daily growth rates, generation of
     hashed labels to anonymise data, and fitting discretized Gamma
     distributions.
@@ -493,7 +488,7 @@ COVID-19 section.
     CSSE) data repository](https://github.com/CSSEGISandData/COVID-19). The
     datasets are available in two main modalities, as a time series sequences
     and aggregated for the last day with greater spatial resolution. Several
-    analysis, visualization and modelling functions are available in the package
+    analysis, visualization and modeling functions are available in the package
     that will allow the user to compute and visualize total number of cases,
     total number of changes and growth rate globally or for an specific
     geographical location, while at the same time generating models using these
@@ -549,18 +544,11 @@ COVID-19 section.
     ratio of each assay. The mutation ratio is conducive to evaluating the
     coverage of RT-PCR assays in large-sized samples. [Mercatelli, D. and
     Giorgi, F. M. (2020)](https://doi.org/10.20944/preprints202004.0529.v1).
--   `r pkg("oxcgrt")`: The Oxford COVID-19 Government Response Tracker (OxCGRT)
-    tracks and compares worldwide government responses to the COVID-19 pandemic
-    rigorously and consistently. OxCGRT makes available systematic information
-    in a consistent way, aiding those who require information have access to it
-    efficiently for their purposes. This package facilitates access to the
-    OxCGRT data via its API <https://covidtracker.bsg.ox.ac.uk/> and includes
-    functions to calculate the various OxCGRT indices in R.
 -   `r github("como-ph/oxcovid19")`: The [OxCOVID19
     Project](https://covid19.eng.ox.ac.uk) aims to increase our understanding of
     the COVID-19 pandemic and elaborate possible strategies to reduce the impact
     on the society through the combined power of statistical, mathematical
-    modelling, and machine learning techniques. The OxCOVID19 Database is a
+    modeling, and machine learning techniques. The OxCOVID19 Database is a
     large, single-centre, multimodal relational database consisting of
     information (using acknowledged sources) related to COVID-19 pandemic. This
     package provides an R-specific interface to the OxCOVID19 Database based on
@@ -575,7 +563,7 @@ COVID-19 section.
 ## Links
 
 -   The R Epidemics Consortium ([RECON](https://www.repidemicsconsortium.org)),
-    a non-profit organisation dedicated to the development of free, open-source
+    a non-profit organization dedicated to the development of free, open-source
     outbreak analytics resources.
 
 -   [*Epiverse*](https://data.org/initiatives/epiverse/), an initiative created
