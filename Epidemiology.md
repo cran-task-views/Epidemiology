@@ -35,7 +35,9 @@ Packages are grouped in the following categories:
     models), simulation of outbreaks, and reconstruction of transmission trees
 3.  **Environmental epidemiology:** tools dedicated to the study of
     environmental factors acting as determinants of diseases
-3.  **Helpers**: tools implementing miscellaneous tasks useful in epidemioliogy
+3.  **Helpers**: tools implementing miscellaneous tasks useful for practicing as
+    well as teaching epidemiology, such as sample size calculation, fitting
+    discretized Gamma distributions, or handling linelist data.
 4.  **Data packages**: these packages provide access to both empirical and
     simulated epidemic data; includes a specific section on COVID-19.
 
