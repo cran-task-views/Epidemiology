@@ -3,26 +3,27 @@ name: Epidemiology
 topic: Epidemiology
 maintainer: Thibaut Jombart, Matthieu Rolland, Hugo Gruson
 email: thibautjombart@gmail.com
-version: 2022-05-30
+version: 2022-06-08
+source: https://github.com/cran-task-views/Epidemiology/
 ---
 
 Contributors (in alphabetic order): Neale Batra, Solène Cadiou, Christopher
 Endres, Rich FitzJohn, Hugo Gruson, Andreas Handel, Michael Höhle, Thibaut
 Jombart, Joseph Larmarange, Sebastian Lequime, Alex Spina, Tim Taylor, Sean Wu,
-Achim Zeileis
+Achim Zeileis.
 
 ## Overview
 
 R is increasingly becoming a standard in epidemiology, providing a wide array of
 tools from study design to epidemiological data exploration, modeling,
-forecasting and simulation. This task view provides an overview of packages
+forecasting, and simulation. This task view provides an overview of packages
 specifically developed for epidemiology, including infectious disease
 epidemiology (IDE) and environmental epidemiology. It does not include:
 
-* generic tools which are used in these domains but not specifically developed
-for the epidemiological context
-* '*omics*' approaches and genome-wide association studies (GWAS), which can be
-  used in epidemiology but form a largely separate domain 
+- generic tools which are used in these domains but not specifically developed
+  for the epidemiological context,
+- '*omics*' approaches and genome-wide association studies (GWAS), which can be
+  used in epidemiology but form a largely separate domain.
 
 Packages are grouped in the following categories:
 
@@ -35,10 +36,10 @@ Packages are grouped in the following categories:
     models), simulation of outbreaks, and reconstruction of transmission trees
 3.  **Environmental epidemiology:** tools dedicated to the study of
     environmental factors acting as determinants of diseases
-3.  **Helpers**: tools implementing miscellaneous tasks useful for practicing as
+3.  **Helpers:** tools implementing miscellaneous tasks useful for practicing as
     well as teaching epidemiology, such as sample size calculation, fitting
     discretized Gamma distributions, or handling linelist data.
-4.  **Data packages**: these packages provide access to both empirical and
+4.  **Data packages:** these packages provide access to both empirical and
     simulated epidemic data; includes a specific section on COVID-19.
 
 Additional links to non specific but highly useful packages (to create tables,
@@ -49,16 +50,14 @@ manipulate dates, etc.) are provided in the task view's footnotes.
 Packages included in this task view were identified through recommendations of
 expert epidemiologists as well as an automated CRAN search using
 `pkgsearch::pkg_search()` with the keywords: *epidemiology*, *epidemic*, *epi*,
-*outbreak* and *transmission*. The list was manually curated for the final
+*outbreak*, and *transmission*. The list was manually curated for the final
 selection to satisfy the conditions described in the previous paragraph.
 
 Packages are deemed in scope if they provide tools, or data, explicitly targeted
 at reporting, modeling, or forecasting infectious diseases.
 
-**Your input is welcome!** Please suggest packages we may have missed by posting
-an issue at:
-
-https://github.com/bisaloo/Epidemiology
+**Your input is welcome!** Please suggest packages we may have missed by 
+filing an issue in the GitHub repository or by contacting the maintainer.
 
 
 ## Data visualization
@@ -77,7 +76,7 @@ and exploration of epidemiological data.
     daily, weekly or monthly outcome data.
 -   `r pkg("epiDisplay")`: Package for data exploration and result presentation.
 -   `r pkg("epiflows")`: Provides functions and classes designed to handle and
-    visualise epidemiological flows of people between locations. Also contains a
+    visualize epidemiological flows of people between locations. Also contains a
     statistical method for predicting disease spread from flow data initially
     described in [Dorigatti et al.
     (2017)](https://doi.org/10.2807%2F1560-7917.ES.2017.22.28.30572). [RECON](https://www.repidemicsconsortium.org/)
@@ -85,14 +84,14 @@ and exploration of epidemiological data.
 -   `r pkg("EpiReport")`: Drafting an epidemiological report in 'Microsoft Word'
     format for a given disease, similar to the Annual Epidemiological Reports
     published by the European Centre for Disease Prevention and Control.
--   `r pkg("incidence")`: Functions and classes to compute, handle and visualise
+-   `r pkg("incidence")`: Functions and classes to compute, handle and visualize
     incidence from dated events for a defined time interval, using various date
     formats. Also provides wrappers for log-linear models of incidence and
     estimation of daily growth
     rate. [RECON](https://www.repidemicsconsortium.org/) package. This package
     is scheduled for deprecation and is replaced by `r pkg("incidence2")`.
 -   `r pkg("incidence2", priority = "core")`: Provides functions and classes to
-    compute, handle and visualise incidence from dated events. Improves the
+    compute, handle and visualize incidence from dated events. Improves the
     original `r pkg("incidence")` package in many ways: full flexibility in time
     intervals used, allows multiple stratifications, and is fully compatible
     with `r pkg("dplyr")` and other tidyverse tools.
@@ -114,8 +113,8 @@ task views.
 
 Packages below implement surveillance algorithms, but these approaches can be
 usefully complemented by spatial analyses. We recommend looking at the `r view("Spatial")`
-task view, which has a dedicated section on [disease
-mapping](https://cran.r-project.org/web/views/Spatial.html#disease-mapping-and-areal-data-analysis).
+task view, which has a dedicated section on
+[disease mapping](Spatial.html#disease-mapping-and-areal-data-analysis).
 
 -   `r pkg("argo")`: Augmented Regression with General Online data (ARGO) for
     accurate estimation of influenza epidemics in United States on both national
@@ -134,7 +133,7 @@ mapping](https://cran.r-project.org/web/views/Spatial.html#disease-mapping-and-a
 -   `r pkg("episensr")`: Basic sensitivity analysis of the observed relative
     risks adjusting for unmeasured confounding and misclassification of the
     exposure/outcome, or both. It follows the bias analysis methods and examples
-    from the book by Lash T.L, Fox M.P, and Fink A.K. "Applying Quantitative
+    from the book by Lash T.L., Fox M.P., and Fink A.K. "Applying Quantitative
     Bias Analysis to Epidemiologic Data", ('Springer', 2009).
 -   `r pkg("mem")`: The Moving Epidemic Method, created by T Vega and JE Lozano
     ([2012](https://doi.org/10.1111/j.1750-2659.2012.00422.x),
@@ -342,7 +341,7 @@ mapping](https://cran.r-project.org/web/views/Spatial.html#disease-mapping-and-a
     2014](https://doi.org/10.1371/journal.pcbi.1003457), [Campbell F, Cori A,
     Ferguson N, Jombart
 -   `r pkg("TransPhylo")`: Inference of transmission tree from a dated
-    phylogeny. Includes methods to simulate and analyse outbreaks. The
+    phylogeny. Includes methods to simulate and analyze outbreaks. The
     methodology is described in [Didelot et al.
     (2014)](https://doi.org/10.1093%2Fmolbev%2Fmsu121), [Didelot et al.
     (2017)](https://doi.org/10.1093%2Fmolbev%2Fmsw275).
@@ -428,7 +427,7 @@ tables, etc).
 -   `r pkg("epitrix")`: A collection of small functions useful for epidemics
     analysis and infectious disease modeling. This includes computation of
     basic reproduction numbers (R0) from daily growth rates, generation of
-    hashed labels to anonymise data, and fitting discretized Gamma
+    hashed labels to anonymize data, and fitting discretized Gamma
     distributions.
 -   `r pkg("linelist")`: Implements the `linelist` class for storing case line
     list data, which extends `data.frame` and `tibble` by adding the ability to
@@ -512,8 +511,8 @@ COVID-19 section.
     Protezione Civile](http://www.protezionecivile.it/).
 -   `r pkg("covid19france")`: Imports and cleans
     <https://github.com/opencovid19-fr/data> data on COVID-19 in France.
--   `r github("nevrome/covid19germany")`: An R package to load, visualise and
-    analyse daily updated data on the COVID-19 outbreak in Germany.
+-   `r github("nevrome/covid19germany")`: An R package to load, visualize and
+    analyze daily updated data on the COVID-19 outbreak in Germany.
 -   `r github("covid19R/covid19mobility")`: Scrapes trends in mobility after the
     Covid-19 outbreak from different sources. Currently, the package scrapes
     data from Google (<https://www.google.com/covid19/mobility/>), Apple
@@ -562,7 +561,7 @@ COVID-19 section.
     Nutrition Examination Survey (NHANES) data tables.
 
 
-## Links
+### Links
 
 -   The R Epidemics Consortium ([RECON](https://www.repidemicsconsortium.org)),
     a non-profit organization dedicated to the development of free, open-source
