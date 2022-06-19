@@ -545,6 +545,21 @@ COVID-19 section.
     ratio of each assay. The mutation ratio is conducive to evaluating the
     coverage of RT-PCR assays in large-sized samples. [Mercatelli, D. and
     Giorgi, F. M. (2020)](https://doi.org/10.20944/preprints202004.0529.v1).
+-   `r pkg("CovidMutations")`: A feasible framework for mutation analysis and
+    reverse transcription polymerase chain reaction (RT-PCR) assay evaluation of
+    COVID-19, including mutation profile visualization, statistics and mutation
+    ratio of each assay. The mutation ratio is conducive to evaluating the
+    coverage of RT-PCR assays in large-sized samples. [Mercatelli, D. and
+    Giorgi, F. M. (2020)](https://doi.org/10.20944/preprints202004.0529.v1).
+-   `r pkg("covidregionaldata")`: An interface to subnational and national level 
+    COVID-19 data sourced from both official sources, such as Public Health
+    England in the UK, and from other COVID-19 data collections, including 
+    the World Health Organisation (WHO), European Centre for Disease Prevention and
+    Control (ECDC), John Hopkins University (JHU), Google Open Data and others. 
+    This package is designed to streamline COVID-19 data extraction, cleaning,
+    and processing from a range of data sources in an open and transparent way. 
+    For all countries supported, data includes a daily time-series of cases and, 
+    wherever available, data on deaths, hospitalisations, and tests. 
 -   `r github("como-ph/oxcovid19")`: The [OxCOVID19
     Project](https://covid19.eng.ox.ac.uk) aims to increase our understanding of
     the COVID-19 pandemic and elaborate possible strategies to reduce the impact
