@@ -551,7 +551,7 @@ COVID-19 section.
     ratio of each assay. The mutation ratio is conducive to evaluating the
     coverage of RT-PCR assays in large-sized samples. [Mercatelli, D. and
     Giorgi, F. M. (2020)](https://doi.org/10.20944/preprints202004.0529.v1).
--   `r pkg("covidregionaldata")`: An interface to subnational and national level 
+-   `r github("epiforecasts/covidregionaldata")`: An interface to subnational and national level 
     COVID-19 data sourced from both official sources, such as Public Health
     England in the UK, and from other COVID-19 data collections, including 
     the World Health Organisation (WHO), European Centre for Disease Prevention and
