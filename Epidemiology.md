@@ -442,6 +442,10 @@ tables, etc).
     analysis. This package also includes a set of functions to calculate power
     and sample size for testing main effects in the survival analysis of
     randomized clinical trials.
+-   `r pkg("AMR")`: Functions to simplify and standardise antimicrobial 
+    resistance (AMR) data analysis and to work with microbial and antimicrobial
+    properties by using evidence-based methods and reliable reference data such 
+    as LPSN ([Parte *et al.* 2020](https://doi.org/10.1099/ijsem.0.004332)).
 
 ## Data
 
