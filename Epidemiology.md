@@ -233,8 +233,8 @@ task view, which has a dedicated section on
 -   `r github("epiforecasts/EpiNow2")`: Provides tools for estimating the
     time-varying reproduction number, rate of spread, and doubling time of
     epidemics while accounting for various delays using the approach introducted
-    in ([Abbott et al.](https://doi.org/10.12688/wellcomeopenres.16006.1)), and
-    ([Gostic et al.](https://doi.org/10.1371/journal.pcbi.1008409)).
+    in [Abbott et al. (2020)](https://doi.org/10.12688/wellcomeopenres.16006.1),
+    and [Gostic et al. (2020)](https://doi.org/10.1371/journal.pcbi.1008409).
 -   `r pkg("nbTransmission")`: Estimates the relative transmission probabilities
     between cases using naive Bayes as introduced in [Leavitt et
     al. (2020)](https://doi.org/10.1093%2Fije%2Fdyaa031). Includes various
