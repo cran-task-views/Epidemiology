@@ -241,6 +241,11 @@ task view, which has a dedicated section on
     functions to estimate transmission parameters such as the generation/serial
     interval and reproductive number as well as finding the contribution of
     covariates to transmission probabilities and visualizing results.
+-   `r pkg("R0", priority = "core")`: Estimation of reproduction numbers for
+    disease outbreak, based on incidence data including the basic reproduction
+    number (R0) and the instantaneous reproduction number (R(t)), alongside
+    corresponding 95% Confidence Interval. Also includes routines for plotting
+    outputs and for performing sensitivity analyses.
 -   `r pkg("tsiR")`: The TSIR modeling framework allows users to fit the time
     series SIR model to cumulative case data, which uses a regression equation
     to estimate transmission parameters based on differences in cumulative cases
