@@ -3,7 +3,7 @@ name: Epidemiology
 topic: Epidemiology
 maintainer: Thibaut Jombart, Matthieu Rolland, Hugo Gruson
 email: thibautjombart@gmail.com
-version: 2022-06-08
+version: 2022-10-03
 source: https://github.com/cran-task-views/Epidemiology/
 ---
 
