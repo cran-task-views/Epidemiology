@@ -337,9 +337,9 @@ task view, which has a dedicated section on
 -   `r pkg("outbreaker2", priority = "core")`: a modular platform for Bayesian
     reconstruction of disease outbreaks using epidemiological and genetic
     information as introduced in [Jombart T, Cori A, Didelot X, Cauchemez S,
-    Fraser C and Ferguson N.
-    2014](https://doi.org/10.1371/journal.pcbi.1003457), [Campbell F, Cori A,
-    Ferguson N, Jombart
+    Fraser C and Ferguson N
+    (2014)](https://doi.org/10.1371/journal.pcbi.1003457), [Campbell F, Cori A,
+    Ferguson N, Jombart T (2019)](https://doi.org/10.1371/journal.pcbi.1006930).
 -   `r pkg("TransPhylo")`: Inference of transmission tree from a dated
     phylogeny. Includes methods to simulate and analyze outbreaks. The
     methodology is described in [Didelot et al.
