@@ -387,7 +387,7 @@ causality.
 -   `r pkg("HIMA")`: Allows to estimate and test high-dimensional mediation
     effects based on advanced mediator screening and penalized regression
     techniques ([Zhang *et al.*
-    2021])(https://doi.org/10.1093%2Fbioinformatics%2Fbtab564).
+    2021](https://doi.org/10.1093%2Fbioinformatics%2Fbtab564)).
 
 
 
