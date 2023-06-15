@@ -92,8 +92,8 @@ and exploration of epidemiological data.
 - `r pkg("incidence2", priority = "core")`: Provides functions and classes to
   compute, handle and visualize incidence from dated events. Improves the
   original `r pkg("incidence")` package in many ways: full flexibility in time
-  intervals used, allows multiple stratifications, and is fully compatible
-  with `r pkg("dplyr")` and other tidyverse tools.
+  intervals used, allows multiple stratifications, and is fully compatible with
+  [dplyr](https://cran.r-project.org/packages=dplyr) and other tidyverse tools.
   [RECON](https://www.repidemicsconsortium.org/) package.
 - `r pkg("i2extras")`: Provides functions to work with 'incidence2' objects,
   including a simplified interface for trend fitting, estimation of growth
