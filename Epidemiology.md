@@ -269,6 +269,15 @@ task view, which has a dedicated section on
   using GLMs and profile likelihood techniques, as well as forward simulation
   based on a fitted model, as described in [Becker and Grenfell
   (2017)](https://doi.org/10.1371/journal.pone.0185528).
+- `r pkg("Bernadette")`: Implements the Bayesian evidence synthesis approach
+  described in [Bouranis et al (2022)](https://arxiv.org/abs/2211.15229) to 
+  modeling the age-specific transmission dynamics of COVID-19 based on daily 
+  mortality counts. The functionality of `r pkg("Bernadette")` can be used to
+  reconstruct the epidemic drivers from publicly available data, to estimate key
+  epidemiological quantities like the time-varying rate of disease transmission,
+  the latent counts of infections and the reproduction number for a given 
+  population over time, and to perform model comparison using information 
+  criteria.
 
 ### Compartmental models
 
