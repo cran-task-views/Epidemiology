@@ -404,7 +404,7 @@ causality.
   [(2015)](https://academic.oup.com/biostatistics/article/16/3/493/269719)
 - `r pkg("mediation", priority = "core")`: Implements parametric and non
   parametric mediation analysis as discussed in Imai *et al.*
-  (2010)](http://dx.doi.org/10.1214/10-sts321).
+  (2010)](https://doi.org/10.1214/10-sts321).
 - `r pkg("mma")`: Implements multiple mediation analysis as described in Yu
   *et al.*  [(2017)](https://doi.org/10.1016%2Fj.sste.2017.02.001).
 - `r pkg("HIMA")`: Allows to estimate and test high-dimensional mediation
@@ -537,7 +537,7 @@ COVID-19 section.
 - `r pkg("covid19italy")`: Provides a daily summary of the Coronavirus
   (COVID-19) cases in Italy by country, region and province level. Data
   source: [Presidenza del Consiglio dei Ministri - Dipartimento della
-  Protezione Civile](http://www.protezionecivile.it/).
+  Protezione Civile](https://www.protezionecivile.it/).
 - `r pkg("covid19france")`: Imports and cleans
   <https://github.com/opencovid19-fr/data> data on COVID-19 in France.
 - `r github("nevrome/covid19germany")`: An R package to load, visualize and
