@@ -337,6 +337,10 @@ task view, which has a dedicated section on
 - `r pkg("socialmixr")`: Provides methods for sampling contact matrices from
   diary data for use in infectious disease modeling, as discussed in [Mossong
   et al. (2008)](https://doi.org/10.1371%2Fjournal.pmed.0050074).
+- `r pkg("finalsize")`: Calculate the final size of a 
+  susceptible-infectious-recovered epidemic in a population with demographic
+  variation in contact patterns and susceptibility to disease, as discussed in 
+  [Miller (2012)](https://doi.org/10.1007/s11538-012-9749-6).
 
 ### Transmission tree reconstruction
 
