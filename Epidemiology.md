@@ -616,4 +616,4 @@ COVID-19 section.
   response. [*Epiverse-TRACE*](https://github.com/epiverse-trace) is dedicated
   to creating an ecosystem of R packages for outbreak analytics.
 
-- The R [handbook](https://epirhandbook.com/en/) for field epidemiology.
+- [The Epidemiologist R Handbook](https://epirhandbook.com/en/).
