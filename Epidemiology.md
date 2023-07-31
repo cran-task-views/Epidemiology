@@ -200,6 +200,16 @@ task view, which has a dedicated section on
   tools for fitting trends along with a standardized approach for generating
   confidence and prediction
   intervals. [RECON](https://www.repidemicsconsortium.org/) package.
+- `r pkg("coarseDataTools")`: Functions to analyze coarse data. Specifically, it
+  contains functions to (1) fit parametric accelerated failure time models
+  to interval-censored survival time data, and (2) estimate the case-fatality
+  ratio in scenarios with under-reporting. This package's development was
+  motivated by applications to infectious disease: in particular, problems with
+  estimating the incubation period and the case fatality ratio of a given
+  disease. Sample data files are included in the package. See 
+  [Reich et al. (2009)](https://doi.org/10.1002/sim.3659), 
+  [Reich et al. (2012)](https://doi.org/10.1111/j.1541-0420.2011.01709.x), and
+  [Lessler et al. (2009)](https://doi.org/10.1016/S1473-3099(09)70069-6).
 
 ### Estimation of transmissibility
 
