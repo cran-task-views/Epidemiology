@@ -246,7 +246,7 @@ task view, which has a dedicated section on
 - `r pkg("epinet")`: A collection of epidemic/network-related tools. Simulates
   transmission of diseases through contact networks. Performs Bayesian
   inference on network and epidemic parameters, given epidemic data.
-- `r github("epiforecasts/EpiNow2")`: Provides tools for estimating the
+- `r pkg("EpiNow2", priority = "core")`: Provides tools for estimating the
   time-varying reproduction number, rate of spread, and doubling time of
   epidemics while accounting for various delays using the approach introducted
   in [Abbott et al. (2020)](https://doi.org/10.12688/wellcomeopenres.16006.1),
