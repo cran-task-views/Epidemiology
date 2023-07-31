@@ -114,13 +114,13 @@ task view, which has a dedicated section on
   [Yang, S., Santillana, M. and Kou, S.C.
   (2015)](https://doi.org/10.1073/pnas.1515373112) and [Ning, S., Yang, S. and
   Kou, S.C. (2019)](https://doi.org/10.1038/s41598-019-41559-6).
-- `r pkg("epitweetr")`: Early Detection of Public Health Threats from 'Twitter' 
-  Data. This package allows you to automatically monitor trends of tweets by 
-  time, place and topic aiming at detecting public health threats early through 
-  the detection of signals (e.g. an unusual increase in the number of tweets). 
+- `r pkg("epitweetr")`: Early Detection of Public Health Threats from 'Twitter'
+  Data. This package allows you to automatically monitor trends of tweets by
+  time, place and topic aiming at detecting public health threats early through
+  the detection of signals (e.g. an unusual increase in the number of tweets).
   It was designed to focus on infectious diseases, and it can be extended to all
-  hazards or other fields of study by modifying the topics and keywords. More 
-  information is available in the ['epitweetr' peer-review 
+  hazards or other fields of study by modifying the topics and keywords. More
+  information is available in the ['epitweetr' peer-review
   publication](https://doi.org/10.2807/1560-7917.ES.2022.27.39.2200177).
 - `r pkg("Epi", priority = "core")`: Functions for demographic and
   epidemiological analysis in the Lexis diagram, i.e. register and cohort
@@ -208,8 +208,8 @@ task view, which has a dedicated section on
   ratio in scenarios with under-reporting. This package's development was
   motivated by applications to infectious disease: in particular, problems with
   estimating the incubation period and the case fatality ratio of a given
-  disease. Sample data files are included in the package. See 
-  [Reich et al. (2009)](https://doi.org/10.1002/sim.3659), 
+  disease. Sample data files are included in the package. See
+  [Reich et al. (2009)](https://doi.org/10.1002/sim.3659),
   [Reich et al. (2012)](https://doi.org/10.1111/j.1541-0420.2011.01709.x), and
   [Lessler et al. (2009)](https://doi.org/10.1016/S1473-3099(09)70069-6).
 
@@ -264,13 +264,13 @@ task view, which has a dedicated section on
   based on a fitted model, as described in [Becker and Grenfell
   (2017)](https://doi.org/10.1371/journal.pone.0185528).
 - `r pkg("Bernadette")`: Implements the Bayesian evidence synthesis approach
-  described in [Bouranis et al (2022)](https://arxiv.org/abs/2211.15229) to 
-  modeling the age-specific transmission dynamics of COVID-19 based on daily 
+  described in [Bouranis et al (2022)](https://arxiv.org/abs/2211.15229) to
+  modeling the age-specific transmission dynamics of COVID-19 based on daily
   mortality counts. The functionality of `r pkg("Bernadette")` can be used to
   reconstruct the epidemic drivers from publicly available data, to estimate key
   epidemiological quantities like the time-varying rate of disease transmission,
-  the latent counts of infections and the reproduction number for a given 
-  population over time, and to perform model comparison using information 
+  the latent counts of infections and the reproduction number for a given
+  population over time, and to perform model comparison using information
   criteria.
 
 ### Compartmental models
@@ -337,9 +337,9 @@ task view, which has a dedicated section on
 - `r pkg("socialmixr")`: Provides methods for sampling contact matrices from
   diary data for use in infectious disease modeling, as discussed in [Mossong
   et al. (2008)](https://doi.org/10.1371%2Fjournal.pmed.0050074).
-- `r pkg("finalsize")`: Calculate the final size of a 
+- `r pkg("finalsize")`: Calculate the final size of a
   susceptible-infectious-recovered epidemic in a population with demographic
-  variation in contact patterns and susceptibility to disease, as discussed in 
+  variation in contact patterns and susceptibility to disease, as discussed in
   [Miller (2012)](https://doi.org/10.1007/s11538-012-9749-6).
 
 ### Transmission tree reconstruction
@@ -484,10 +484,10 @@ COVID-19 section.
   demographic or social sciences research.
 - `r pkg("outbreaks", priority = "core")`: Empirical or simulated disease
   outbreak data, provided either as RData or as text files.
-- `r pkg("cholera")`: Amends errors, augments data and aids analysis of 
+- `r pkg("cholera")`: Amends errors, augments data and aids analysis of
   John Snow's map of the 1854 London cholera outbreak.
-- `r pkg("malariaAtlas")`: A suite of tools to allow you to download all 
-  publicly available parasite rate survey points, mosquito occurrence points and 
+- `r pkg("malariaAtlas")`: A suite of tools to allow you to download all
+  publicly available parasite rate survey points, mosquito occurrence points and
   raster surfaces from the ['Malaria Atlas Project'](https://malariaatlas.org/)
   servers as well as utility functions for plotting the downloaded data.
 
