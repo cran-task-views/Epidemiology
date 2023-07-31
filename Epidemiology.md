@@ -394,10 +394,10 @@ causality.
   2013)](https://link.springer.com/book/10.1007/978-1-4614-8456-1).
 - `r pkg("bkmr")`: Implements Bayesian Kernel Machine Regression, a statistical
   approach for estimating the joint health effects of multiple concurrent
-  exposures, as described in Bobb *et al.*
-  [(2015)](https://academic.oup.com/biostatistics/article/16/3/493/269719)
+  exposures, as described in [Bobb *et al.*
+  (2015)](https://academic.oup.com/biostatistics/article/16/3/493/269719)
 - `r pkg("mediation", priority = "core")`: Implements parametric and non
-  parametric mediation analysis as discussed in Imai *et al.*
+  parametric mediation analysis as discussed in [Imai *et al.*
   (2010)](https://doi.org/10.1214/10-sts321).
 - `r pkg("mma")`: Implements multiple mediation analysis as described in Yu
   *et al.*  [(2017)](https://doi.org/10.1016%2Fj.sste.2017.02.001).
