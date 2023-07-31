@@ -480,6 +480,8 @@ COVID-19 section.
   demographic or social sciences research.
 - `r pkg("outbreaks", priority = "core")`: Empirical or simulated disease
   outbreak data, provided either as RData or as text files.
+- `r pkg("cholera")`: Amends errors, augments data and aids analysis of 
+  John Snow's map of the 1854 London cholera outbreak.
 
 ### COVID-19
 
