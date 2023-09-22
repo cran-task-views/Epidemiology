@@ -192,12 +192,6 @@ task view, which has a dedicated section on
   Also contains back-projection methods to infer time series of exposure from
   disease onset and correction of observed time series for reporting delays
   (nowcasting).
-- `r github("reconhub/trendbreaker")` implements tools for detecting changes
-  in temporal trends of a single response variable. It implements the
-  **A**utomatic **S**election of **M**odels and **O**utlier **De**tection for
-  **E**pidemmics (ASMODEE), an algorithm originally designed for detecting
-  changes in COVID-19 case
-  incidence. [RECON](https://www.repidemicsconsortium.org/) package.
 - `r pkg("trending")`: Provides a coherent interface to multiple modeling
   tools for fitting trends along with a standardized approach for generating
   confidence and prediction
@@ -544,8 +538,6 @@ COVID-19 section.
   Protezione Civile](https://www.protezionecivile.it/).
 - `r pkg("covid19france")`: Imports and cleans
   <https://github.com/opencovid19-fr/data> data on COVID-19 in France.
-- `r github("nevrome/covid19germany")`: An R package to load, visualize and
-  analyze daily updated data on the COVID-19 outbreak in Germany.
 - `r github("covid19R/covid19mobility")`: Scrapes trends in mobility after the
   Covid-19 outbreak from different sources. Currently, the package scrapes
   data from Google (<https://www.google.com/covid19/mobility/>), Apple
@@ -593,15 +585,6 @@ COVID-19 section.
   and processing from a range of data sources in an open and transparent way.
   For all countries supported, data includes a daily time-series of cases and,
   wherever available, data on deaths, hospitalisations, and tests.
-- `r github("como-ph/oxcovid19")`: The [OxCOVID19
-  Project](https://covid19.eng.ox.ac.uk) aims to increase our understanding of
-  the COVID-19 pandemic and elaborate possible strategies to reduce the impact
-  on the society through the combined power of statistical, mathematical
-  modeling, and machine learning techniques. The OxCOVID19 Database is a
-  large, single-centre, multimodal relational database consisting of
-  information (using acknowledged sources) related to COVID-19 pandemic. This
-  package provides an R-specific interface to the OxCOVID19 Database based on
-  widely-used data handling and manipulation approaches in R.
 
 ### Other data packages
 
