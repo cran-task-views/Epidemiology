@@ -108,20 +108,6 @@ usefully complemented by spatial analyses. We recommend looking at the `r view("
 task view, which has a dedicated section on
 `r view("Spatial", "disease mapping and areal data analysis")`.
 
-- `r pkg("argo")`: Augmented Regression with General Online data (ARGO) for
-  accurate estimation of influenza epidemics in United States on both national
-  level and regional level. It replicates the method introduced in paper
-  [Yang, S., Santillana, M. and Kou, S.C.
-  (2015)](https://doi.org/10.1073/pnas.1515373112) and [Ning, S., Yang, S. and
-  Kou, S.C. (2019)](https://doi.org/10.1038/s41598-019-41559-6).
-- `r pkg("epitweetr")`: Early Detection of Public Health Threats from 'Twitter'
-  Data. This package allows you to automatically monitor trends of tweets by
-  time, place and topic aiming at detecting public health threats early through
-  the detection of signals (e.g. an unusual increase in the number of tweets).
-  It was designed to focus on infectious diseases, and it can be extended to all
-  hazards or other fields of study by modifying the topics and keywords. More
-  information is available in the ['epitweetr' peer-review
-  publication](https://doi.org/10.2807/1560-7917.ES.2022.27.39.2200177).
 - `r pkg("Epi", priority = "core")`: Functions for demographic and
   epidemiological analysis in the Lexis diagram, i.e. register and cohort
   follow-up data, in particular representation, manipulation and simulation of
@@ -220,6 +206,23 @@ task view, which has a dedicated section on
   within-host viral dynamics, transportation, population structure), alone or
   taken together, to create complex but relatively intuitive epidemiological
   simulations.
+  
+#### Digital Epidemiology
+
+- `r pkg("argo")`: Augmented Regression with General Online data (ARGO) for
+  accurate estimation of influenza epidemics in United States on both national
+  level and regional level. It replicates the method introduced in paper
+  [Yang, S., Santillana, M. and Kou, S.C.
+  (2015)](https://doi.org/10.1073/pnas.1515373112) and [Ning, S., Yang, S. and
+  Kou, S.C. (2019)](https://doi.org/10.1038/s41598-019-41559-6).
+- `r pkg("epitweetr")`: Early Detection of Public Health Threats from 'Twitter'
+  Data. This package allows you to automatically monitor trends of tweets by
+  time, place and topic aiming at detecting public health threats early through
+  the detection of signals (e.g. an unusual increase in the number of tweets).
+  It was designed to focus on infectious diseases, and it can be extended to all
+  hazards or other fields of study by modifying the topics and keywords. More
+  information is available in the ['epitweetr' peer-review
+  publication](https://doi.org/10.2807/1560-7917.ES.2022.27.39.2200177).
 
 ### Estimation of transmissibility
 
