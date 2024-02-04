@@ -184,6 +184,9 @@ task view, which has a dedicated section on
   [Reich et al. (2009)](https://doi.org/10.1002/sim.3659),
   [Reich et al. (2012)](https://doi.org/10.1111/j.1541-0420.2011.01709.x), and
   [Lessler et al. (2009)](https://doi.org/10.1016/S1473-3099(09)70069-6).
+- `r pkg("cfr")`: Estimate the severity of a disease and ascertainment of cases,
+  as discussed in
+  [Nishiura et al. (2009)](https://doi.org/10.1371/journal.pone.0006852).
   
 #### Individual-level data
 
