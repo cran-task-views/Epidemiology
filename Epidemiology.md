@@ -206,6 +206,20 @@ task view, which has a dedicated section on
   [Reich et al. (2009)](https://doi.org/10.1002/sim.3659),
   [Reich et al. (2012)](https://doi.org/10.1111/j.1541-0420.2011.01709.x), and
   [Lessler et al. (2009)](https://doi.org/10.1016/S1473-3099(09)70069-6).
+  
+#### Individual-level data
+
+- `r pkg("modelSSE")`: Comprehensive analytical tools are provided to
+  characterize infectious disease superspreading from contact tracing
+  surveillance data. The underlying theoretical frameworks of this toolkit
+  include branching process with transmission heterogeneity ([Lloyd-Smith et al.
+  (2005)](https://doi.org/10.1038/nature04153), case cluster size distribution
+  ([Nishiura et al. (2012)](https://doi.org/10.1016/j.jtbi.2011.10.039),
+  [Blumberg et al. (2014)](https://doi.org/10.1371/journal.ppat.1004452), and
+  [Kucharski and
+  Althaus (2015)](https://doi.org/10.2807/1560-7917.ES2015.20.25.21167), and
+  decomposition of reproduction number ([Zhao et al.
+  (2022)](https://doi.org/10.1371/journal.pcbi.1010281).
 
 ### Estimation of transmissibility
 
