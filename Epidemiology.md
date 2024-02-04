@@ -154,14 +154,6 @@ task view, which has a dedicated section on
   measure of the performance of the method in terms of sensitivity and
   specificity of the alert week. 'memapp' is a web application created in the
   Shiny framework for the `r pkg("mem")` R package.
-- `r pkg("nosoi")`: The aim of `r pkg("nosoi")` (pronounced no.si) is to
-  provide a flexible agent-based stochastic transmission chain/epidemic
-  simulator ([Lequime et al. 2020](https://doi.org/2020.03.03.973107)). The
-  package can take into account the influence of multiple variables on the
-  transmission process (e.g.  dual-host systems such as arboviruses,
-  within-host viral dynamics, transportation, population structure), alone or
-  taken together, to create complex but relatively intuitive epidemiological
-  simulations.
 - `r pkg("riskCommunicator")`: Estimates flexible epidemiological effect
   measures including both differences and ratios using the parametric
   G-formula developed as an alternative to inverse probability weighting. It
@@ -220,6 +212,14 @@ task view, which has a dedicated section on
   Althaus (2015)](https://doi.org/10.2807/1560-7917.ES2015.20.25.21167), and
   decomposition of reproduction number ([Zhao et al.
   (2022)](https://doi.org/10.1371/journal.pcbi.1010281).
+- `r pkg("nosoi")`: The aim of `r pkg("nosoi")` (pronounced no.si) is to
+  provide a flexible agent-based stochastic transmission chain/epidemic
+  simulator ([Lequime et al. 2020](https://doi.org/2020.03.03.973107)). The
+  package can take into account the influence of multiple variables on the
+  transmission process (e.g.  dual-host systems such as arboviruses,
+  within-host viral dynamics, transportation, population structure), alone or
+  taken together, to create complex but relatively intuitive epidemiological
+  simulations.
 
 ### Estimation of transmissibility
 
