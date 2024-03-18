@@ -2,7 +2,7 @@
 name: Epidemiology
 topic: Epidemiology
 maintainer: Thibaut Jombart, Matthieu Rolland, Hugo Gruson
-email: thibautjombart@gmail.com
+email: hugo.gruson+ctv@normalesup.org
 version: 2024-02-04
 source: https://github.com/cran-task-views/Epidemiology/
 ---
