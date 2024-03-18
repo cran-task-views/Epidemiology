@@ -7,10 +7,10 @@ version: 2024-02-04
 source: https://github.com/cran-task-views/Epidemiology/
 ---
 
-Contributors (in alphabetic order): Neale Batra, Solène Cadiou, Christopher
-Endres, Rich FitzJohn, Hugo Gruson, Andreas Handel, Michael Höhle, Thibaut
-Jombart, Joseph Larmarange, Sebastian Lequime, Alex Spina, Tim Taylor, Sean Wu,
-Achim Zeileis.
+Contributors (in alphabetic order): Neale Batra, Solène Cadiou, Dylan Dijk,
+Christopher Endres, Rich FitzJohn, Hugo Gruson, Andreas Handel, Michael Höhle,
+Thibaut Jombart, Joseph Larmarange, Sebastian Lequime, Alex Spina, Tim Taylor,
+Sean Wu, Achim Zeileis.
 
 ## Overview
 
@@ -120,7 +120,8 @@ task view, which has a dedicated section on
   risks adjusting for unmeasured confounding and misclassification of the
   exposure/outcome, or both. It follows the bias analysis methods and examples
   from the book by Lash T.L., Fox M.P., and Fink A.K. "Applying Quantitative
-  Bias Analysis to Epidemiologic Data", ('Springer', 2009).
+  Bias Analysis to Epidemiologic Data", ('Springer', 2009). This tool is also
+  provided as an API via the `r pkg("apisensr")` package.
 - `r pkg("mem")`: The Moving Epidemic Method, created by T Vega and JE Lozano
   ([2012](https://doi.org/10.1111/j.1750-2659.2012.00422.x),
   [2015](https://doi.org/10.1111/irv.12330)), allows the weekly assessment of
@@ -129,17 +130,8 @@ task view, which has a dedicated section on
   indicators, timing and shape with past epidemics and across different
   regions or countries with different surveillance systems. Also, it gives a
   measure of the performance of the method in terms of sensitivity and
-  specificity of the alert week.
-- `r pkg("memapp")`: The Moving Epidemic Method, created by T Vega and JE
-  Lozano ([2012](https://doi.org/10.1111/j.1750-2659.2012.00422.x),
-  [2015](https://doi.org/10.1111/irv.12330)), allows the weekly assessment of
-  the epidemic and intensity status to help in routine respiratory infections
-  surveillance in health systems. Enables the comparison of different epidemic
-  indicators, timing and shape with past epidemics and across different
-  regions or countries with different surveillance systems. It also gives a
-  measure of the performance of the method in terms of sensitivity and
-  specificity of the alert week. 'memapp' is a web application created in the
-  Shiny framework for the `r pkg("mem")` R package.
+  specificity of the alert week. This tool is also provided as a shiny app with
+  the `r pkg("memapp")` package.
 - `r pkg("riskCommunicator")`: Estimates flexible epidemiological effect
   measures including both differences and ratios using the parametric
   G-formula developed as an alternative to inverse probability weighting. It
@@ -187,7 +179,11 @@ task view, which has a dedicated section on
 - `r pkg("cfr")`: Estimate the severity of a disease and ascertainment of cases,
   as discussed in
   [Nishiura et al. (2009)](https://doi.org/10.1371/journal.pone.0006852).
-  
+- `r pkg("EpiSignalDetection")`: Exploring epidemiological time series for
+  signal detection via methods described in [Salmon et al.
+  (2016)](https://doi.org/10.18637/jss.v070.i10). This package also provides a
+  shiny interface and automated report generation.
+
 #### Individual-level data
 
 - `r pkg("modelSSE")`: Comprehensive analytical tools are provided to
