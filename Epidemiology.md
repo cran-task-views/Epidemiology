@@ -4,7 +4,7 @@ topic: Epidemiology
 maintainer: Thibaut Jombart, Matthieu Rolland, Hugo Gruson
 email: thibautjombart@gmail.com
 version: 2024-02-04
-source: ihttps://github.com/cran-task-views/Epidemiology/
+source: https://github.com/cran-task-views/Epidemiology/
 ---
 
 Contributors (in alphabetic order): Neale Batra, Solène Cadiou, Christopher
