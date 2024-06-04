@@ -89,10 +89,6 @@ and exploration of epidemiological data.
   estimation of daily growth
   rate. [RECON](https://www.repidemicsconsortium.org/) package. This package
   is scheduled for deprecation and is replaced by `r pkg("incidence2")`.
-- `r pkg("i2extras")`: Provides functions to work with 'incidence2' objects,
-  including a simplified interface for trend fitting, estimation of growth
-  rates, and peak estimation. [RECON](https://www.repidemicsconsortium.org/)
-  package.
 
 ## Infectious disease modeling
 
