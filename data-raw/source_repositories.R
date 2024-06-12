@@ -32,4 +32,7 @@ source_from_manual <- tribble(
 anti_join(source_from_desc, source_from_manual, by = "package") |>
   full_join(source_from_manual) |>
   dplyr::arrange(package) |>
+  dplyr::filter(
+    package != "epimdr" # declared repo does not contain source code
+  ) |>
   write.csv("data/source_repositories.csv", row.names = FALSE)

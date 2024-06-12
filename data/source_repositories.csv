@@ -52,7 +52,6 @@
 "epibasix",NA
 "epicontacts","reconhub/epicontacts"
 "epiflows","reconhub/epiflows"
-"epimdr","objornstad/epimdr"
 "epinet",NA
 "episensr","dhaine/episensr"
 "epitools",NA
@@ -60,7 +59,6 @@
 "epitweetr","EU-ECDC/epitweetr"
 "etm","mclements/etm"
 "finalsize","epiverse-trace/finalsize"
-"i2extras","reconverse/i2extras"
 "incidence","reconhub/incidence"
 "incidence2","reconverse/incidence2"
 "linelist","epiverse-trace/linelist"
