@@ -179,6 +179,10 @@ task view, which has a dedicated section on
   signal detection via methods described in [Salmon et al.
   (2016)](https://doi.org/10.18637/jss.v070.i10). This package also provides a
   shiny interface and automated report generation.
+- `r pkg("inctools")`: Tools for estimating incidence from biomarker data in
+  cross-sectional surveys, and for calibrating tests for recent infection.
+  Implements and extends the method of
+  [Kassanjee et al. (2012)](https://doi.org/10.1097/EDE.0b013e3182576c07).
 
 #### Individual-level data
 
