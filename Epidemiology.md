@@ -475,6 +475,10 @@ tables, etc).
   resistance (AMR) data analysis and to work with microbial and antimicrobial
   properties by using evidence-based methods and reliable reference data such
   as LPSN ([Parte *et al.* 2020](https://doi.org/10.1099/ijsem.0.004332)).
+- `r pkg("cleanepi")`: Provides functions to clean epidemiological
+  data. It is designed to work with the `linelist` package and provides
+  functions to check for missing data, validate dates, and ensure that variables
+  are in the correct format.
 
 ## Data
 
