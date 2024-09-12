@@ -480,6 +480,7 @@ tables, etc).
   data. It is designed to work with the `linelist` package and provides
   functions to check for missing data, validate dates, and ensure that variables
   are in the correct format.
+- `r pkg("diyar")`: Links records of individuals across multiple datasets.
 
 ## Data
 
