@@ -344,9 +344,6 @@ task view, which has a dedicated section on
   sample outcome. The package contains template models and can be extended
   with user-defined models. For more details see the paper by [Widgren, Bauer,
   Eriksson and Engblom (2019)](https://doi.org/10.18637%2Fjss.v091.i12).
-- `r pkg("socialmixr")`: Provides methods for sampling contact matrices from
-  diary data for use in infectious disease modeling, as discussed in [Mossong
-  et al. (2008)](https://doi.org/10.1371%2Fjournal.pmed.0050074).
 - `r pkg("finalsize")`: Calculate the final size of a
   susceptible-infectious-recovered epidemic in a population with demographic
   variation in contact patterns and susceptibility to disease, as discussed in
@@ -490,12 +487,18 @@ Here are packages providing different epidemiologic datasets, either simulated
 or real, useful for research purposes or field applications with a specific
 COVID-19 section.
 
-### Epidemic outbreak data
+### Social contact data
 
 - `r pkg("contactdata")`: Data package for the supplementary data in [Prem et
   al. (2017)](https://doi.org/10.1371%2Fjournal.pcbi.1005697). Provides easy
   access to contact data for 152 countries, for use in epidemiological,
   demographic or social sciences research.
+- `r pkg("socialmixr")`: Provides methods for sampling contact matrices from
+  diary data for use in infectious disease modeling, as discussed in [Mossong
+  et al. (2008)](https://doi.org/10.1371%2Fjournal.pmed.0050074).
+
+### Epidemic outbreak data
+
 - `r pkg("outbreaks", priority = "core")`: Empirical or simulated disease
   outbreak data, provided either as RData or as text files.
 - `r pkg("cholera")`: Amends errors, augments data and aids analysis of
