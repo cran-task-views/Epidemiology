@@ -16,6 +16,7 @@ source_from_desc <- read.ctv("Epidemiology.md") |>
 source_from_manual <- tribble(
   ~ package, ~ github_repo,
   "coarseDataTools", "nickreich/coarseDataTools",
+  "colmozzie", "thiyangt/colmozzie",
   "covid19france", "Covid19R/covid19france",
   "covid19us", "aedobbyn/covid19us",
   "epiR", "mstevenson888/epiR",

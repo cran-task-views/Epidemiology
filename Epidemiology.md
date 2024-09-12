@@ -507,6 +507,10 @@ COVID-19 section.
   publicly available parasite rate survey points, mosquito occurrence points and
   raster surfaces from the ['Malaria Atlas Project'](https://malariaatlas.org/)
   servers as well as utility functions for plotting the downloaded data.
+- `r pkg("colmozzie")`: Weekly notified dengue cases and climate variables in 
+  Colombo district Sri Lanka from 2008/ week-52 to 2014/ week-21.
+- `r pkg("denguedatahub")`: Centralized access to dengue data worldwide from 
+  various sources.
 
 ### COVID-19
 
