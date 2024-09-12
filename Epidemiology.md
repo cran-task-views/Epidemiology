@@ -348,6 +348,8 @@ task view, which has a dedicated section on
   susceptible-infectious-recovered epidemic in a population with demographic
   variation in contact patterns and susceptibility to disease, as discussed in
   [Miller (2012)](https://doi.org/10.1007/s11538-012-9749-6).
+- `r pkg("shinySIR")`: A Shiny graphical interface to interactively explore 
+  simple SIR models. Users can also provide their own ODEs.
 
 ### Transmission tree reconstruction
 
