@@ -283,7 +283,7 @@ task view, which has a dedicated section on
   population over time, and to perform model comparison using information
   criteria.
 
-### Compartmental models
+### Epidemic simulation models
 
 - `r pkg("EpiILM")`: Provides tools for simulating from discrete-time
   individual level models for infectious disease data analysis. This epidemic
