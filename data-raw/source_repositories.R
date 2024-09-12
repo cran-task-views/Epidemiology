@@ -26,6 +26,7 @@ source_from_manual <- tribble(
   "mediation", "kosukeimai/mediation",
   "outbreaker2", "reconhub/outbreaker2",
   "riskCommunicator", "jgrembi/riskCommunicator",
+  "shinySIR", "SineadMorris/shinySIR",
   "TransPhylo", "xavierdidelot/TransPhylo",
   "tsiR", "adbecker/tsiR"
 )
