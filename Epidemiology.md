@@ -493,6 +493,10 @@ tables, etc).
   properties by using evidence-based methods and reliable reference data such
   as LPSN ([Parte *et al.* 2020](https://doi.org/10.1099/ijsem.0.004332)).
 - `r pkg("diyar")`: Links records of individuals across multiple datasets.
+- `r pkg("epikit")`: Contains tools for formatting inline code, renaming
+  redundant columns, aggregating age categories, adding survey weights, finding
+  the earliest date of an event, plotting z-curves, generating population counts
+  and calculating proportions with confidence intervals.
 
 ## Data
 
