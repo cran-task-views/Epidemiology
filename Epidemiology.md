@@ -66,7 +66,7 @@ filing an issue in the GitHub repository or by contacting the maintainer.
   functions to check for missing data, validate dates, and ensure that variables
   are in the correct format.
 - `r pkg("epiCleanr")`: A collection of data cleaning utilities for
-  epidemiological data. 
+  epidemiological data.
 - `r pkg("epidm")`: Contains utilities and functions for the cleaning,
   processing and management of patient level public health data for surveillance
   and analysis held by the UK Health Security Agency, UKHSA.
@@ -217,7 +217,7 @@ task view, which has a dedicated section on
   within-host viral dynamics, transportation, population structure), alone or
   taken together, to create complex but relatively intuitive epidemiological
   simulations.
-- `r pkg("epiworldR")` and its Shiny interface `r pkg("epiworldRShiny")`: A 
+- `r pkg("epiworldR")` and its Shiny interface `r pkg("epiworldRShiny")`: A
   framework for agent-based modelling with a C++ backend for high performance.
   
 #### Digital Epidemiology
@@ -362,7 +362,7 @@ task view, which has a dedicated section on
   [Miller (2012)](https://doi.org/10.1007/s11538-012-9749-6).
 - `r pkg("shinySIR")`: A Shiny graphical interface to interactively explore
   simple SIR models. Users can also provide their own ODEs.
-- `r pkg("EpiDynamics")`: A collection of SEIR, SIR, and SIS models with 
+- `r pkg("EpiDynamics")`: A collection of SEIR, SIR, and SIS models with
   several variations (demography, age groups, risk groups, etc.)
 
 ### Transmission tree reconstruction
