@@ -392,6 +392,12 @@ task view, which has a dedicated section on
   (2014)](https://doi.org/10.1093%2Fmolbev%2Fmsu121), [Didelot et al.
   (2017)](https://doi.org/10.1093%2Fmolbev%2Fmsw275).
 
+### Plant epidemiology
+
+- `r pkg("epiphy")`: A toolbox to analyze plant disease epidemics. It provides
+  a common framework for plant disease intensity data recorded over time and/or
+  space.
+
 ## Environmental epidemiology
 
 Environmental epidemiology is dedicated to the study of physical, chemical, and
