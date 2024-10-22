@@ -528,6 +528,8 @@ COVID-19 section.
   Colombo district Sri Lanka from 2008/ week-52 to 2014/ week-21.
 - `r pkg("denguedatahub")`: Centralized access to dengue data worldwide from
   various sources.
+- `r pkg("epidatr")`: API package to access real-time epidemiological
+  surveillance data for influenza, 'COVID-19', and other diseases in the USA.
 
 ### COVID-19
 
