@@ -217,6 +217,8 @@ task view, which has a dedicated section on
   within-host viral dynamics, transportation, population structure), alone or
   taken together, to create complex but relatively intuitive epidemiological
   simulations.
+- `r pkg("epiworldR")` and its Shiny interface `r pkg("epiworldRShiny")`: A 
+  framework for agent-based modelling with a C++ backend for high performance.
   
 #### Digital Epidemiology
 
