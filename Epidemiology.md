@@ -252,15 +252,6 @@ task view, which has a dedicated section on
 - `r pkg("EpiEstim", priority = "core")`: Provides tools for estimating
   time-varying transmissibility using the instantaneous reproduction number
   (Rt) introduced in [Cori et al. (2013)](https://doi.org/10.1093/aje/kwt133).
-- `r pkg("epimdr")`: Functions, data sets and shiny apps for "Epidemics:
-  Models and Data in R" by Ottar N. Bjornstad ([ISBN
-  978-3-319-97487-3](https://www.springer.com/gp/book/9783319974866)). The
-  package contains functions to study the S(E)IR model, spatial and
-  age-structured SIR models; time-series SIR and chain-binomial stochastic
-  models; catalytic disease models; coupled map lattice models of spatial
-  transmission and network models for social spread of infection. The package
-  is also an advanced quantitative companion to the [coursera Epidemics
-  Massive Online Open Course](https://www.coursera.org/learn/epidemics).
 - `r pkg("epinet")`: A collection of epidemic/network-related tools. Simulates
   transmission of diseases through contact networks. Performs Bayesian
   inference on network and epidemic parameters, given epidemic data.
@@ -636,6 +627,9 @@ COVID-19 section.
 
 - `r pkg("nhanesA")`: provides ready access to the National Health and
   Nutrition Examination Survey (NHANES) data tables.
+- `r pkg("epimdr")` and `r pkg("epimdr2")`: companion packages with functions
+  and data for "Epidemics: Models and Data in R" by O. Bjornstad, for 1st and
+  2nd editions respectively.
 
 ### Links
 
