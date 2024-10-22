@@ -362,6 +362,8 @@ task view, which has a dedicated section on
   [Miller (2012)](https://doi.org/10.1007/s11538-012-9749-6).
 - `r pkg("shinySIR")`: A Shiny graphical interface to interactively explore
   simple SIR models. Users can also provide their own ODEs.
+- `r pkg("EpiDynamics")`: A collection of SEIR, SIR, and SIS models with 
+  several variations (demography, age groups, risk groups, etc.)
 
 ### Transmission tree reconstruction
 
