@@ -497,6 +497,9 @@ tables, etc).
   redundant columns, aggregating age categories, adding survey weights, finding
   the earliest date of an event, plotting z-curves, generating population counts
   and calculating proportions with confidence intervals.
+- `r pkg("epitab")`: Builds contingency tables that cross-tabulate multiple
+  categorical variables and also calculates various summary measures. Exports to
+  a variety of formats is supported, including: 'HTML', 'LaTeX', and 'Excel'.
 
 ## Data
 
