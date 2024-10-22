@@ -237,7 +237,7 @@ task view, which has a dedicated section on
   information is available in the ['epitweetr' peer-review
   publication](https://doi.org/10.2807/1560-7917.ES.2022.27.39.2200177).
 
-### Estimation of transmissibility
+### Estimation of transmissibility and forecasting
 
 - `r pkg("earlyR")`: Implements a simple, likelihood-based estimation of the
   reproduction number (R0) using a Poisson branching process. This model
@@ -287,6 +287,13 @@ task view, which has a dedicated section on
   the latent counts of infections and the reproduction number for a given
   population over time, and to perform model comparison using information
   criteria.
+- `r pkg("epicasting")`: Method and tool for generating time series forecasts
+  using an ensemble wavelet-based auto-regressive neural network architecture.
+  This method provides additional support of exogenous variables.
+- `r pkg("epigrowthfit")`: Maximum likelihood estimation of nonlinear mixed
+  effects models of epidemic growth. Provides several auxiliary functions,
+  including one for computing basic reproduction numbers from fitted values of
+  the initial exponential growth rate.
 
 ### Epidemic simulation models
 
