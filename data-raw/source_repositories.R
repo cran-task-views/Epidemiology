@@ -8,7 +8,7 @@ source_from_desc <- read.ctv("Epidemiology.md") |>
   transmute(
     package = Package,
     github_repo = dplyr::coalesce(
-      stringr::str_match(URL, "https://github.com/([^/]+/[^/,]+)")[, 2],
+      stringr::str_match(URL, "https://github.com/([^/]+/[^/,>]+)")[, 2],
       stringr::str_match(BugReports, "https://github.com/([^/]+/[^/,]+)/issues")[, 2]
     )
   )
