@@ -372,7 +372,7 @@ task view, which has a dedicated section on
   simple SIR models. Users can also provide their own ODEs.
 - `r pkg("EpiDynamics")`: A collection of SEIR, SIR, and SIS models with
   several variations (demography, age groups, risk groups, etc.)
-- `r pkg("epichains")`: A re-imagining of the `r pkg("bpmodels")` package to
+- `r pkg("epichains")`: A re-imagining of the bpmodels package to
   simulate branching process involved in epidemic transmission chains. This
   can also be used for estimation of epidemiological parameters by plugging the
   simulation output into a maximum likelihood or bayesian estimation procedure.
