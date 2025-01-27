@@ -195,11 +195,11 @@ task view, which has a dedicated section on
   cross-sectional surveys, and for calibrating tests for recent infection.
   Implements and extends the method of
   [Kassanjee et al. (2012)](https://doi.org/10.1097/EDE.0b013e3182576c07).
-- `r pkg("epiCo")`: Tools for visualization and characterization of 
-  vector-borne disease outbreaks, with a specific focus on the Colombian 
+- `r pkg("epiCo")`: Tools for visualization and characterization of
+  vector-borne disease outbreaks, with a specific focus on the Colombian
   context.
 - `r pkg("sivirep")`: Automated reports for the analysis of surveillance data
-  from the SIVIGILA (Sistema Nacional de Vigilancia en Salud Pública) in 
+  from the SIVIGILA (Sistema Nacional de Vigilancia en Salud Pública) in
   Colombia. In the process, many functions for data cleaning, manipulation, and
   visualization are used under the hood. These functions are also exported and
   can be used outside of the automated reports.
@@ -227,7 +227,7 @@ task view, which has a dedicated section on
   simulations.
 - `r pkg("epiworldR")` and its Shiny interface `r pkg("epiworldRShiny")`: A
   framework for agent-based modelling with a C++ backend for high performance.
-  
+
 #### Digital Epidemiology
 
 - `r pkg("argo")`: Augmented Regression with General Online data (ARGO) for
@@ -408,11 +408,11 @@ task view, which has a dedicated section on
 
 - `r pkg("vaccineff")`: Tools for estimating vaccine effectiveness and related
   metrics.
-- `r pkg("excessmort")`: Implementation of method for estimating excess 
-  mortality and other health related outcomes from weekly or daily count data 
-  described in [Acosta and Irizarry 
+- `r pkg("excessmort")`: Implementation of method for estimating excess
+  mortality and other health related outcomes from weekly or daily count data
+  described in [Acosta and Irizarry
   (2021)](https://doi.org/10.1097/ede.0000000000001445).
-  
+
 ### Plant epidemiology
 
 - `r pkg("epiphy")`: A toolbox to analyze plant disease epidemics. It provides
@@ -674,8 +674,8 @@ COVID-19 section.
 - `r pkg("epiparameter")` and `r pkg("epiparameterDB")`: a harmonized database
   and standardized tools to manipulate published epidemiological parameters
   (serial interval, generation time, etc.) for a number of diseases.
-- `r pkg("hmsidwR")`: A collection of datasets and supporting functions 
-  accompanying [Health Metrics and the Spread of Infectious Diseases by Federica 
+- `r pkg("hmsidwR")`: A collection of datasets and supporting functions
+  accompanying [Health Metrics and the Spread of Infectious Diseases by Federica
   Gazzelloni (2024)](https://doi.org/10.5281%2Fzenodo.10818338).
 
 ## Links
