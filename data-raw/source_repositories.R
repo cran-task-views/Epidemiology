@@ -28,7 +28,8 @@ source_from_manual <- tribble(
   "riskCommunicator", "jgrembi/riskCommunicator",
   "shinySIR", "SineadMorris/shinySIR",
   "TransPhylo", "xavierdidelot/TransPhylo",
-  "tsiR", "adbecker/tsiR"
+  "tsiR", "adbecker/tsiR",
+  "excessmort", "rafalab/excessmort"
 )
 
 anti_join(source_from_desc, source_from_manual, by = "package") |>
