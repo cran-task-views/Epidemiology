@@ -674,6 +674,9 @@ COVID-19 section.
 - `r pkg("epiparameter")` and `r pkg("epiparameterDB")`: a harmonized database
   and standardized tools to manipulate published epidemiological parameters
   (serial interval, generation time, etc.) for a number of diseases.
+- `r pkg("hmsidwR")`: A collection of datasets and supporting functions 
+  accompanying [Health Metrics and the Spread of Infectious Diseases by Federica 
+  Gazzelloni (2024)](https://doi.org/10.5281%2Fzenodo.10818338).
 
 ## Links
 
