@@ -66,6 +66,8 @@
 "epikit","R4EPI/epikit"
 "epimdr2","objornstad/epimdr2"
 "epinet",NA
+"epiparameter","epiverse-trace/epiparameter"
+"epiparameterDB","epiverse-trace/epiparameterDB"
 "epiphy","chgigot/epiphy"
 "episensr","dhaine/episensr"
 "epitab","stulacy/epitab"

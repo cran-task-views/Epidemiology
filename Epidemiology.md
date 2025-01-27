@@ -650,6 +650,9 @@ COVID-19 section.
 - `r pkg("epimdr")` and `r pkg("epimdr2")`: companion packages with functions
   and data for "Epidemics: Models and Data in R" by O. Bjornstad, for 1st and
   2nd editions respectively.
+- `r pkg("epiparameter")` and `r pkg("epiparameterDB")`: a harmonized database
+  and standardized tools to manipulate published epidemiological parameters
+  (serial interval, generation time, etc.) for a number of diseases.
 
 ### Links
 
