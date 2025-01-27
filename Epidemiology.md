@@ -404,6 +404,11 @@ task view, which has a dedicated section on
   (2014)](https://doi.org/10.1093%2Fmolbev%2Fmsu121), [Didelot et al.
   (2017)](https://doi.org/10.1093%2Fmolbev%2Fmsw275).
 
+### Vaccination
+
+- `r pkg("vaccineff")`: Tools for estimating vaccine effectiveness and related
+  metrics.
+
 ### Plant epidemiology
 
 - `r pkg("epiphy")`: A toolbox to analyze plant disease epidemics. It provides
