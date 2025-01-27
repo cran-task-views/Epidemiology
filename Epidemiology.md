@@ -195,6 +195,9 @@ task view, which has a dedicated section on
   cross-sectional surveys, and for calibrating tests for recent infection.
   Implements and extends the method of
   [Kassanjee et al. (2012)](https://doi.org/10.1097/EDE.0b013e3182576c07).
+- `r pkg("epiCo")`: Tools for visualization and characterization of 
+  vector-borne disease outbreaks, with a specific focus on the Colombian 
+  context.
 
 #### Individual-level data
 
