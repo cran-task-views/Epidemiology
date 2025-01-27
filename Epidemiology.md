@@ -529,6 +529,8 @@ tables, etc).
   a variety of formats is supported, including: 'HTML', 'LaTeX', and 'Excel'.
 - `r pkg("EpiStats")`: Measures of association and impact for case control
   studies and cohort studies.
+- `r pkg("EpiForsk")`: Collection of functions used by the Department of
+  Epidemiological Research at Statens Serum Institut, Denmark.
 
 ## Data
 
