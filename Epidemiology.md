@@ -666,7 +666,7 @@ COVID-19 section.
   and standardized tools to manipulate published epidemiological parameters
   (serial interval, generation time, etc.) for a number of diseases.
 
-### Links
+## Links
 
 - The R Epidemics Consortium ([RECON](https://www.repidemicsconsortium.org)),
   a non-profit organization dedicated to the development of free, open-source
