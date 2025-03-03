@@ -241,6 +241,9 @@ task view, which has a dedicated section on
   simulations.
 - `r pkg("epiworldR")` and its Shiny interface `r pkg("epiworldRShiny")`: A
   framework for agent-based modelling with a C++ backend for high performance.
+- `r pkg("superspreading")`: Compute heterogeneity of transmission and the
+  probabibility of a large epidemic, when taking into individual-level variation
+  in transmissibility (k number).
 
 #### Digital Epidemiology
 
