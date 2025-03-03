@@ -409,7 +409,7 @@ task view, which has a dedicated section on
   modeling, as described in 
   [Peng et al. (2020)](https://doi.org/10.1101/2020.02.16.20023465).
 
-### Transmission tree reconstruction
+### Transmission tree reconstruction and genomic epidemiology
 
 - `r pkg("adegenet")`: primarily a population genetics package,
   `r pkg("adegenet")` implements seqtrack ([Jombart et al.
@@ -435,6 +435,8 @@ task view, which has a dedicated section on
   methodology is described in [Didelot et al.
   (2014)](https://doi.org/10.1093%2Fmolbev%2Fmsu121), [Didelot et al.
   (2017)](https://doi.org/10.1093%2Fmolbev%2Fmsw275).
+- `r pkg("phylepic")`: A collection of utilities and 'ggplot2' extensions to
+   assist with visualisations in genomic epidemiology.
 
 ### Vaccination and health outcomes
 
