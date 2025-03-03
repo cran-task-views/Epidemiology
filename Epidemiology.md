@@ -309,6 +309,10 @@ task view, which has a dedicated section on
   in epidemiological models, as described in 
   [Karami et al. (2024)](https://doi.org/10.48550/arXiv.2411.05371) and 
   [Grinsztajn et al. (2021)](https://doi.org/10.1002/sim.9164).
+- `r pkg("linelistBayes")`: Bayesian estimation of the reproduction number and 
+  related metrics, on individual-level (linelist) or aggregated data, using the
+  methods described in 
+  [Li and White (2021)](https://doi.org/10.1371%2Fjournal.pcbi.1009210).
 
 ### Epidemic simulation models
 
