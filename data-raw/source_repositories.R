@@ -34,7 +34,8 @@ source_from_manual <- tribble(
   "tidyrates", "rfsaldanha/tidyrates",
   "genSEIR", "selcukorkmaz/genSEIR",
   # "dataquieR", "https://gitlab.com/libreumg/dataquier",
-  "linelistBayes", "cmilando/linelistBayes"
+  "linelistBayes", "cmilando/linelistBayes",
+  "rplanes", "signaturescience/rplanes"
 )
 
 anti_join(source_from_desc, source_from_manual, by = "package") |>
