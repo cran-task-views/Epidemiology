@@ -467,6 +467,9 @@ causality.
   effects based on advanced mediator screening and penalized regression
   techniques ([Zhang *et al.*
   2021](https://doi.org/10.1093%2Fbioinformatics%2Fbtab564)).
+- `r pkg("eesim")`: Functions to create simulated time series of environmental
+  exposures (e.g., temperature, air pollution) and health outcomes for use in
+  power analysis and simulation studies in environmental epidemiology.
 
 ## Helpers
 
