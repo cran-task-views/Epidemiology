@@ -302,6 +302,10 @@ task view, which has a dedicated section on
   effects models of epidemic growth. Provides several auxiliary functions,
   including one for computing basic reproduction numbers from fitted values of
   the initial exponential growth rate.
+- `r pkg("BayesianFitForecast")`: Bayesian parameter estimation and forecasting
+  in epidemiological models, as described in 
+  [Karami et al. (2024)](https://doi.org/10.48550/arXiv.2411.05371) and 
+  [Grinsztajn et al. (2021)](https://doi.org/10.1002/sim.9164).
 
 ### Epidemic simulation models
 
