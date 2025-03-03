@@ -214,6 +214,9 @@ task view, which has a dedicated section on
   system when volatility exceeds a given threshold. The method is described
   in 
   [Koustolas et al. (2021)](https://www.nature.com/articles/s41598-021-02622-3).
+- `r pkg("aedseo")`: Automated and Early Detection of Seasonal Epidemic Onset
+  through estimation of the exponential growth rate and computation of the sum 
+  of cases exceeding a certain threshold over the past k units of time.
 
 #### Individual-level data
 
