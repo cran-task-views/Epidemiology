@@ -70,6 +70,9 @@ filing an issue in the GitHub repository or by contacting the maintainer.
 - `r pkg("epidm")`: Contains utilities and functions for the cleaning,
   processing and management of patient level public health data for surveillance
   and analysis held by the UK Health Security Agency, UKHSA.
+- `r pkg("dataquieR")`: Data quality framework and tools to systematically check 
+  health data for issues regarding data integrity, completeness, consistency or
+  accuracy.
 
 ## Data visualization
 
