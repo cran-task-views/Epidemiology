@@ -380,6 +380,9 @@ task view, which has a dedicated section on
   simulate branching process involved in epidemic transmission chains. This
   can also be used for estimation of epidemiological parameters by plugging the
   simulation output into a maximum likelihood or bayesian estimation procedure.
+- `r pkg("genSEIR")`: Generalized Susceptible-Exposed-Infected-Recovered (SEIR)
+  modeling, as described in 
+  [Peng et al. (2020)](https://doi.org/10.1101/2020.02.16.20023465).
 
 ### Transmission tree reconstruction
 
