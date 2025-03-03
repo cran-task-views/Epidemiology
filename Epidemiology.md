@@ -422,6 +422,10 @@ task view, which has a dedicated section on
 - `r pkg("epiphy")`: A toolbox to analyze plant disease epidemics. It provides
   a common framework for plant disease intensity data recorded over time and/or
   space.
+- `r pkg("epifitter")`: Analysis and visualization of plant disease progress
+  curve data.
+- `r pkg("cercospoRa")`: Epidemiological Model for Cercospora Leaf Spot of Sugar
+  Beet.
 
 ## Environmental epidemiology
 
