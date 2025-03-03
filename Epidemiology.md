@@ -3,7 +3,7 @@ name: Epidemiology
 topic: Epidemiology
 maintainer: Thibaut Jombart, Matthieu Rolland, Hugo Gruson
 email: hugo.gruson+ctv@normalesup.org
-version: 2025-01-27
+version: 2025-03-03
 source: https://github.com/cran-task-views/Epidemiology/
 ---
 
@@ -70,6 +70,9 @@ filing an issue in the GitHub repository or by contacting the maintainer.
 - `r pkg("epidm")`: Contains utilities and functions for the cleaning,
   processing and management of patient level public health data for surveillance
   and analysis held by the UK Health Security Agency, UKHSA.
+- `r pkg("dataquieR")`: Data quality framework and tools to systematically check 
+  health data for issues regarding data integrity, completeness, consistency or
+  accuracy.
 
 ## Data visualization
 
@@ -203,6 +206,17 @@ task view, which has a dedicated section on
   Colombia. In the process, many functions for data cleaning, manipulation, and
   visualization are used under the hood. These functions are also exported and
   can be used outside of the automated reports.
+- `r pkg("ATQ")`: Framework for early detection of epidemics using school
+  absenteeism data, based on 
+  [Vanderkruk et al. (2023)](https://doi.oirg/10.1186/s12889-023-15747-z).
+- `r pkg("EVI")`: Calculation of the Epidemic Volatility Index: a measure of
+  volatility of newly reported cases, which can serve as an early warning 
+  system when volatility exceeds a given threshold. The method is described
+  in 
+  [Koustolas et al. (2021)](https://www.nature.com/articles/s41598-021-02622-3).
+- `r pkg("aedseo")`: Automated and Early Detection of Seasonal Epidemic Onset
+  through estimation of the exponential growth rate and computation of the sum 
+  of cases exceeding a certain threshold over the past k units of time.
 
 #### Individual-level data
 
@@ -227,6 +241,9 @@ task view, which has a dedicated section on
   simulations.
 - `r pkg("epiworldR")` and its Shiny interface `r pkg("epiworldRShiny")`: A
   framework for agent-based modelling with a C++ backend for high performance.
+- `r pkg("superspreading")`: Compute heterogeneity of transmission and the
+  probabibility of a large epidemic, when taking into individual-level variation
+  in transmissibility (k number).
 
 #### Digital Epidemiology
 
@@ -302,6 +319,21 @@ task view, which has a dedicated section on
   effects models of epidemic growth. Provides several auxiliary functions,
   including one for computing basic reproduction numbers from fitted values of
   the initial exponential growth rate.
+- `r pkg("BayesianFitForecast")`: Bayesian parameter estimation and forecasting
+  in epidemiological models, as described in 
+  [Karami et al. (2024)](https://doi.org/10.48550/arXiv.2411.05371) and 
+  [Grinsztajn et al. (2021)](https://doi.org/10.1002/sim.9164).
+- `r pkg("linelistBayes")`: Bayesian estimation of the reproduction number and 
+  related metrics, on individual-level (linelist) or aggregated data, using the
+  methods described in 
+  [Li and White (2021)](https://doi.org/10.1371%2Fjournal.pcbi.1009210).
+- `r pkg("rplanes")`: Prepare data and analyze plausibility of both forecasted
+  and reported epidemiological signals.
+- `r pkg("EpiInvert")`: Incidence curve decomposition (e.g., effect of 
+  seasonality) and parameter estimation (e.g., Rt), as described in
+  [Alvarez et al. (2021)](https://doi.org/10.1073/pnas.2105112118) and 
+  [Alvarez et al. (2022)](https://doi.org/10.3390/biology11040540)
+  and short-term forecasts.
 
 ### Epidemic simulation models
 
@@ -376,8 +408,11 @@ task view, which has a dedicated section on
   simulate branching process involved in epidemic transmission chains. This
   can also be used for estimation of epidemiological parameters by plugging the
   simulation output into a maximum likelihood or bayesian estimation procedure.
+- `r pkg("genSEIR")`: Generalized Susceptible-Exposed-Infected-Recovered (SEIR)
+  modeling, as described in 
+  [Peng et al. (2020)](https://doi.org/10.1101/2020.02.16.20023465).
 
-### Transmission tree reconstruction
+### Transmission tree reconstruction and genomic epidemiology
 
 - `r pkg("adegenet")`: primarily a population genetics package,
   `r pkg("adegenet")` implements seqtrack ([Jombart et al.
@@ -403,6 +438,8 @@ task view, which has a dedicated section on
   methodology is described in [Didelot et al.
   (2014)](https://doi.org/10.1093%2Fmolbev%2Fmsu121), [Didelot et al.
   (2017)](https://doi.org/10.1093%2Fmolbev%2Fmsw275).
+- `r pkg("phylepic")`: A collection of utilities and 'ggplot2' extensions to
+   assist with visualisations in genomic epidemiology.
 
 ### Vaccination and health outcomes
 
@@ -418,6 +455,10 @@ task view, which has a dedicated section on
 - `r pkg("epiphy")`: A toolbox to analyze plant disease epidemics. It provides
   a common framework for plant disease intensity data recorded over time and/or
   space.
+- `r pkg("epifitter)`: Analysis and visualization of plant disease progress
+  curve data.
+- `r pkg("cercospoRa")`: Epidemiological Model for Cercospora Leaf Spot of Sugar
+  Beet.
 
 ## Environmental epidemiology
 
@@ -459,6 +500,9 @@ causality.
   effects based on advanced mediator screening and penalized regression
   techniques ([Zhang *et al.*
   2021](https://doi.org/10.1093%2Fbioinformatics%2Fbtab564)).
+- `r pkg("eesim")`: Functions to create simulated time series of environmental
+  exposures (e.g., temperature, air pollution) and health outcomes for use in
+  power analysis and simulation studies in environmental epidemiology.
 
 ## Helpers
 
@@ -497,6 +541,8 @@ tables, etc).
 - `r pkg("epitools", priority = "core")`: Tools for training and practicing
   epidemiologists including methods for two-way and multi-way contingency
   tables.
+- `r pkg("tidyrates")`: A wrapper around `r pkg("epitools", priority = "core")`
+  to allow tidy computation of age-adjusted epidemiological rates.
 - `r pkg("epitrix")`: A collection of small functions useful for epidemics
   analysis and infectious disease modeling. This includes computation of
   basic reproduction numbers (R0) from daily growth rates, generation of
