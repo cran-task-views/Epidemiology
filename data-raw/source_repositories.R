@@ -33,7 +33,8 @@ source_from_manual <- tribble(
   "EpiForsk", "Laksafoss/EpiForsk",
   "tidyrates", "rfsaldanha/tidyrates",
   "genSEIR", "selcukorkmaz/genSEIR",
-  # "dataquieR", "https://gitlab.com/libreumg/dataquier"
+  # "dataquieR", "https://gitlab.com/libreumg/dataquier",
+  "linelistBayes", "cmilando/linelistBayes"
 )
 
 anti_join(source_from_desc, source_from_manual, by = "package") |>
