@@ -508,6 +508,8 @@ tables, etc).
 - `r pkg("epitools", priority = "core")`: Tools for training and practicing
   epidemiologists including methods for two-way and multi-way contingency
   tables.
+- `r pkg("tidyrates")`: A wrapper around `r pkg("epitools", priority = "core")`
+  to allow tidy computation of age-adjusted epidemiological rates.
 - `r pkg("epitrix")`: A collection of small functions useful for epidemics
   analysis and infectious disease modeling. This includes computation of
   basic reproduction numbers (R0) from daily growth rates, generation of
