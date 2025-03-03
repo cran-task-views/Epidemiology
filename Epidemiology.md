@@ -323,6 +323,11 @@ task view, which has a dedicated section on
   [Li and White (2021)](https://doi.org/10.1371%2Fjournal.pcbi.1009210).
 - `r pkg("rplanes")`: Prepare data and analyze plausibility of both forecasted
   and reported epidemiological signals.
+- `r pkg("EpiInvert")`: Incidence curve decomposition (e.g., effect of 
+  seasonality) and parameter estimation (e.g., Rt), as described in
+  [Alvarez et al. (2021)](https://doi.org/10.1073/pnas.2105112118) and 
+  [Alvarez et al. (2022)](https://doi.org/10.3390/biology11040540)
+  and short-term forecasts.
 
 ### Epidemic simulation models
 
