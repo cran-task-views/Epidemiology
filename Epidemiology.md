@@ -209,6 +209,11 @@ task view, which has a dedicated section on
 - `r pkg("ATQ")`: Framework for early detection of epidemics using school
   absenteeism data, based on 
   [Vanderkruk et al. (2023)](https://doi.oirg/10.1186/s12889-023-15747-z).
+- `r pkg("EVI")`: Calculation of the Epidemic Volatility Index: a measure of
+  volatility of newly reported cases, which can serve as an early warning 
+  system when volatility exceeds a given threshold. The method is described
+  in 
+  [Koustolas et al. (2021)](https://www.nature.com/articles/s41598-021-02622-3).
 
 #### Individual-level data
 
