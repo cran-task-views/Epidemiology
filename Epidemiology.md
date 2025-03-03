@@ -206,6 +206,9 @@ task view, which has a dedicated section on
   Colombia. In the process, many functions for data cleaning, manipulation, and
   visualization are used under the hood. These functions are also exported and
   can be used outside of the automated reports.
+- `r pkg("ATQ")`: Framework for early detection of epidemics using school
+  absenteeism data, based on 
+  [Vanderkruk et al. (2023)](https://doi.oirg/10.1186/s12889-023-15747-z).
 
 #### Individual-level data
 
