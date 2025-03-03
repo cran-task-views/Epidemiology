@@ -313,6 +313,8 @@ task view, which has a dedicated section on
   related metrics, on individual-level (linelist) or aggregated data, using the
   methods described in 
   [Li and White (2021)](https://doi.org/10.1371%2Fjournal.pcbi.1009210).
+- `r pkg("rplanes")`: Prepare data and analyze plausibility of both forecasted
+  and reported epidemiological signals.
 
 ### Epidemic simulation models
 
