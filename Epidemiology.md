@@ -104,6 +104,10 @@ and exploration of epidemiological data.
   estimation of daily growth
   rate. [RECON](https://www.repidemicsconsortium.org/) package. This package
   is scheduled for deprecation and is replaced by `r pkg("incidence2")`.
+- `r pkg("ggsurveillance")`: Provides `ggplot2` geoms for case visualization like epicurves or epigantt charts.
+  Includes `tidyverse` compatible functions and `ggplot2` stats for date transformations
+  (e.g. binning by week or month or seasonal alignment of case data). Further includes `ggplot2` scales for
+  case data visualization and other helper functions (e.g. for creating age groups).
 
 ## Infectious disease modeling
 
