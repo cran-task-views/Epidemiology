@@ -477,6 +477,14 @@ limits of detection of pollutants (left-censoring issues), and various modeling
 approaches to account for multiple correlations between exposures and infer
 causality.
 
+- `r pkg("pcpr")`: Implements the pattern recognition technique Principal
+  Component Pursuit tailored to environmental health data, as described
+  in [Gibson *et al.* (2022)](https://doi.org/10.1289/EHP10479). Enables
+  pattern recognition in environmental mixtures data with environmental
+  health specific extensions including handling incomplete observations and
+  observations falling below the limit of detection. Includes
+  a real-world fine particulate matter air pollution dataset as well as
+  functions to simulate environmental mixtures data.
 - `r pkg("NADA", priority = "core")`: Nondetects and Data Analysis for
   Environmental Data, package containing all the functions derived from the
   methods in [Helsel
