@@ -415,6 +415,11 @@ task view, which has a dedicated section on
 - `r pkg("genSEIR")`: Generalized Susceptible-Exposed-Infected-Recovered (SEIR)
   modeling, as described in
   [Peng et al. (2020)](https://doi.org/10.1101/2020.02.16.20023465).
+- `r pkg("simulist")`: Simulate realistic line list and contact tracing data
+  using a branching process model, age-structured populations,
+  age-stratified hospitalisation and death risk and time-varying case
+  fatality risk, as well as real-time outbreak snapshots with
+  right-truncation and creating "messy" line list data.
 
 ### Transmission tree reconstruction and genomic epidemiology
 
