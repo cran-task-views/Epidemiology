@@ -7,10 +7,11 @@ version: 2025-03-03
 source: https://github.com/cran-task-views/Epidemiology/
 ---
 
-Contributors (in alphabetic order): Neale Batra, Solène Cadiou, Dylan Dijk,
-Christopher Endres, Rich FitzJohn, Hugo Gruson, Andreas Handel, Michael Höhle,
-Thibaut Jombart, Joseph Larmarange, Sebastian Lequime, Alex Spina, Tim Taylor,
-Sean Wu, Achim Zeileis.
+Contributors (in alphabetic order): Alexander Bartel, Neale Batra,
+Matthijs Berends, Lampros Bouranis, Solène Cadiou, Lawrence Chillrud,
+Dylan Dijk, Christopher Endres, Rich FitzJohn, Hugo Gruson, Andreas Handel,
+Michael Höhle, Thibaut Jombart, Joshua Lambert, Joseph Larmarange,
+Sebastian Lequime, Alex Spina, Tim Taylor, Sean Wu, Achim Zeileis.
 
 ## Overview
 
