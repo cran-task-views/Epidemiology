@@ -258,14 +258,6 @@ task view, which has a dedicated section on
   [Yang, S., Santillana, M. and Kou, S.C.
   (2015)](https://doi.org/10.1073/pnas.1515373112) and [Ning, S., Yang, S. and
   Kou, S.C. (2019)](https://doi.org/10.1038/s41598-019-41559-6).
-- `r pkg("epitweetr")`: Early Detection of Public Health Threats from 'Twitter'
-  Data. This package allows you to automatically monitor trends of tweets by
-  time, place and topic aiming at detecting public health threats early through
-  the detection of signals (e.g. an unusual increase in the number of tweets).
-  It was designed to focus on infectious diseases, and it can be extended to all
-  hazards or other fields of study by modifying the topics and keywords. More
-  information is available in the ['epitweetr' peer-review
-  publication](https://doi.org/10.2807/1560-7917.ES.2022.27.39.2200177).
 
 ### Estimation of transmissibility and forecasting
 
