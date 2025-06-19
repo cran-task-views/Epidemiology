@@ -2,9 +2,11 @@ library(ctv)
 library(purrr)
 library(dplyr)
 
-source_from_desc <- read.ctv("Epidemiology.md") |>
-  pluck("packagelist", "name") |>
-  pkgsearch::cran_packages() |>
+ctv_pkgs <- read.ctv("Epidemiology.md") |>
+  pluck("packagelist", "name")
+
+source_from_desc <- tools::CRAN_package_db() |>
+  filter(Package %in% ctv_pkgs) |> 
   transmute(
     package = Package,
     github_repo = dplyr::coalesce(
