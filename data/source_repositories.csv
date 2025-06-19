@@ -14,8 +14,6 @@
 "EpiDynamics","oswaldosantos/EpiDynamics"
 "EpiEstim","mrc-ide/EpiEstim"
 "EpiForsk","Laksafoss/EpiForsk"
-"EpiILM","waleedalmutiry/EpiILM"
-"EpiILMCT","waleedalmutiry/EpiILMCT"
 "EpiInvert","lalvarezmat/EpiInvert"
 "EpiModel","EpiModel/EpiModel"
 "EpiNow2","epiforecasts/EpiNow2"
@@ -31,7 +29,7 @@
 "TransPhylo","xavierdidelot/TransPhylo"
 "adegenet","thibautjombart/adegenet"
 "aedseo","ssi-dk/aedseo"
-"apisensr","dhaine/apisensr"
+"apisensr",NA
 "argo",NA
 "bets.covid19","qingyuanzhao/bets.covid19"
 "bkmr","jenfb/bkmr"
@@ -46,7 +44,6 @@
 "corona",NA
 "coronavirus","RamiKrispin/coronavirus"
 "covid19.analytics","mponce0/covid19.analytics"
-"covid19br","fndemarqui/covid19br"
 "covid19dbcand","MohammedFCIS/covid19dbcand"
 "covid19france","Covid19R/covid19france"
 "covid19italy","RamiKrispin/covid19italy"
@@ -85,7 +82,6 @@
 "epitab","stulacy/epitab"
 "epitools",NA
 "epitrix","reconhub/epitrix"
-"epitweetr","EU-ECDC/epitweetr"
 "epiworldR","UofUEpiBio/epiworldR"
 "epiworldRShiny","UofUEpiBio/epiworldRShiny"
 "etm","mclements/etm"
