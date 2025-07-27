@@ -658,11 +658,6 @@ COVID-19 section.
   geographical location, while at the same time generating models using these
   trends; generate interactive visualizations and generate
   Susceptible-Infected-Recovered (SIR) model for the disease spread.
-- `r pkg("covid19br")`: Set of functions to import COVID-19 pandemic data
-  into R. The Brazilian COVID-19 data, obtained from the official Brazilian
-  repository at <https://covid.saude.gov.br/>, is available at country,
-  region, state, and city-levels. The package also downloads the world-level
-  COVID-19 data from the John Hopkins University's repository.
 - `r pkg("covid19dbcand")`: Provides different datasets parsed from
   '[Drugbank](https://www.drugbank.ca/covid-19)' database using
   `r pkg("dbparser")` package. It is a smaller version from
