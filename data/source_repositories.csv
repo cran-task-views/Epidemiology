@@ -21,7 +21,6 @@
 "EpiSignalDetection","EU-ECDC/EpiSignalDetection"
 "EpiStats",NA
 "HIMA","YinanZheng/HIMA"
-"NADA",NA
 "R0","tobadia/R0"
 "RSurveillance","roStats/RSurveillance"
 "SimInf","stewid/SimInf"
@@ -73,7 +72,6 @@
 "epiflows","reconhub/epiflows"
 "epigrowthfit","davidearn/epigrowthfit"
 "epikit","R4EPI/epikit"
-"epimdr2","objornstad/epimdr2"
 "epinet",NA
 "epiparameter","epiverse-trace/epiparameter"
 "epiparameterDB","epiverse-trace/epiparameterDB"
