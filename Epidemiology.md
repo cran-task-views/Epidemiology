@@ -366,7 +366,7 @@ task view, which has a dedicated section on
   times, relative survival, and standardized incidence and mortality ratios
   (SIRs/SMRs), all of which can be easily adjusted for by covariates such as
   age. Fast splitting and aggregation of 'Lexis' objects (from package `r
-  pkg("Epi", priority = "core")` and other computations achieved using `r
+  pkg("Epi", priority = "core")`) and other computations achieved using `r
   pkg("data.table")`.
 - `r pkg("SimInf")`: Provides an efficient and very flexible framework to
   conduct data-driven epidemiological modeling in realistic large scale
