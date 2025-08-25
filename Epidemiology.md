@@ -334,20 +334,6 @@ task view, which has a dedicated section on
 
 ### Epidemic simulation models
 
-- `r pkg("EpiILM")`: Provides tools for simulating from discrete-time
-  individual level models for infectious disease data analysis. This epidemic
-  model class contains spatial and contact-network based models with two
-  disease types: Susceptible-Infectious (SI) and
-  Susceptible-Infectious-Removed (SIR).
-- `r pkg("EpiILMCT")`: Provides tools for simulating from continuous-time
-  individual level models of disease transmission, and carrying out infectious
-  disease data analyses with the same models. The epidemic models considered
-  are distance-based and/or contact network-based models within
-  Susceptible-Infectious-Removed (SIR) or
-  Susceptible-Infectious-Notified-Removed (SINR) compartmental frameworks. An
-  overview of the implemented continuous-time individual level models for
-  epidemics is given by [Almutiry and Deardon
-  (2019)](https://doi.org/10.1515/ijb-2017-0092).
 - `r pkg("EpiModel", priority = "core")`: Tools for simulating mathematical
   models of infectious disease dynamics. Epidemic model classes include
   deterministic compartmental models, stochastic individual-contact models,
