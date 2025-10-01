@@ -707,9 +707,8 @@ COVID-19 section.
 
 - `r pkg("nhanesA")`: provides ready access to the National Health and
   Nutrition Examination Survey (NHANES) data tables.
-- `r pkg("epimdr")` and `r pkg("epimdr2")`: companion packages with functions
-  and data for "Epidemics: Models and Data in R" by O. Bjornstad, for 1st and
-  2nd editions respectively.
+- `r pkg("epimdr")`: companion package with functions
+  and data for "Epidemics: Models and Data in R" by O. Bjornstad.
 - `r pkg("epiparameter")` and `r pkg("epiparameterDB")`: a harmonized database
   and standardized tools to manipulate published epidemiological parameters
   (serial interval, generation time, etc.) for a number of diseases.
