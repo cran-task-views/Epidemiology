@@ -48,7 +48,6 @@
 "covid19france","Covid19R/covid19france"
 "covid19italy","RamiKrispin/covid19italy"
 "covid19sf","RamiKrispin/covid19sf"
-"covid19swiss","Covid19R/covid19swiss"
 "covid19us","aedobbyn/covid19us"
 "dataquieR",NA
 "dbparser","ropensci/dbparser"
@@ -59,7 +58,6 @@
 "earlyR","reconhub/earlyR"
 "eesim",NA
 "endtoend",NA
-"epiCleanr","truenomad/epiCleanr"
 "epiCo","epiverse-trace/epiCo"
 "epiDisplay",NA
 "epiR","mstevenson888/epiR"
@@ -70,7 +68,6 @@
 "epidatr","cmu-delphi/epidatr"
 "epidm","alexbhatt/epidm"
 "epifitter","AlvesKS/epifitter"
-"epiflows","reconhub/epiflows"
 "epigrowthfit","davidearn/epigrowthfit"
 "epikit","R4EPI/epikit"
 "epinet",NA
@@ -117,7 +114,6 @@
 "rplanes","signaturescience/rplanes"
 "shinySIR","SineadMorris/shinySIR"
 "simulist","epiverse-trace/simulist"
-"sivirep","epiverse-trace/sivirep"
 "socialmixr","epiforecasts/socialmixr"
 "superspreading","epiverse-trace/superspreading"
 "surveillance",NA
