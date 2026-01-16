@@ -206,11 +206,6 @@ task view, which has a dedicated section on
 - `r pkg("epiCo")`: Tools for visualization and characterization of
   vector-borne disease outbreaks, with a specific focus on the Colombian
   context.
-- `r pkg("sivirep")`: Automated reports for the analysis of surveillance data
-  from the SIVIGILA (Sistema Nacional de Vigilancia en Salud Pública) in
-  Colombia. In the process, many functions for data cleaning, manipulation, and
-  visualization are used under the hood. These functions are also exported and
-  can be used outside of the automated reports.
 - `r pkg("ATQ")`: Framework for early detection of epidemics using school
   absenteeism data, based on
   [Vanderkruk et al. (2023)](https://doi.oirg/10.1186/s12889-023-15747-z).
