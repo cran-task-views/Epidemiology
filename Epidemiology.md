@@ -669,10 +669,6 @@ COVID-19 section.
 - `r pkg("covid19sf")`: Provides a verity of summary tables of the Covid19
   cases in San Francisco. Data source: [San Francisco, Department of Public
   Health - Population Health Division](https://datasf.org/opendata/).
-- `r pkg("covid19swiss")`: Provides a daily summary of the Coronavirus
-  (COVID-19) cases in Switzerland cantons and Principality of Liechtenstein.
-  Data source: Specialist Unit for Open Government Data Canton of Zurich
-  <https://www.zh.ch/de/politik-staat/opendata.html>.
 - `r pkg("covid19us")`: A wrapper around the 'COVID Tracking Project API'
   <https://covidtracking.com/api/> providing data on cases of COVID-19 in the
   US.
