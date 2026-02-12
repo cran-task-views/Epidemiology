@@ -355,14 +355,6 @@ task view, which has a dedicated section on
   the package to speed up simulation and inference. The R package and some of
   its algorithms are described in [King, Nguyen, and Ionides
   (2016)](https://doi.org/10.18637/jss.v069.i12).
-- `r pkg("popEpi")`: Enables computation of epidemiological statistics,
-  including those where counts or mortality rates of the reference population
-  are used. Currently supported: excess hazard models, rates, mean survival
-  times, relative survival, and standardized incidence and mortality ratios
-  (SIRs/SMRs), all of which can be easily adjusted for by covariates such as
-  age. Fast splitting and aggregation of 'Lexis' objects (from package `r
-  pkg("Epi", priority = "core")`) and other computations achieved using `r
-  pkg("data.table")`.
 - `r pkg("SimInf")`: Provides an efficient and very flexible framework to
   conduct data-driven epidemiological modeling in realistic large scale
   disease spread simulations. The framework integrates infection dynamics in
@@ -501,6 +493,19 @@ This section includes packages providing tools to facilitate epidemiological
 analysis as well as for training (e.g. computing sample size, contingency
 tables, etc).
 
+- `r pkg("directadjusting")`: Compute estimates and confidence intervals of
+  weighted averages quickly and easily. Weighted averages are computed using
+  data.table for speed. Confidence intervals are approximated using the delta
+  method with either using known formulae or via algorithmic or numerical
+  derivation.
+- `r pkg("popEpi")`: Enables computation of epidemiological statistics,
+  including those where counts or mortality rates of the reference population
+  are used. Currently supported: excess hazard models, rates, mean survival
+  times, relative survival, and standardized incidence and mortality ratios
+  (SIRs/SMRs), all of which can be easily adjusted for by covariates such as
+  age. Fast splitting and aggregation of 'Lexis' objects (from package `r
+  pkg("Epi", priority = "core")`) and other computations achieved using `r
+  pkg("data.table")`.
 - `r pkg("incidence2", priority = "core")`: Provides functions and classes to
   compute, handle and visualize incidence from dated events. Improves the
   original `r pkg("incidence")` package in many ways: full flexibility in time
@@ -669,10 +674,6 @@ COVID-19 section.
 - `r pkg("covid19sf")`: Provides a verity of summary tables of the Covid19
   cases in San Francisco. Data source: [San Francisco, Department of Public
   Health - Population Health Division](https://datasf.org/opendata/).
-- `r pkg("covid19swiss")`: Provides a daily summary of the Coronavirus
-  (COVID-19) cases in Switzerland cantons and Principality of Liechtenstein.
-  Data source: Specialist Unit for Open Government Data Canton of Zurich
-  <https://www.zh.ch/de/politik-staat/opendata.html>.
 - `r pkg("covid19us")`: A wrapper around the 'COVID Tracking Project API'
   <https://covidtracking.com/api/> providing data on cases of COVID-19 in the
   US.
