@@ -66,8 +66,6 @@ filing an issue in the GitHub repository or by contacting the maintainer.
   data. It is designed to work with the `linelist` package and provides
   functions to check for missing data, validate dates, and ensure that variables
   are in the correct format.
-- `r pkg("epiCleanr")`: A collection of data cleaning utilities for
-  epidemiological data.
 - `r pkg("epidm")`: Contains utilities and functions for the cleaning,
   processing and management of patient level public health data for surveillance
   and analysis held by the UK Health Security Agency, UKHSA.
