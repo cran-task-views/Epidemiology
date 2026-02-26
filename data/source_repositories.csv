@@ -67,8 +67,9 @@
 "epichains","epiverse-trace/epichains"
 "epicontacts","reconhub/epicontacts"
 "epidatr","cmu-delphi/epidatr"
-"epidm","alexbhatt/epidm"
+"epidm","ukhsa-collaboration/epidm"
 "epifitter","AlvesKS/epifitter"
+"epiflows","reconhub/epiflows"
 "epigrowthfit","davidearn/epigrowthfit"
 "epikit","R4EPI/epikit"
 "epinet",NA
