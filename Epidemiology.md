@@ -398,7 +398,7 @@ task view, which has a dedicated section on
   dates of the reported cases ([Robert A, Kucharski AJ, Gastanaduy PA, Paul P,
   Funk S. 2020](https://doi.org/10.1098%2Frsif.2020.0084)).
 - `r github("xavierdidelot/o2mod.transphylo")` is a module of
-  `r pkg("outbreaker2")` which uses the `r pkg("TransPhylo")` model of
+  `r pkg("outbreaker2")` which uses the `r github("xavierdidelot/TransPhylo")` model of
   within-host evolution.
 - `r pkg("outbreaker2", priority = "core")`: a modular platform for Bayesian
   reconstruction of disease outbreaks using epidemiological and genetic
@@ -406,7 +406,7 @@ task view, which has a dedicated section on
   Fraser C and Ferguson N.
   2014](https://doi.org/10.1371/journal.pcbi.1003457), [Campbell F, Cori A,
   Ferguson N, Jombart T (2019)](https://doi.org/10.1371/journal.pcbi.1006930).
-- `r pkg("TransPhylo")`: Inference of transmission tree from a dated
+- `r github("xavierdidelot/TransPhylo")`: Inference of transmission tree from a dated
   phylogeny. Includes methods to simulate and analyze outbreaks. The
   methodology is described in [Didelot et al.
   (2014)](https://doi.org/10.1093%2Fmolbev%2Fmsu121), [Didelot et al.
