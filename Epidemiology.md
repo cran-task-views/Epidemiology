@@ -570,7 +570,7 @@ tables, etc).
   Epidemiological Research at Statens Serum Institut, Denmark.
 - `r pkg("Colossus")`: Applies a highly customizable family of linear and
   non-linear models to Cox Proportional hazards, Poisson, logistic, and
-  matched-case-control risk models. Includes functions for finding residuals,
+  matched-case-control risk models. Includes functions for calculating residuals,
   plotting survival curves, and accounting for exposure and outcome uncertainty.
   Designed for radiation epidemiology by the Million Person Study.
 
