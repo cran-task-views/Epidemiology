@@ -156,8 +156,6 @@ task view, which has a dedicated section on
   (2009)](https://doi.org/10.1093/aje/kwp015); [Snowden, Rose, and Mortimer
   (2011)](https://doi.org/10.1093/aje/kwq472); and [Westreich et al.
   (2012)](https://doi.org/10.1002/sim.5316).
-- `r pkg("RSurveillance")`: Provides a diverse set of functions useful for the
-  design and analysis of disease surveillance activities.
 - `r pkg("trendeval")`: Provides a coherent interface for evaluating models
   fit with the trending
   package. [RECON](https://www.repidemicsconsortium.org/) package.
@@ -368,8 +366,6 @@ task view, which has a dedicated section on
   susceptible-infectious-recovered epidemic in a population with demographic
   variation in contact patterns and susceptibility to disease, as discussed in
   [Miller (2012)](https://doi.org/10.1007/s11538-012-9749-6).
-- `r pkg("shinySIR")`: A Shiny graphical interface to interactively explore
-  simple SIR models. Users can also provide their own ODEs.
 - `r pkg("EpiDynamics")`: A collection of SEIR, SIR, and SIS models with
   several variations (demography, age groups, risk groups, etc.)
 - `r pkg("epichains")`: A re-imagining of the bpmodels package to
@@ -600,7 +596,7 @@ COVID-19 section.
   publicly available parasite rate survey points, mosquito occurrence points and
   raster surfaces from the ['Malaria Atlas Project'](https://malariaatlas.org/)
   servers as well as utility functions for plotting the downloaded data.
-- `r pkg("colmozzie")`: Weekly notified dengue cases and climate variables in
+- `r github("thiyangt/colmozzie")`: Weekly notified dengue cases and climate variables in
   Colombo district Sri Lanka from 2008/ week-52 to 2014/ week-21.
 - `r pkg("denguedatahub")`: Centralized access to dengue data worldwide from
   various sources.
